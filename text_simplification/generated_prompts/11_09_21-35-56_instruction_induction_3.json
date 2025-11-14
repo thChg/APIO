@@ -1,0 +1,93 @@
+{
+    "config": {
+        "main": {
+            "use_llm_proxy": false,
+            "task_name": "text_simplification",
+            "task_description": "Text Simplification",
+            "few_shot_num_examples": 3,
+            "sample_num_train": -1,
+            "sample_num_valid": -1,
+            "sample_num_test": -1,
+            "save_prompt_builder_zero_shot": true,
+            "save_prompt_builder_few_shot": true,
+            "save_prompt_builder_instruction_induction": true,
+            "save_prompt_builder_mixed": false,
+            "save_prompt_builder_instruction_optimization": true
+        },
+        "prompt_builder_instruction_optimization": {
+            "prompt_header": "",
+            "input_example_label": "Complex sentence:",
+            "output_example_label": "Simple sentence:",
+            "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+            "generic_descendants": 4,
+            "selection_pressure": 5,
+            "beam_size": 2,
+            "num_optimization_iterations": 3,
+            "rephrase_random_instructions_num_samples": 3,
+            "rephrase_random_instructions_scale_factor": 2,
+            "generate_permuted_instructions_scale_factor": 1,
+            "improve_by_feedback_scale_factor": 1,
+            "train_batch_size": 4,
+            "max_instructions_num": 15,
+            "instructions_feedback_num_trials": 3
+        },
+        "backend_llm": {
+            "model_name": "gpt-4o-mini",
+            "temperature": 0.0,
+            "max_output_tokens": 256,
+            "num_threads": 30,
+            "top_p": 0.1
+        },
+        "prompt_builder_llm": {
+            "model_name": "gpt-4o-mini",
+            "temperature": 1.0,
+            "max_output_tokens": 4096,
+            "num_threads": 30,
+            "top_p": 1.0
+        },
+        "prompt_builder_zero_shot": {
+            "prompt_header": "Rewrite to make this easier to understand: <input_text>",
+            "prompt_footer": "\nANSWER:"
+        },
+        "prompt_builder_few_shot": {
+            "prompt_header": "",
+            "input_example_label": "Complex sentence:",
+            "output_example_label": "Simple sentence:",
+            "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+            "random_search_num_trials": 10
+        },
+        "prompt_builder_instruction_induction": {
+            "prompt_header": "",
+            "input_example_label": "Complex sentence:",
+            "output_example_label": "Simple sentence:",
+            "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+            "random_search_num_trials": 10
+        },
+        "prompt_builder_mixed": {
+            "prompt_header": "",
+            "input_example_label": "Complex sentence:",
+            "output_example_label": "Simple sentence:",
+            "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:"
+        },
+        "args": {
+            "config": "text_simplification/config_text_simplification.yaml",
+            "output_path": "/home/chuongdz/Desktop/school/apio/text_simplification/generated_prompts"
+        }
+    },
+    "PROMPT_TEMPLATE": "* Instructions: Simplify the complex sentence by breaking it into shorter, clearer sentences while maintaining the original meaning. Ensure that any intricate details are presented in a straightforward manner.\n* Simplify the given complex sentence while retaining its core meaning. Focus on using clearer and more straightforward language to make the sentence easier to understand.\n* Simplify the provided complex sentence while retaining its essential information and meaning.\nComplex sentence: <input_text>\nSimple sentence:",
+    "few_shot_input_examples": [
+        "The core may be composed of solid and liquid layers, while the cores of Mars and Venus are thought to be completely solid as they lack an internally generated magnetic field.",
+        "Their unusual size is attributed to island gigantism, since there are no other carnivorous animals to fill the niche on the islands where they live, and also to the Komodo dragon's low metabolic rate.",
+        "Birmingham is a city in Van Buren County, Iowa, United States."
+    ],
+    "few_shot_output_examples": [
+        "The core may be composed of solid and liquid layers. The cores of Mars and Venus are thought to be solid because they lack an internally generated magnetic field.",
+        "The odd size is of the Komodo dragon is credited to island gigantism, a low metabolism and a lack of other predators.",
+        "Birmingham is a city in Van Buren Country, Iowa, United States."
+    ],
+    "instructions": [
+        "Instructions: Simplify the complex sentence by breaking it into shorter, clearer sentences while maintaining the original meaning. Ensure that any intricate details are presented in a straightforward manner.",
+        "Simplify the given complex sentence while retaining its core meaning. Focus on using clearer and more straightforward language to make the sentence easier to understand.",
+        "Simplify the provided complex sentence while retaining its essential information and meaning."
+    ]
+}

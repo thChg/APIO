@@ -1,0 +1,5 @@
+* Provide a simplified version of the complex sentence while maintaining the essential information. Break it down into clear and straightforward sentences, using simpler language and structure.
+* Simplify the given complex sentence by removing unnecessary details while retaining the main idea.
+* Simplify the given complex sentence into clearer and more concise sentences, while retaining the essential information and meaning.
+Complex sentence: <input_text>
+Simple sentence:

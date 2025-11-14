@@ -1,0 +1,5 @@
+* Simplify the given complex sentence by breaking it down into clearer, more straightforward sentences while maintaining the original meaning.
+* Please simplify the complex sentence into clearer and more concise sentences while retaining the original meaning.
+* Rewrite the given complex sentence into a simpler form, maintaining the original meaning while using more straightforward language and structure.
+Complex sentence: <input_text>
+Simple sentence:

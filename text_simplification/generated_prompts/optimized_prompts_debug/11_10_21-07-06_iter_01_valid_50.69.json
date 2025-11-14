@@ -1,0 +1,90 @@
+{
+    "config": {
+        "main": {
+            "use_llm_proxy": false,
+            "task_name": "text_simplification",
+            "task_description": "Text Simplification",
+            "few_shot_num_examples": 3,
+            "sample_num_train": -1,
+            "sample_num_valid": -1,
+            "sample_num_test": -1,
+            "save_prompt_builder_zero_shot": true,
+            "save_prompt_builder_few_shot": true,
+            "save_prompt_builder_instruction_induction": true,
+            "save_prompt_builder_mixed": false,
+            "save_prompt_builder_instruction_optimization": true
+        },
+        "prompt_builder_instruction_optimization": {
+            "prompt_header": "",
+            "input_example_label": "Complex sentence:",
+            "output_example_label": "Simple sentence:",
+            "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+            "generic_descendants": 4,
+            "selection_pressure": 5,
+            "beam_size": 4,
+            "num_optimization_iterations": 3,
+            "rephrase_random_instructions_num_samples": 3,
+            "rephrase_random_instructions_scale_factor": 2,
+            "generate_permuted_instructions_scale_factor": 1,
+            "improve_by_feedback_scale_factor": 1,
+            "train_batch_size": 4,
+            "max_instructions_num": 15,
+            "instructions_feedback_num_trials": 3
+        },
+        "backend_llm": {
+            "model_name": "gpt-4o-mini",
+            "temperature": 0.0,
+            "max_output_tokens": 256,
+            "num_threads": 30,
+            "top_p": 0.1
+        },
+        "prompt_builder_llm": {
+            "model_name": "gpt-4o-mini",
+            "temperature": 1.0,
+            "max_output_tokens": 4096,
+            "num_threads": 30,
+            "top_p": 1.0
+        },
+        "prompt_builder_zero_shot": {
+            "prompt_header": "Rewrite to make this easier to understand: <input_text>",
+            "prompt_footer": "\nANSWER:"
+        },
+        "prompt_builder_few_shot": {
+            "prompt_header": "",
+            "input_example_label": "Complex sentence:",
+            "output_example_label": "Simple sentence:",
+            "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+            "random_search_num_trials": 10
+        },
+        "prompt_builder_instruction_induction": {
+            "prompt_header": "",
+            "input_example_label": "Complex sentence:",
+            "output_example_label": "Simple sentence:",
+            "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+            "random_search_num_trials": 10
+        },
+        "prompt_builder_mixed": {
+            "prompt_header": "",
+            "input_example_label": "Complex sentence:",
+            "output_example_label": "Simple sentence:",
+            "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:"
+        },
+        "args": {
+            "config": "text_simplification/config_text_simplification.yaml",
+            "output_path": "/home/chuongdz/Desktop/school/apio/text_simplification/generated_prompts"
+        }
+    },
+    "PROMPT_TEMPLATE": "* Break down the complex sentence into simpler, clearer sentences. Aim to reduce clauses and use easy-to-understand words while keeping the main ideas intact and excluding unnecessary details.\n* Transform the given complex sentence into a simpler version that maintains its original meaning. Use clear and direct language to improve clarity and brevity, while ensuring that key details and context remain intact.\n* Revise the provided sentence by substituting any difficult or unfamiliar words with easier ones while preserving its overall clarity and coherence. Ensure that the original meaning is retained throughout the revision.\nComplex sentence: <input_text>\nSimple sentence:",
+    "initial_instructions": [
+        "Transform the given complex sentence into simpler and more straightforward sentences. Focus on reducing the number of clauses and using accessible vocabulary. Identify and retain the central ideas of the original sentence, ensuring that the essential information is conveyed clearly, while omitting any extraneous details.",
+        "Rewrite the provided complex sentence into a simpler form while preserving its original meaning. Focus on using straightforward vocabulary and structures that enhance clarity and conciseness. Ensure that any important nuances or context are retained, and consider whether adjustments are needed in sentence length or terminology to achieve effective simplification. Aim for a balance that makes the sentence more accessible without losing critical information.",
+        "Transform the given sentence by replacing any unfamiliar or complex words with simpler alternatives and ensuring that the overall structure remains clear and coherent. Maintain the original meaning of the sentence throughout the process."
+    ],
+    "initial_valid_score": 50.32275537058248,
+    "instructions": [
+        "Break down the complex sentence into simpler, clearer sentences. Aim to reduce clauses and use easy-to-understand words while keeping the main ideas intact and excluding unnecessary details.",
+        "Transform the given complex sentence into a simpler version that maintains its original meaning. Use clear and direct language to improve clarity and brevity, while ensuring that key details and context remain intact.",
+        "Revise the provided sentence by substituting any difficult or unfamiliar words with easier ones while preserving its overall clarity and coherence. Ensure that the original meaning is retained throughout the revision."
+    ],
+    "best_valid_score": 50.69059527294303
+}

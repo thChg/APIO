@@ -1,0 +1,425 @@
+2025-11-09 11:14 - INFO - sorted_valid_scores = (51.02582829659335, 50.70196935781115, 50.35526750268159, 50.335845444597794, 50.232877265922546, 49.80025921220456, 49.70338753299351, 48.8394363359594, 48.75367422779458, 48.052962727785406)
+2025-11-09 11:14 - INFO - Instructions with their scores:
+
+[
+    {
+        "score": 51.02582829659335,
+        "instructions": [
+            "Please rewrite the given complex sentence in a simpler way, maintaining the original meaning while using more straightforward language.",
+            "Simplify the given complex sentence into shorter, clearer sentences while maintaining the original meaning and essential information.",
+            "Simplify the given complex sentence by breaking it into shorter, clear statements that convey the same meaning. Ensure each statement is easy to understand and maintains the original information."
+        ]
+    },
+    {
+        "score": 50.70196935781115,
+        "instructions": [
+            "Provide a simpler version of the given complex sentence while maintaining its original meaning. Use more straightforward language and structure.",
+            "Rewrite the provided complex sentence into simpler sentences while maintaining the original meaning. Ensure that the new sentences are clear and easily understandable for a wider audience, breaking down any intricate ideas into more straightforward components.",
+            "Simplify the complex sentence into a more concise and easily understandable form while retaining the main information and key characteristics."
+        ]
+    },
+    {
+        "score": 50.35526750268159,
+        "instructions": [
+            "Simplify the complex sentence by using more common language, breaking down complicated phrases, and ensuring clarity while retaining the original meaning.",
+            "Please rewrite the complex sentence into simpler sentences while preserving the original meaning. Ensure that the information is clear and easy to understand, breaking down any intricate structures into more straightforward components.",
+            "Simplify the complex sentence by rephrasing it in a clearer and more straightforward manner while retaining the original meaning."
+        ]
+    },
+    {
+        "score": 50.335845444597794,
+        "instructions": [
+            "Rewrite the complex sentence to make it easier to understand while retaining its original meaning.",
+            "Simplify the given complex sentence while retaining its original meaning. Aim for clarity and conciseness without losing essential information.",
+            "Simplify the given complex sentence into two or more clear and straightforward sentences, maintaining the original meaning."
+        ]
+    },
+    {
+        "score": 50.232877265922546,
+        "instructions": [
+            "Simplify the given complex sentence into clearer and more straightforward sentences while maintaining the original meaning.",
+            "Please simplify the given complex sentence into clearer and more concise statements while retaining the main ideas and essential information.",
+            "Simplify the complex sentence by rephrasing it in a way that retains the original meaning while using clearer and more straightforward language."
+        ]
+    },
+    {
+        "score": 49.80025921220456,
+        "instructions": [
+            "Transform the provided complex sentence into a simpler version while maintaining the essential meaning and key information.",
+            "Simplify the given complex sentence into shorter, clearer sentences while retaining the main ideas and information. Make sure to use straightforward language and logical sentence structure.",
+            "Create a simple sentence that conveys the same meaning as the given complex sentence, using clearer and more straightforward language while preserving the essential information."
+        ]
+    },
+    {
+        "score": 49.70338753299351,
+        "instructions": [
+            "Simplify the given complex sentence by breaking it into two or more simpler sentences while maintaining the original meaning.",
+            "Simplify the following complex sentence by rephrasing it into a more straightforward and easily understandable form.",
+            "Simplify the given complex sentence by breaking it into shorter, clearer sentences while retaining the essential information and meaning."
+        ]
+    },
+    {
+        "score": 48.8394363359594,
+        "instructions": [
+            "Please rewrite the complex sentence into a simpler form, maintaining the original meaning while using more straightforward language.",
+            "Transform the given complex sentence into a simpler version while maintaining the original meaning and essence of the information conveyed. Aim for clarity and conciseness.",
+            "Simplify the given complex sentence into a clearer and more concise version while retaining its essential meaning and key information."
+        ]
+    },
+    {
+        "score": 48.75367422779458,
+        "instructions": [
+            "Simplify the complex sentence by rephrasing it into a clearer and more straightforward expression while preserving its original meaning.",
+            "Simplify the provided complex sentence to make it easier to understand while retaining the original meaning. Use simpler vocabulary and structure.",
+            "Simplify the given complex sentence while maintaining its original meaning and ensuring clarity. Use more common words and shorter phrases where possible."
+        ]
+    },
+    {
+        "score": 48.052962727785406,
+        "instructions": [
+            "Simplify the complex sentence by using more common vocabulary, reducing the number of details, and making the structure more straightforward while retaining the main ideas.",
+            "Transform the given complex sentence into a simpler version while maintaining the original meaning. Use straightforward language and structure to enhance readability.",
+            "Simplify the given complex sentence into a more straightforward and concise version while maintaining the original meaning."
+        ]
+    }
+]
+2025-11-09 21:10 - INFO - sorted_valid_scores = (51.07440643584124, 51.02261265810003, 50.859169483073835, 50.23601495766121, 49.55194638835794, 49.50174466790272, 49.332711947335554, 48.93426060239626, 48.91176928344239, 48.776032384741654)
+2025-11-09 21:10 - INFO - Instructions with their scores:
+
+[
+    {
+        "score": 51.07440643584124,
+        "instructions": [
+            "Simplify the given complex sentence by breaking it down into clearer, more straightforward sentences while maintaining the original meaning.",
+            "Please simplify the complex sentence into clearer and more concise sentences while retaining the original meaning.",
+            "Rewrite the given complex sentence into a simpler form, maintaining the original meaning while using more straightforward language and structure."
+        ]
+    },
+    {
+        "score": 51.02261265810003,
+        "instructions": [
+            "Simplify the given complex sentence into a clearer and more straightforward version while maintaining its original meaning.",
+            "Simplify the given complex sentence by breaking it down into two or more clear and concise simple sentences, ensuring that each sentence conveys a straightforward idea.",
+            "Simplify the given complex sentence by using clearer and more straightforward language while retaining the original meaning."
+        ]
+    },
+    {
+        "score": 50.859169483073835,
+        "instructions": [
+            "Simplify the complex sentence by rephrasing it in a clearer and more straightforward manner while retaining the original meaning.",
+            "Simplify the given complex sentence by using clearer and more straightforward language while retaining the original meaning.",
+            "Create two straightforward sentences from the given complex sentence, ensuring that each sentence conveys a separate idea clearly and simply."
+        ]
+    },
+    {
+        "score": 50.23601495766121,
+        "instructions": [
+            "Rewrite the original complex sentence in a simpler form while preserving its main idea and meaning.",
+            "Simplify the provided complex sentence into shorter, clearer sentences that retain the original meaning while using more straightforward language.",
+            "Provide a simpler version of the given complex sentence while retaining the original meaning and essential information. Use more common language and shorten any complicated terms."
+        ]
+    },
+    {
+        "score": 49.55194638835794,
+        "instructions": [
+            "Simplify the given complex sentence into a more straightforward and easily understandable version while retaining the main ideas and essential information.",
+            "Simplify the given complex sentence by breaking it down into more straightforward language while retaining the core meaning. Focus on making the sentence easier to understand without losing any important information.",
+            "Rewrite the complex sentence to create a simpler version that maintains the original meaning while using more straightforward language and structure."
+        ]
+    },
+    {
+        "score": 49.50174466790272,
+        "instructions": [
+            "Simplify the given complex sentence by reducing unnecessary words while retaining its essential meaning.",
+            "Simplify the given complex sentence by breaking it down into two clear and straightforward sentences, ensuring that the main ideas are preserved while using simpler language.",
+            "Simplify the given complex sentence by using more straightforward language and structure while retaining its core meaning. Aim for clarity and conciseness."
+        ]
+    },
+    {
+        "score": 49.332711947335554,
+        "instructions": [
+            "Simplify the given complex sentence into a clearer and more straightforward form while maintaining the original meaning.",
+            "Simplify the given complex sentence while retaining its original meaning and essence. Aim to use clearer and more straightforward language.",
+            "Create a simpler version of the provided complex sentence while maintaining the original meaning. Use more straightforward language and structure to enhance clarity and ease of understanding."
+        ]
+    },
+    {
+        "score": 48.93426060239626,
+        "instructions": [
+            "Simplify the following complex sentence while preserving its main idea and essential information, using clearer and more straightforward language.",
+            "Transform the given complex sentence into a simpler version while maintaining the original meaning. Use more commonly understood language and make the structure easier to read.",
+            "Transform the provided complex sentence into a simpler version while maintaining the original meaning. Focus on using straightforward vocabulary and sentence structure."
+        ]
+    },
+    {
+        "score": 48.91176928344239,
+        "instructions": [
+            "Simplify the given complex sentence while retaining its core meaning and essential information. Aim to make the sentence more straightforward and easier to understand.",
+            "Simplify the given complex sentence by using clearer and more straightforward language, while maintaining the original meaning. Aim to shorten the sentence while ensuring it remains easy to understand.",
+            "Simplify the following complex sentence into clearer, more concise sentences while maintaining the main ideas and ensuring readability."
+        ]
+    },
+    {
+        "score": 48.776032384741654,
+        "instructions": [
+            "Simplify the given complex sentence by removing unnecessary details and rephrasing it to convey the main idea more clearly and concisely.",
+            "Simplify the complex sentence by breaking it into clearer and more concise sentences while maintaining the original meaning.",
+            "Please convert the complex sentence into a simpler version while preserving the original meaning."
+        ]
+    }
+]
+2025-11-09 21:33 - INFO - sorted_valid_scores = (50.60144814756537, 50.31007217353157, 50.13609440962393, 49.227981232108675, 49.015188887216176, 48.799769388468896, 48.66383022711964, 48.56432058149132, 48.14380430412791, 47.76760911943175)
+2025-11-09 21:33 - INFO - Instructions with their scores:
+
+[
+    {
+        "score": 50.60144814756537,
+        "instructions": [
+            "Provide a simplified version of the complex sentence while maintaining the essential information. Break it down into clear and straightforward sentences, using simpler language and structure.",
+            "Simplify the given complex sentence by removing unnecessary details while retaining the main idea.",
+            "Simplify the given complex sentence into clearer and more concise sentences, while retaining the essential information and meaning."
+        ]
+    },
+    {
+        "score": 50.31007217353157,
+        "instructions": [
+            "Simplify the complex sentence into a clearer and more concise form while retaining the essential information and maintaining grammatical correctness. Aim to break down complex phrases and use simpler language to enhance understanding.",
+            "Simplify the given complex sentence into a clearer and more concise form, breaking it down into simpler sentences while retaining the essential information.",
+            "Simplify the given complex sentence while maintaining its original meaning and clarity. Use straightforward language and structure to convey the same ideas in a more accessible form."
+        ]
+    },
+    {
+        "score": 50.13609440962393,
+        "instructions": [
+            "Transform the provided complex sentence into a simpler version, while maintaining the original meaning. The revised sentence should use more straightforward language and sentence structure, making it easier to understand.",
+            "Simplify the given complex sentence by breaking it down into clearer, more straightforward statements while retaining the original meaning. Ensure that the simplified version is easy to read and understand.",
+            "Simplify the complex sentence by rephrasing it while maintaining its original meaning, focusing on clarity and ease of understanding."
+        ]
+    },
+    {
+        "score": 49.227981232108675,
+        "instructions": [
+            "Revise the complex sentence to make it more straightforward and easier to understand, while preserving the original meaning.",
+            "Simplify the complex sentence by rephrasing it in a clearer and more straightforward manner, while preserving the original meaning and key details.",
+            "Simplify the provided complex sentence into a clearer and more straightforward form."
+        ]
+    },
+    {
+        "score": 49.015188887216176,
+        "instructions": [
+            "Simplify the given complex sentence to make it clearer and more concise while retaining the main idea.",
+            "Simplify the given complex sentence by breaking it into shorter, clearer sentences while retaining the essential information. Aim for simplicity and clarity in the language used.",
+            "Simplify the complex sentence by reducing unnecessary details while retaining the main idea and essential information."
+        ]
+    },
+    {
+        "score": 48.799769388468896,
+        "instructions": [
+            "Please simplify the given complex sentence, making it clearer and easier to understand while retaining the original meaning.",
+            "Please simplify the given complex sentence while maintaining its essential meaning. Focus on using clearer language and more straightforward sentence structure.",
+            "Your task is to simplify complex sentences while retaining their original meaning. Focus on using clearer and more straightforward language, and ensure that the sentence structure is easy to understand. Aim for a concise and coherent output that eliminates unnecessary complexity."
+        ]
+    },
+    {
+        "score": 48.66383022711964,
+        "instructions": [
+            "Simplify the provided complex sentence by breaking it down into clearer and more straightforward statements while maintaining the original meaning.",
+            "Please simplify the given complex sentence by removing unnecessary details while retaining the core information.",
+            "Simplify the provided complex sentence by breaking it down into clearer and more concise language while retaining the essential information. Aim for a sentence that is easy to understand."
+        ]
+    },
+    {
+        "score": 48.56432058149132,
+        "instructions": [
+            "Simplify the given complex sentence into a clearer and more concise version while retaining the original meaning.",
+            "Transform the given complex sentence into a simpler version while preserving its original meaning. Use more straightforward language and eliminate any unnecessary complexity.",
+            "Given a complex sentence, your task is to rewrite it into a simpler form that maintains the original meaning while using easier language and structure. Focus on conveying the essential information clearly and concisely."
+        ]
+    },
+    {
+        "score": 48.14380430412791,
+        "instructions": [
+            "Transform the complex sentence into a simpler version while maintaining the original meaning, using more accessible language and structure.",
+            "Transform complex sentences into simpler, more concise statements while retaining the original meaning.",
+            "Simplify the given complex sentence by removing unnecessary words and making it more concise while preserving the original meaning."
+        ]
+    },
+    {
+        "score": 47.76760911943175,
+        "instructions": [
+            "Simplify the given complex sentence into a clear and straightforward sentence while retaining its original meaning.",
+            "Simplify the given complex sentence by using clearer language and shorter phrases while retaining the original meaning.",
+            "Simplify the following complex sentence by removing any unnecessary details or information while keeping the main idea intact."
+        ]
+    }
+]
+2025-11-09 21:36 - INFO - sorted_valid_scores = (51.31353940388119, 51.165232920516495, 51.0286463063843, 50.80873683497165, 50.51283421923038, 50.50711446927445, 49.71962027984293, 49.19515766577984, 48.383544745323455, 47.97221752880018)
+2025-11-09 21:36 - INFO - Instructions with their scores:
+
+[
+    {
+        "score": 51.31353940388119,
+        "instructions": [
+            "Instructions: Simplify the complex sentence by breaking it into shorter, clearer sentences while maintaining the original meaning. Ensure that any intricate details are presented in a straightforward manner.",
+            "Simplify the given complex sentence while retaining its core meaning. Focus on using clearer and more straightforward language to make the sentence easier to understand.",
+            "Simplify the provided complex sentence while retaining its essential information and meaning."
+        ]
+    },
+    {
+        "score": 51.165232920516495,
+        "instructions": [
+            "Create a simplified version of a complex sentence by breaking it down into shorter, clearer sentences. Retain the main ideas while removing any unnecessary details to enhance readability and comprehension.",
+            "Simplify the given complex sentence while preserving its original meaning and essential information.",
+            "Simplify the given complex sentence while retaining its original meaning and key information."
+        ]
+    },
+    {
+        "score": 51.0286463063843,
+        "instructions": [
+            "Rewrite the complex sentence to make it simpler by breaking it down into clearer, more concise statements while retaining the main ideas and information.",
+            "Please simplify the provided complex sentence into a clearer and more concise version, breaking it into shorter sentences if necessary while maintaining the original meaning.",
+            "Rewrite the given complex sentence into a simpler, more straightforward version while maintaining the original meaning."
+        ]
+    },
+    {
+        "score": 50.80873683497165,
+        "instructions": [
+            "Instructions: Simplify the given complex sentence by breaking it into shorter, clearer sentences while retaining the original meaning. Ensure that the key information is preserved, and the language is accessible for a broader audience.",
+            "Simplify the provided complex sentence into one or more clear and concise sentences while preserving the essential meaning.",
+            "Transform the complex sentence into a simpler version by using more common vocabulary and breaking it into shorter sentences while maintaining the original meaning."
+        ]
+    },
+    {
+        "score": 50.51283421923038,
+        "instructions": [
+            "Simplify the given complex sentence by breaking it down into shorter, clearer sentences while preserving the original meaning.",
+            "Simplify the given complex sentence by breaking it down into shorter, clearer sentences while maintaining the main ideas and important details.",
+            "Provide a simplified version of the given complex sentence while retaining its original meaning. Use clearer language and shorter phrases to convey the same ideas effectively."
+        ]
+    },
+    {
+        "score": 50.50711446927445,
+        "instructions": [
+            "Simplify the provided complex sentence by using clearer language and more straightforward expressions while retaining the original meaning. Ensure that the key details remain intact and are easy to understand.",
+            "Transform the following complex sentence into simpler sentences while maintaining the original meaning. Ensure that the sentences are clear, straightforward, and easy to understand.",
+            "Simplify the given complex sentence by rephrasing it into a more straightforward and easy-to-understand format."
+        ]
+    },
+    {
+        "score": 49.71962027984293,
+        "instructions": [
+            "Simplify the given complex sentence into clearer, more concise sentences while maintaining the original meaning. Aim for straightforward language that enhances understanding and readability.",
+            "Transform the complex sentence into a simpler version while maintaining the original meaning. Use more straightforward vocabulary and structure for better understanding.",
+            "Provide a simplified version of the given complex sentence while retaining its main idea and key information. Make sure the language used is clear and easy to understand."
+        ]
+    },
+    {
+        "score": 49.19515766577984,
+        "instructions": [
+            "Simplify the given complex sentence by rephrasing it into a clearer and more straightforward sentence while preserving its main idea.",
+            "Transform the provided complex sentence into a simpler version while retaining the original meaning. Focus on clarity and straightforward vocabulary.",
+            "Rewrite the given complex sentence into a simpler version, making it easier to understand while retaining the key information and details."
+        ]
+    },
+    {
+        "score": 48.383544745323455,
+        "instructions": [
+            "Please rephrase the given complex sentence by removing any unnecessary introductory phrases, while retaining the core meaning and clarity of the statement.",
+            "Transform the given complex sentence into a simpler version, maintaining the essential information while using more straightforward language and structure.",
+            "Simplify the given complex sentence by removing redundant information while maintaining the essential meaning."
+        ]
+    },
+    {
+        "score": 47.97221752880018,
+        "instructions": [
+            "Simplify the given complex sentence by using more straightforward language and reducing the length while retaining the main ideas and key details.",
+            "Rewrite the complex sentence in a simpler way, preserving the original meaning while using more straightforward language and structure.",
+            "Simplify the given complex sentence into a clear and concise simple sentence, focusing on the essential information while maintaining the original meaning."
+        ]
+    }
+]
+2025-11-10 21:07 - INFO - sorted_valid_scores = (50.39059706332711, 50.256969149371194, 50.23303792227366, 50.20650085832805, 49.9185869498933, 49.183335002980904, 49.0205269552174, 49.01467705473325, 48.80561397985991, 47.77163977128951)
+2025-11-10 21:07 - INFO - Instructions with their scores:
+
+[
+    {
+        "score": 50.39059706332711,
+        "instructions": [
+            "Transform the given complex sentence into simpler and more straightforward sentences. Focus on reducing the number of clauses and using accessible vocabulary. Identify and retain the central ideas of the original sentence, ensuring that the essential information is conveyed clearly, while omitting any extraneous details.",
+            "Rewrite the provided complex sentence into a simpler form while preserving its original meaning. Focus on using straightforward vocabulary and structures that enhance clarity and conciseness. Ensure that any important nuances or context are retained, and consider whether adjustments are needed in sentence length or terminology to achieve effective simplification. Aim for a balance that makes the sentence more accessible without losing critical information.",
+            "Transform the given sentence by replacing any unfamiliar or complex words with simpler alternatives and ensuring that the overall structure remains clear and coherent. Maintain the original meaning of the sentence throughout the process."
+        ]
+    },
+    {
+        "score": 50.256969149371194,
+        "instructions": [
+            "Transform the provided complex sentence into multiple simpler sentences, ensuring that the main ideas and all essential details are preserved. Break down lengthy clauses for clarity, using accessible language without sacrificing important context. When necessary, consider alternative ways to convey complex terms to maintain their intended meaning.",
+            "Transform the complex sentence into a simpler version while preserving its original meaning. A complex sentence often contains multiple clauses, advanced vocabulary, or elaborate phrases. When simplifying, focus on making the sentence easier to understand by using straightforward language and clearer structure. Ensure that essential information and meanings are maintained, and feel free to adjust the sentence structure as needed to enhance clarity.",
+            "Simplify the given complex sentence by breaking it into shorter, clearer components while ensuring that the original meaning is preserved. Focus on using straightforward language and a logical structure to improve ease of understanding."
+        ]
+    },
+    {
+        "score": 50.23303792227366,
+        "instructions": [
+            "Rewrite the sentence using simpler language while ensuring the core meaning and key information remain intact. Focus on using common vocabulary and clearer sentence structure that would be understandable to a wider audience.",
+            "Please transform the provided complex sentence into a simpler version by using shorter sentences, reducing the number of clauses, and avoiding technical jargon or idiomatic expressions. Ensure that the original meaning is preserved, and clearly retain any chronological information present in the sentence.",
+            "Simplify a complex sentence by rephrasing it in a clearer and more straightforward manner, ensuring that the original meaning is preserved. Focus on using simpler vocabulary, shorter sentence structures, and eliminating unnecessary details while maintaining the core message."
+        ]
+    },
+    {
+        "score": 50.20650085832805,
+        "instructions": [
+            "Break down the complex sentence, which may contain multiple clauses or subordinate elements, into several shorter sentences that each express a single idea while maintaining the original message's intent and key details.",
+            "Rewrite the complex sentence using simpler and clearer language while ensuring the original meaning and appropriate terminology are preserved. Focus on using commonly understood words and phrases, and maintain the relationships between elements in the sentence. If necessary, provide synonyms that convey the same meaning without losing nuance.",
+            "Revise the provided sentence to create a more straightforward version that preserves its original meaning. Focus on simplifying the structure and vocabulary, and feel free to rearrange elements as needed for clarity."
+        ]
+    },
+    {
+        "score": 49.9185869498933,
+        "instructions": [
+            "Extract the core message from the given complex sentence by identifying the principal idea and retaining essential context while omitting extraneous information. Focus on clarity and conciseness in the revised sentence.",
+            "Rewrite the provided complex sentence into a clearer and more concise version, focusing on conveying the core message while omitting any non-essential details. Ensure the language used is accessible to a general audience without unnecessary jargon or complexity. Use specific criteria to determine which elements of the sentence are essential and which can be simplified or removed.",
+            "Transform the provided complex sentence into multiple shorter sentences by identifying and separating independent clauses and simplifying any dependent clauses. Ensure that the core meaning and essential information of the original sentence remain intact while prioritizing clarity and straightforwardness in the new sentences."
+        ]
+    },
+    {
+        "score": 49.183335002980904,
+        "instructions": [
+            "Simplify the provided complex sentence by breaking it into shorter sentences. Use clear and direct language to convey the main ideas without losing important details. Ensure that the sentences are logically connected to maintain coherence.",
+            "Simplify the given complex sentence by reducing the number of clauses, using clearer language, and maintaining the essential meaning. Ensure that the rephrased sentence retains the core message while making it easier to understand.",
+            "Break down the provided complex sentence into shorter, clear sentences that retain all essential information and meaning. Identify and separate any dependent clauses, technical jargon, or intricate ideas that may contribute to the complexity, ensuring that each new sentence conveys a complete thought."
+        ]
+    },
+    {
+        "score": 49.0205269552174,
+        "instructions": [
+            "Rewrite the given complex sentence in simpler and more accessible language, ensuring that the original meaning is preserved. Aim for shorter phrases and straightforward wording, avoiding jargon or overly intricate structures. For example, replace technical terms with common language where possible. Consider the needs of a general audience when making these changes.",
+            "Remove unnecessary information from the complex sentence while keeping the key message and any vital details intact. Focus on the main idea of the sentence, which is the primary point it conveys, and eliminate any supporting facts or descriptors that do not directly contribute to that point.",
+            "Simplify the given complex sentence by breaking it into distinct, straightforward statements that convey the primary ideas. Remove any elements that do not contribute to the core message, such as redundant information or intricate language. Aim for a version that is easily understandable to a wide audience, ensuring clarity and accessibility without losing essential meaning."
+        ]
+    },
+    {
+        "score": 49.01467705473325,
+        "instructions": [
+            "Simplify the provided complex sentence by breaking it down into shorter, clearer components and using straightforward vocabulary, ensuring that the core ideas and relationships conveyed in the original sentence are preserved.",
+            "Condense the provided sentence by eliminating extraneous information while ensuring that the main idea and essential meaning remain intact. Focus on reducing complexity by simplifying phrasing and removing details that do not contribute to the overall message.",
+            "Transform the provided complex sentence into a simpler version that is more accessible to a general audience while ensuring the original meaning is preserved. A complex sentence may include multiple clauses, advanced vocabulary, or intricate structure. Consider clarity, brevity, and appropriate vocabulary for a broad audience when rewriting."
+        ]
+    },
+    {
+        "score": 48.80561397985991,
+        "instructions": [
+            "Transform the given complex sentence into a simpler sentence that conveys the same essential information. Focus on using clear, direct language and avoiding ambiguous terms to ensure the relationships in the sentence remain intact and easily understandable.",
+            "Transform a complex sentence into a simpler version that maintains its original meaning. Ensure that you use clear vocabulary and structures while preserving any specific technical terms necessary for accuracy. Focus on rephrasing for clarity without altering the underlying ideas, and consider providing examples of simplifications that illustrate effective vocabulary choices.",
+            "Transform the provided complex sentence into a simpler version by using clear and concise language. Focus on breaking down complicated ideas and using common vocabulary while ensuring that the original meaning is retained. Simplify clauses, eliminate jargon, and choose straightforward synonyms that accurately convey the intended message."
+        ]
+    },
+    {
+        "score": 47.77163977128951,
+        "instructions": [
+            "Simplify the provided complex sentence by reducing its length and using more straightforward vocabulary, while ensuring that the original meaning is preserved. Focus on removing unnecessary details or jargon to enhance clarity.",
+            "Transform the sentence into a simpler form that conveys the same meaning. Focus on using clear and concise language, reducing the length of phrases, and avoiding complex structures or unnecessary details.",
+            "Rewrite the complex sentence using simpler words and structures, aiming for a level of language that is easily understood by the general public. Ensure that the original meaning remains intact throughout the transformation. For example, replace formal terms with more familiar alternatives and adjust the sentence structure to enhance clarity."
+        ]
+    }
+]

@@ -1,0 +1,7 @@
+* Break down the complex sentence into simpler, clearer sentences. Aim to reduce clauses and use easy-to-understand words while keeping the main ideas intact and excluding unnecessary details.
+* Transform the given complex sentence into a simpler version that maintains its original meaning. Use clear and direct language to improve clarity and brevity, while ensuring that key details and context remain intact.
+* Ensure that the output directly matches the specified structure and phrasing of the input's meaning, while still simplifying the sentence. Focus on retaining all original details and context without introducing new words or variations.
+* Revise the provided sentence by substituting any difficult or unfamiliar words with easier ones while preserving its overall clarity and coherence. Ensure that the original meaning is retained throughout the revision.
+* Ensure that the output matches the structure and phrasing of the input's meaning precisely, focusing on retaining all original details while simplifying the sentence. Aim for the output to consist of short, clear, and direct sentences that maintain the integrity of the original context and information.
+Complex sentence: <input_text>
+Simple sentence:

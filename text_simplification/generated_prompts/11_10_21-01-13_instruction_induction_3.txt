@@ -1,0 +1,5 @@
+* Transform the given complex sentence into simpler and more straightforward sentences. Focus on reducing the number of clauses and using accessible vocabulary. Identify and retain the central ideas of the original sentence, ensuring that the essential information is conveyed clearly, while omitting any extraneous details.
+* Rewrite the provided complex sentence into a simpler form while preserving its original meaning. Focus on using straightforward vocabulary and structures that enhance clarity and conciseness. Ensure that any important nuances or context are retained, and consider whether adjustments are needed in sentence length or terminology to achieve effective simplification. Aim for a balance that makes the sentence more accessible without losing critical information.
+* Transform the given sentence by replacing any unfamiliar or complex words with simpler alternatives and ensuring that the overall structure remains clear and coherent. Maintain the original meaning of the sentence throughout the process.
+Complex sentence: <input_text>
+Simple sentence:

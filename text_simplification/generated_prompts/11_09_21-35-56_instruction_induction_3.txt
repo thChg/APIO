@@ -1,0 +1,5 @@
+* Instructions: Simplify the complex sentence by breaking it into shorter, clearer sentences while maintaining the original meaning. Ensure that any intricate details are presented in a straightforward manner.
+* Simplify the given complex sentence while retaining its core meaning. Focus on using clearer and more straightforward language to make the sentence easier to understand.
+* Simplify the provided complex sentence while retaining its essential information and meaning.
+Complex sentence: <input_text>
+Simple sentence:

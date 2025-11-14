@@ -1,0 +1,93 @@
+{
+    "config": {
+        "main": {
+            "use_llm_proxy": false,
+            "task_name": "text_simplification",
+            "task_description": "Text Simplification",
+            "few_shot_num_examples": 3,
+            "sample_num_train": -1,
+            "sample_num_valid": -1,
+            "sample_num_test": -1,
+            "save_prompt_builder_zero_shot": true,
+            "save_prompt_builder_few_shot": true,
+            "save_prompt_builder_instruction_induction": true,
+            "save_prompt_builder_mixed": false,
+            "save_prompt_builder_instruction_optimization": true
+        },
+        "prompt_builder_instruction_optimization": {
+            "prompt_header": "",
+            "input_example_label": "Complex sentence:",
+            "output_example_label": "Simple sentence:",
+            "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+            "generic_descendants": 4,
+            "selection_pressure": 5,
+            "beam_size": 2,
+            "num_optimization_iterations": 3,
+            "rephrase_random_instructions_num_samples": 3,
+            "rephrase_random_instructions_scale_factor": 2,
+            "generate_permuted_instructions_scale_factor": 1,
+            "improve_by_feedback_scale_factor": 1,
+            "train_batch_size": 4,
+            "max_instructions_num": 15,
+            "instructions_feedback_num_trials": 3
+        },
+        "backend_llm": {
+            "model_name": "gpt-4o-mini",
+            "temperature": 0.0,
+            "max_output_tokens": 256,
+            "num_threads": 30,
+            "top_p": 0.1
+        },
+        "prompt_builder_llm": {
+            "model_name": "gpt-4o-mini",
+            "temperature": 1.0,
+            "max_output_tokens": 4096,
+            "num_threads": 30,
+            "top_p": 1.0
+        },
+        "prompt_builder_zero_shot": {
+            "prompt_header": "Rewrite to make this easier to understand: <input_text>",
+            "prompt_footer": "\nANSWER:"
+        },
+        "prompt_builder_few_shot": {
+            "prompt_header": "",
+            "input_example_label": "Complex sentence:",
+            "output_example_label": "Simple sentence:",
+            "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+            "random_search_num_trials": 10
+        },
+        "prompt_builder_instruction_induction": {
+            "prompt_header": "",
+            "input_example_label": "Complex sentence:",
+            "output_example_label": "Simple sentence:",
+            "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+            "random_search_num_trials": 10
+        },
+        "prompt_builder_mixed": {
+            "prompt_header": "",
+            "input_example_label": "Complex sentence:",
+            "output_example_label": "Simple sentence:",
+            "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:"
+        },
+        "args": {
+            "config": "text_simplification/config_text_simplification.yaml",
+            "output_path": "/home/chuongdz/Desktop/school/apio/text_simplification/generated_prompts"
+        }
+    },
+    "PROMPT_TEMPLATE": "* Provide a simplified version of the complex sentence while maintaining the essential information. Break it down into clear and straightforward sentences, using simpler language and structure.\n* Simplify the given complex sentence by removing unnecessary details while retaining the main idea.\n* Simplify the given complex sentence into clearer and more concise sentences, while retaining the essential information and meaning.\nComplex sentence: <input_text>\nSimple sentence:",
+    "few_shot_input_examples": [
+        "During the battle, most of the Japanese officers were killed and the Japanese had to air-drop 300 officers by parachutes into the battlefield.",
+        "The Asiatic Salamanders (Family Hynobiidae) are primitive salamanders found all over Asia, and in European Russia.",
+        "Ipswich were elected to The Football League on 30 May, 1938, and played in Division Three (South) until the end of the 1953 \u2013 54 season, when they won the title and promotion to Division Two."
+    ],
+    "few_shot_output_examples": [
+        "During the battle, most of the Japanese officers were killed. The Japanese had to air-drop 300 officers on battlefield using parachutes.",
+        "The Asiatic Salamanders are found all over Asia, and in European Russia.",
+        "Ipswich became part of The Football League in 1938. They played in Division Three until 1954."
+    ],
+    "instructions": [
+        "Provide a simplified version of the complex sentence while maintaining the essential information. Break it down into clear and straightforward sentences, using simpler language and structure.",
+        "Simplify the given complex sentence by removing unnecessary details while retaining the main idea.",
+        "Simplify the given complex sentence into clearer and more concise sentences, while retaining the essential information and meaning."
+    ]
+}

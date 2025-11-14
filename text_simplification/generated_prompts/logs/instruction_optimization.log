@@ -1,0 +1,596 @@
+2025-11-09 11:15 - INFO - 
+iter_no = 00, valid_scores = [50.91491721551756, 50.81015483052361, 50.52590374977154, 50.4825021304163]
+2025-11-09 11:15 - INFO - --------------------------------------------------------------------------------
+2025-11-09 11:15 - INFO - init_valid_score = 50.91
+2025-11-09 11:15 - INFO - instructions pool after beam search, above average and generic algorithm: 
+2025-11-09 11:15 - INFO - instruction 0: [
+    "Please rewrite the given complex sentence in a simpler way, maintaining the original meaning while using more straightforward language.",
+    "Simplify the given complex sentence into shorter, clearer sentences while maintaining the original meaning and essential information.",
+    "Simplify the given complex sentence by breaking it into shorter, clear statements that convey the same meaning. Ensure each statement is easy to understand and maintains the original information."
+]
+2025-11-09 11:15 - INFO - instruction 1: [
+    "Provide a simpler version of the given complex sentence while maintaining its original meaning. Use more straightforward language and structure.",
+    "Rewrite the provided complex sentence into simpler sentences while maintaining the original meaning. Ensure that the new sentences are clear and easily understandable for a wider audience, breaking down any intricate ideas into more straightforward components.",
+    "Simplify the complex sentence into a more concise and easily understandable form while retaining the main information and key characteristics."
+]
+2025-11-09 11:15 - INFO - best_valid_score = 50.91 [ *** BEST *** ]
+2025-11-09 11:15 - INFO - --------------------------------------------------------------------------------
+2025-11-09 11:15 - INFO - best_instructions = [
+    "Please rewrite the given complex sentence in a simpler way, maintaining the original meaning while using more straightforward language.",
+    "Simplify the given complex sentence into shorter, clearer sentences while maintaining the original meaning and essential information.",
+    "Simplify the given complex sentence by breaking it into shorter, clear statements that convey the same meaning. Ensure each statement is easy to understand and maintains the original information."
+]
+2025-11-09 11:15 - INFO - --------------------------------------------------------------------------------
+2025-11-09 11:15 - INFO - improved instructions pool: 
+2025-11-09 11:15 - INFO - instruction 0: [
+    "Please rewrite the given complex sentence in a simpler way, maintaining the original meaning while using more straightforward language.",
+    "Rewrite the complex sentence in a simpler way while ensuring the rephrased version matches the structure and wording of the target statement as closely as possible. Focus on reducing word count while preserving the essential information and meaning of the original sentence.",
+    "Simplify the given complex sentence into shorter, clearer sentences while maintaining the original meaning and essential information.",
+    "Simplify the given complex sentence by breaking it into shorter, clear statements that convey the same meaning. Ensure each statement is easy to understand and maintains the original information."
+]
+2025-11-09 11:15 - INFO - instruction 1: [
+    "Provide a simpler version of the given complex sentence while maintaining its original meaning. Use more straightforward language and structure.",
+    "Rewrite the provided complex sentence into simpler sentences that closely match the phrasing and structure of the original sentence while ensuring clarity and maintaining the original meaning. Focus on minimal word variation to enhance output accuracy.",
+    "Rewrite the provided complex sentence into simpler sentences while maintaining the original meaning. Ensure that the new sentences are clear and easily understandable for a wider audience, breaking down any intricate ideas into more straightforward components.",
+    "Simplify the complex sentence into a more concise and easily understandable form while retaining the main information and key characteristics."
+]
+2025-11-09 11:15 - INFO - rephrased instructions pool: 
+2025-11-09 11:15 - INFO - instruction 0: [
+    "Revise the provided complex sentence into a simpler form, ensuring that the original meaning is preserved and the language is more accessible.",
+    "Break down the complex sentence into shorter, more straightforward sentences, ensuring the original meaning and key details remain intact.",
+    "Break the complex sentence into shorter, clearer statements that retain the same meaning. Make sure each statement is straightforward and preserves the original information."
+]
+2025-11-09 11:15 - INFO - instruction 1: [
+    "Rewrite the complex sentence in a clearer and more straightforward way, ensuring the original meaning is preserved. Use simpler language and sentence structure.",
+    "Simplify the given complex sentence into several clearer sentences without losing its original meaning. Make sure the revised sentences are easy to understand for a broader audience by breaking down complex ideas into simpler parts.",
+    "Condense the intricate sentence into a clearer, more straightforward version that preserves the essential information and main attributes."
+]
+2025-11-09 11:15 - INFO - instruction 2: [
+    "Rewrite the provided complex sentence in simpler terms, ensuring the original meaning is preserved while using more easily understandable language.",
+    "Break down the complex sentence into shorter, clearer sentences that preserve the original meaning and key information.",
+    "Break the complex sentence into shorter, clearer statements that retain the same meaning. Make sure each statement is easy to understand and preserves the original content."
+]
+2025-11-09 11:15 - INFO - instruction 3: [
+    "Rephrase the complex sentence in a clearer and easier way, ensuring the main idea stays the same. Use simpler words and sentence structure.",
+    "Break down the complex sentence into simpler, clearer sentences that retain the original meaning. Make sure the new sentences are easy to understand for a broader audience by simplifying any complicated concepts.",
+    "Condense the intricate sentence into a clearer and more straightforward version, ensuring that the essential information and key traits remain intact."
+]
+2025-11-09 11:15 - INFO - permuted instructions pool: 
+2025-11-09 11:15 - INFO - instruction 0: [
+    "Simplify the given complex sentence into shorter, clearer sentences while maintaining the original meaning and essential information.",
+    "Simplify the given complex sentence by breaking it into shorter, clear statements that convey the same meaning. Ensure each statement is easy to understand and maintains the original information.",
+    "Please rewrite the given complex sentence in a simpler way, maintaining the original meaning while using more straightforward language."
+]
+2025-11-09 11:15 - INFO - instruction 1: [
+    "Rewrite the provided complex sentence into simpler sentences while maintaining the original meaning. Ensure that the new sentences are clear and easily understandable for a wider audience, breaking down any intricate ideas into more straightforward components.",
+    "Provide a simpler version of the given complex sentence while maintaining its original meaning. Use more straightforward language and structure.",
+    "Simplify the complex sentence into a more concise and easily understandable form while retaining the main information and key characteristics."
+]
+2025-11-09 11:16 - INFO - 
+iter_no = 01, valid_scores = [51.476645776422664, 51.09113496432669, 50.947753728686564, 50.93986806113816, 50.86937175173856, 50.82601392603442, 50.65506116442034, 50.46433550106366, 49.993882505401054, 49.902956219124974]
+2025-11-09 11:16 - INFO - --------------------------------------------------------------------------------
+2025-11-09 11:16 - INFO - init_valid_score = 50.91
+2025-11-09 11:16 - INFO - instructions pool after beam search, above average and generic algorithm: 
+2025-11-09 11:16 - INFO - instruction 0: [
+    "Please rewrite the given complex sentence in a simpler way, maintaining the original meaning while using more straightforward language.",
+    "Simplify the given complex sentence into shorter, clearer sentences while maintaining the original meaning and essential information.",
+    "Simplify the given complex sentence by breaking it into shorter, clear statements that convey the same meaning. Ensure each statement is easy to understand and maintains the original information."
+]
+2025-11-09 11:16 - INFO - best_valid_score = 51.48 [ *** BEST *** ]
+2025-11-09 11:16 - INFO - --------------------------------------------------------------------------------
+2025-11-09 11:16 - INFO - best_instructions = [
+    "Please rewrite the given complex sentence in a simpler way, maintaining the original meaning while using more straightforward language.",
+    "Simplify the given complex sentence into shorter, clearer sentences while maintaining the original meaning and essential information.",
+    "Simplify the given complex sentence by breaking it into shorter, clear statements that convey the same meaning. Ensure each statement is easy to understand and maintains the original information."
+]
+2025-11-09 11:16 - INFO - --------------------------------------------------------------------------------
+2025-11-09 11:16 - INFO - improved instructions pool: 
+2025-11-09 11:16 - INFO - instruction 0: [
+    "Please rewrite the given complex sentence in a simpler way, maintaining the original meaning while using more straightforward language.",
+    "Simplify the given complex sentence into shorter, clearer sentences while maintaining the original meaning and essential information.",
+    "Simplify the given complex sentence by breaking it into shorter, clear statements that convey the same meaning. Ensure each statement is easy to understand and maintains the original information.",
+    "Ensure that the simplified sentences closely mirror the phrasing and structure of the reference examples while maintaining the original meaning. Focus on using fewer different words to achieve maximum clarity and consistency."
+]
+2025-11-09 11:16 - INFO - rephrased instructions pool: 
+2025-11-09 11:16 - INFO - instruction 0: [
+    "Please simplify the provided complex sentence, ensuring the original meaning is preserved and using clearer language.",
+    "Break down the complex sentence into shorter, more straightforward sentences, ensuring the original meaning and key information remain intact.",
+    "Break down the complex sentence into shorter, clearer statements that retain the same meaning. Each statement should be straightforward and convey the original information effectively."
+]
+2025-11-09 11:16 - INFO - instruction 1: [
+    "Revise the provided complex sentence to a simpler version, ensuring that the original meaning is preserved using clearer language.",
+    "Break down the complex sentence into simpler and clearer sentences, ensuring that the original meaning and key information remain intact.",
+    "Break down the complex sentence into shorter, clearer statements that retain the same meaning. Make sure each statement is easy to comprehend and accurately reflects the original content."
+]
+2025-11-09 11:16 - INFO - permuted instructions pool: 
+2025-11-09 11:16 - INFO - instruction 0: [
+    "Simplify the given complex sentence into shorter, clearer sentences while maintaining the original meaning and essential information.",
+    "Simplify the given complex sentence by breaking it into shorter, clear statements that convey the same meaning. Ensure each statement is easy to understand and maintains the original information.",
+    "Please rewrite the given complex sentence in a simpler way, maintaining the original meaning while using more straightforward language."
+]
+2025-11-09 11:17 - INFO - 
+iter_no = 02, valid_scores = [51.597497664229245, 51.105291224832, 51.085587115808266, 50.701770558259874, 50.50270332576256]
+2025-11-09 11:17 - INFO - --------------------------------------------------------------------------------
+2025-11-09 11:17 - INFO - init_valid_score = 50.91
+2025-11-09 11:17 - INFO - instructions pool after beam search, above average and generic algorithm: 
+2025-11-09 11:17 - INFO - instruction 0: [
+    "Please rewrite the given complex sentence in a simpler way, maintaining the original meaning while using more straightforward language.",
+    "Simplify the given complex sentence into shorter, clearer sentences while maintaining the original meaning and essential information.",
+    "Simplify the given complex sentence by breaking it into shorter, clear statements that convey the same meaning. Ensure each statement is easy to understand and maintains the original information."
+]
+2025-11-09 11:17 - INFO - best_valid_score = 51.48 
+2025-11-09 11:17 - INFO - --------------------------------------------------------------------------------
+2025-11-09 11:17 - INFO - best_instructions = [
+    "Please rewrite the given complex sentence in a simpler way, maintaining the original meaning while using more straightforward language.",
+    "Simplify the given complex sentence into shorter, clearer sentences while maintaining the original meaning and essential information.",
+    "Simplify the given complex sentence by breaking it into shorter, clear statements that convey the same meaning. Ensure each statement is easy to understand and maintains the original information."
+]
+2025-11-09 11:17 - INFO - --------------------------------------------------------------------------------
+2025-11-09 11:17 - INFO - improved instructions pool: 
+2025-11-09 11:17 - INFO - rephrased instructions pool: 
+2025-11-09 11:17 - INFO - instruction 0: [
+    "Rewrite the provided complicated sentence in simpler terms, ensuring the original meaning is preserved with clearer language.",
+    "Break down the provided complex sentence into shorter, clearer sentences, ensuring that the original meaning and key details remain intact.",
+    "Break the complex sentence into shorter, clear statements that maintain the same meaning. Make sure each statement is straightforward and retains the original information."
+]
+2025-11-09 11:17 - INFO - instruction 1: [
+    "Please simplify the provided complex sentence while preserving its original meaning and using clearer language.",
+    "Break down the complex sentence into shorter, clearer sentences while preserving the original meaning and key details.",
+    "Break down the complex sentence into shorter, clearer statements that retain the original meaning. Make sure each statement is easy to understand and conveys the same information."
+]
+2025-11-09 11:17 - INFO - permuted instructions pool: 
+2025-11-09 11:17 - INFO - instruction 0: [
+    "Simplify the given complex sentence into shorter, clearer sentences while maintaining the original meaning and essential information.",
+    "Simplify the given complex sentence by breaking it into shorter, clear statements that convey the same meaning. Ensure each statement is easy to understand and maintains the original information.",
+    "Please rewrite the given complex sentence in a simpler way, maintaining the original meaning while using more straightforward language."
+]
+2025-11-09 11:18 - INFO - 
+iter_no = 03, valid_scores = [51.192334350424595, 50.94310773599198, 50.61875827526859, 50.12609097343367]
+2025-11-09 11:18 - INFO - --------------------------------------------------------------------------------
+2025-11-09 11:18 - INFO - init_valid_score = 50.91
+2025-11-09 11:18 - INFO - instructions pool after beam search, above average and generic algorithm: 
+2025-11-09 11:18 - INFO - instruction 0: [
+    "Simplify the given complex sentence into shorter, clearer sentences while maintaining the original meaning and essential information.",
+    "Simplify the given complex sentence by breaking it into shorter, clear statements that convey the same meaning. Ensure each statement is easy to understand and maintains the original information.",
+    "Please rewrite the given complex sentence in a simpler way, maintaining the original meaning while using more straightforward language."
+]
+2025-11-09 11:18 - INFO - instruction 1: [
+    "Please rewrite the given complex sentence in a simpler way, maintaining the original meaning while using more straightforward language.",
+    "Simplify the given complex sentence into shorter, clearer sentences while maintaining the original meaning and essential information.",
+    "Simplify the given complex sentence by breaking it into shorter, clear statements that convey the same meaning. Ensure each statement is easy to understand and maintains the original information."
+]
+2025-11-09 11:18 - INFO - best_valid_score = 51.48 
+2025-11-09 11:18 - INFO - --------------------------------------------------------------------------------
+2025-11-09 11:18 - INFO - best_instructions = [
+    "Please rewrite the given complex sentence in a simpler way, maintaining the original meaning while using more straightforward language.",
+    "Simplify the given complex sentence into shorter, clearer sentences while maintaining the original meaning and essential information.",
+    "Simplify the given complex sentence by breaking it into shorter, clear statements that convey the same meaning. Ensure each statement is easy to understand and maintains the original information."
+]
+2025-11-09 11:18 - INFO - --------------------------------------------------------------------------------
+2025-11-09 11:18 - INFO - improved instructions pool: 
+2025-11-09 11:18 - INFO - instruction 0: [
+    "Simplify the given complex sentence into shorter, clearer sentences while maintaining the original meaning and essential information.",
+    "Always aim to match the phrasing and vocabulary of the original sentences closely while simplifying. Focus on minimizing the number of different words from the input to enhance clarity and maintain the intended meaning.",
+    "Simplify the given complex sentence by breaking it into shorter, clear statements that convey the same meaning. Ensure each statement is easy to understand and maintains the original information.",
+    "Please rewrite the given complex sentence in a simpler way, maintaining the original meaning while using more straightforward language."
+]
+2025-11-09 11:18 - INFO - instruction 1: [
+    "Please rewrite the given complex sentence in a simpler way, maintaining the original meaning while using more straightforward language.",
+    "Simplify the given complex sentence into shorter, clearer sentences while maintaining the original meaning and essential information.",
+    "Ensure that the output matches the essence and structure of the original statement closely, using as few words as necessary to convey the same meaning. Focus on maintaining original phrasing when possible to minimize word differences.",
+    "Simplify the given complex sentence by breaking it into shorter, clear statements that convey the same meaning. Ensure each statement is easy to understand and maintains the original information."
+]
+2025-11-09 11:18 - INFO - rephrased instructions pool: 
+2025-11-09 11:18 - INFO - instruction 0: [
+    "Break down the complex sentence into shorter, clearer sentences, ensuring that the original meaning and key information are preserved.",
+    "Break down the complex sentence into shorter, clearer statements that still convey the same meaning. Each statement should be straightforward and retain the original information.",
+    "Summarize the provided complex sentence in clearer, more straightforward language while preserving its original meaning."
+]
+2025-11-09 11:18 - INFO - instruction 1: [
+    "Simplify the complex sentence provided, ensuring the original meaning remains intact and using easier language.",
+    "Break down the complex sentence into shorter, clearer sentences that preserve the original meaning and key information.",
+    "Break down the complex sentence into shorter, clearer statements that preserve the original meaning. Make sure each statement is straightforward and easy to understand."
+]
+2025-11-09 11:18 - INFO - instruction 2: [
+    "Break down the provided complex sentence into shorter, more straightforward sentences, ensuring the original meaning and key information remain intact.",
+    "Break down the complex sentence into shorter, clearer statements that retain the original meaning. Make sure each statement is straightforward and easy to comprehend.",
+    "Rewrite the provided complex sentence in simpler terms, ensuring the original meaning is preserved and using clear, easy-to-understand language."
+]
+2025-11-09 11:18 - INFO - instruction 3: [
+    "Revise the provided complex sentence into a simpler form, ensuring that the original meaning remains intact and utilizing clearer language.",
+    "Break down the complex sentence into shorter, more straightforward sentences, ensuring that the original meaning and key information remain intact.",
+    "Break down the complex sentence into shorter, clear statements that retain the same meaning. Make sure each statement is straightforward and preserves the original information."
+]
+2025-11-09 11:18 - INFO - permuted instructions pool: 
+2025-11-09 11:18 - INFO - instruction 0: [
+    "Simplify the given complex sentence into shorter, clearer sentences while maintaining the original meaning and essential information.",
+    "Please rewrite the given complex sentence in a simpler way, maintaining the original meaning while using more straightforward language.",
+    "Simplify the given complex sentence by breaking it into shorter, clear statements that convey the same meaning. Ensure each statement is easy to understand and maintains the original information."
+]
+2025-11-09 11:18 - INFO - instruction 1: [
+    "Please rewrite the given complex sentence in a simpler way, maintaining the original meaning while using more straightforward language.",
+    "Simplify the given complex sentence by breaking it into shorter, clear statements that convey the same meaning. Ensure each statement is easy to understand and maintains the original information.",
+    "Simplify the given complex sentence into shorter, clearer sentences while maintaining the original meaning and essential information."
+]
+2025-11-09 21:30 - INFO - 
+iter_no = 00, valid_scores = [50.96558812416731, 50.80393475200284, 50.777349530933094, 50.26074887425555]
+2025-11-09 21:30 - INFO - --------------------------------------------------------------------------------
+2025-11-09 21:30 - INFO - init_valid_score = 50.97
+2025-11-09 21:30 - INFO - instructions pool after beam search, above average and generic algorithm: 
+2025-11-09 21:30 - INFO - instruction 0: [
+    "Simplify the given complex sentence into a clearer and more straightforward version while maintaining its original meaning.",
+    "Simplify the given complex sentence by breaking it down into two or more clear and concise simple sentences, ensuring that each sentence conveys a straightforward idea.",
+    "Simplify the given complex sentence by using clearer and more straightforward language while retaining the original meaning."
+]
+2025-11-09 21:30 - INFO - instruction 1: [
+    "Simplify the given complex sentence by breaking it down into clearer, more straightforward sentences while maintaining the original meaning.",
+    "Please simplify the complex sentence into clearer and more concise sentences while retaining the original meaning.",
+    "Rewrite the given complex sentence into a simpler form, maintaining the original meaning while using more straightforward language and structure."
+]
+2025-11-09 21:30 - INFO - best_valid_score = 50.97 [ *** BEST *** ]
+2025-11-09 21:30 - INFO - --------------------------------------------------------------------------------
+2025-11-09 21:30 - INFO - best_instructions = [
+    "Simplify the given complex sentence into a clearer and more straightforward version while maintaining its original meaning.",
+    "Simplify the given complex sentence by breaking it down into two or more clear and concise simple sentences, ensuring that each sentence conveys a straightforward idea.",
+    "Simplify the given complex sentence by using clearer and more straightforward language while retaining the original meaning."
+]
+2025-11-09 21:30 - INFO - --------------------------------------------------------------------------------
+2025-11-09 21:34 - INFO - 
+iter_no = 00, valid_scores = [50.737934001967425, 50.30370867692937, 49.965470165920635, 49.08012644662588]
+2025-11-09 21:34 - INFO - --------------------------------------------------------------------------------
+2025-11-09 21:34 - INFO - init_valid_score = 50.74
+2025-11-09 21:34 - INFO - instructions pool after beam search, above average and generic algorithm: 
+2025-11-09 21:34 - INFO - instruction 0: [
+    "Provide a simplified version of the complex sentence while maintaining the essential information. Break it down into clear and straightforward sentences, using simpler language and structure.",
+    "Simplify the given complex sentence by removing unnecessary details while retaining the main idea.",
+    "Simplify the given complex sentence into clearer and more concise sentences, while retaining the essential information and meaning."
+]
+2025-11-09 21:34 - INFO - instruction 1: [
+    "Simplify the complex sentence into a clearer and more concise form while retaining the essential information and maintaining grammatical correctness. Aim to break down complex phrases and use simpler language to enhance understanding.",
+    "Simplify the given complex sentence into a clearer and more concise form, breaking it down into simpler sentences while retaining the essential information.",
+    "Simplify the given complex sentence while maintaining its original meaning and clarity. Use straightforward language and structure to convey the same ideas in a more accessible form."
+]
+2025-11-09 21:34 - INFO - best_valid_score = 50.74 [ *** BEST *** ]
+2025-11-09 21:34 - INFO - --------------------------------------------------------------------------------
+2025-11-09 21:34 - INFO - best_instructions = [
+    "Provide a simplified version of the complex sentence while maintaining the essential information. Break it down into clear and straightforward sentences, using simpler language and structure.",
+    "Simplify the given complex sentence by removing unnecessary details while retaining the main idea.",
+    "Simplify the given complex sentence into clearer and more concise sentences, while retaining the essential information and meaning."
+]
+2025-11-09 21:34 - INFO - --------------------------------------------------------------------------------
+2025-11-09 21:37 - INFO - 
+iter_no = 00, valid_scores = [51.26542700870687, 51.08012887114668, 50.724248517813926, 50.66719100407863]
+2025-11-09 21:37 - INFO - --------------------------------------------------------------------------------
+2025-11-09 21:37 - INFO - init_valid_score = 51.27
+2025-11-09 21:37 - INFO - instructions pool after beam search, above average and generic algorithm: 
+2025-11-09 21:37 - INFO - instruction 0: [
+    "Instructions: Simplify the complex sentence by breaking it into shorter, clearer sentences while maintaining the original meaning. Ensure that any intricate details are presented in a straightforward manner.",
+    "Simplify the given complex sentence while retaining its core meaning. Focus on using clearer and more straightforward language to make the sentence easier to understand.",
+    "Simplify the provided complex sentence while retaining its essential information and meaning."
+]
+2025-11-09 21:37 - INFO - instruction 1: [
+    "Rewrite the complex sentence to make it simpler by breaking it down into clearer, more concise statements while retaining the main ideas and information.",
+    "Please simplify the provided complex sentence into a clearer and more concise version, breaking it into shorter sentences if necessary while maintaining the original meaning.",
+    "Rewrite the given complex sentence into a simpler, more straightforward version while maintaining the original meaning."
+]
+2025-11-09 21:37 - INFO - best_valid_score = 51.27 [ *** BEST *** ]
+2025-11-09 21:37 - INFO - --------------------------------------------------------------------------------
+2025-11-09 21:37 - INFO - best_instructions = [
+    "Instructions: Simplify the complex sentence by breaking it into shorter, clearer sentences while maintaining the original meaning. Ensure that any intricate details are presented in a straightforward manner.",
+    "Simplify the given complex sentence while retaining its core meaning. Focus on using clearer and more straightforward language to make the sentence easier to understand.",
+    "Simplify the provided complex sentence while retaining its essential information and meaning."
+]
+2025-11-09 21:37 - INFO - --------------------------------------------------------------------------------
+2025-11-09 21:40 - INFO - improved instructions pool: 
+2025-11-09 21:40 - INFO - instruction 0: [
+    "Ensure that the simplified sentences closely match the structure and wording of the provided examples while retaining clarity. Focus on maintaining the exact phrasing used in the simpler versions without introducing additional interpretations or changes.",
+    "Instructions: Simplify the complex sentence by breaking it into shorter, clearer sentences while maintaining the original meaning. Ensure that any intricate details are presented in a straightforward manner.",
+    "Simplify the given complex sentence while retaining its core meaning. Focus on using clearer and more straightforward language to make the sentence easier to understand.",
+    "Simplify the provided complex sentence while retaining its essential information and meaning."
+]
+2025-11-09 21:40 - INFO - rephrased instructions pool: 
+2025-11-09 21:40 - INFO - instruction 0: [
+    "Revise the complex sentence by dividing it into shorter, more clear sentences that preserve the original intent. Make sure to express any detailed information in a simple way.",
+    "Rewrite the complex sentence in simpler terms, ensuring the main idea remains intact. Aim for clearer and more direct language to enhance comprehension.",
+    "Rephrase the given complex sentence in a simpler form while preserving its core information and meaning."
+]
+2025-11-09 21:40 - INFO - instruction 1: [
+    "Simplify the complex sentence by dividing it into clearer and more concise statements, ensuring the main ideas and information remain intact.",
+    "Please rephrase the complex sentence to make it clearer and more concise, using shorter sentences if needed, while preserving the original meaning.",
+    "Simplify the provided complex sentence into a clearer and more direct form while preserving its original meaning."
+]
+2025-11-09 21:40 - INFO - instruction 2: [
+    "Revise the complex sentence by dividing it into simpler, more concise sentences that preserve the original meaning. Make sure to express any detailed information clearly and straightforwardly.",
+    "Rephrase the complex sentence in simpler terms while preserving its main idea. Aim for clarity and straightforward language to enhance comprehension.",
+    "Streamline the given intricate sentence while preserving its key information and meaning."
+]
+2025-11-09 21:40 - INFO - instruction 3: [
+    "Simplify the complex sentence by dividing it into clearer, concise statements while preserving the key ideas and information.",
+    "Revise the given complex sentence to make it clearer and more concise, using shorter sentences if needed, while preserving the original meaning.",
+    "Simplify the provided complicated sentence into a clearer and more direct version while preserving its intended meaning."
+]
+2025-11-09 21:40 - INFO - permuted instructions pool: 
+2025-11-09 21:40 - INFO - instruction 0: [
+    "Instructions: Simplify the complex sentence by breaking it into shorter, clearer sentences while maintaining the original meaning. Ensure that any intricate details are presented in a straightforward manner.",
+    "Simplify the provided complex sentence while retaining its essential information and meaning.",
+    "Simplify the given complex sentence while retaining its core meaning. Focus on using clearer and more straightforward language to make the sentence easier to understand."
+]
+2025-11-09 21:40 - INFO - instruction 1: [
+    "Rewrite the complex sentence to make it simpler by breaking it down into clearer, more concise statements while retaining the main ideas and information.",
+    "Rewrite the given complex sentence into a simpler, more straightforward version while maintaining the original meaning.",
+    "Please simplify the provided complex sentence into a clearer and more concise version, breaking it into shorter sentences if necessary while maintaining the original meaning."
+]
+2025-11-10 21:07 - INFO - 
+iter_no = 00, valid_scores = [50.32275537058248, 50.24103617856554, 50.089093084213516, 49.856004533724295]
+2025-11-10 21:07 - INFO - --------------------------------------------------------------------------------
+2025-11-10 21:07 - INFO - init_valid_score = 50.32
+2025-11-10 21:07 - INFO - instructions pool after beam search, above average and generic algorithm: 
+2025-11-10 21:07 - INFO - instruction 0: [
+    "Transform the given complex sentence into simpler and more straightforward sentences. Focus on reducing the number of clauses and using accessible vocabulary. Identify and retain the central ideas of the original sentence, ensuring that the essential information is conveyed clearly, while omitting any extraneous details.",
+    "Rewrite the provided complex sentence into a simpler form while preserving its original meaning. Focus on using straightforward vocabulary and structures that enhance clarity and conciseness. Ensure that any important nuances or context are retained, and consider whether adjustments are needed in sentence length or terminology to achieve effective simplification. Aim for a balance that makes the sentence more accessible without losing critical information.",
+    "Transform the given sentence by replacing any unfamiliar or complex words with simpler alternatives and ensuring that the overall structure remains clear and coherent. Maintain the original meaning of the sentence throughout the process."
+]
+2025-11-10 21:07 - INFO - instruction 1: [
+    "Break down the complex sentence, which may contain multiple clauses or subordinate elements, into several shorter sentences that each express a single idea while maintaining the original message's intent and key details.",
+    "Rewrite the complex sentence using simpler and clearer language while ensuring the original meaning and appropriate terminology are preserved. Focus on using commonly understood words and phrases, and maintain the relationships between elements in the sentence. If necessary, provide synonyms that convey the same meaning without losing nuance.",
+    "Revise the provided sentence to create a more straightforward version that preserves its original meaning. Focus on simplifying the structure and vocabulary, and feel free to rearrange elements as needed for clarity."
+]
+2025-11-10 21:07 - INFO - best_valid_score = 50.32 [ *** BEST *** ]
+2025-11-10 21:07 - INFO - --------------------------------------------------------------------------------
+2025-11-10 21:07 - INFO - best_instructions = [
+    "Transform the given complex sentence into simpler and more straightforward sentences. Focus on reducing the number of clauses and using accessible vocabulary. Identify and retain the central ideas of the original sentence, ensuring that the essential information is conveyed clearly, while omitting any extraneous details.",
+    "Rewrite the provided complex sentence into a simpler form while preserving its original meaning. Focus on using straightforward vocabulary and structures that enhance clarity and conciseness. Ensure that any important nuances or context are retained, and consider whether adjustments are needed in sentence length or terminology to achieve effective simplification. Aim for a balance that makes the sentence more accessible without losing critical information.",
+    "Transform the given sentence by replacing any unfamiliar or complex words with simpler alternatives and ensuring that the overall structure remains clear and coherent. Maintain the original meaning of the sentence throughout the process."
+]
+2025-11-10 21:07 - INFO - --------------------------------------------------------------------------------
+2025-11-10 21:11 - INFO - improved instructions pool: 
+2025-11-10 21:11 - INFO - instruction 0: [
+    "Transform the given complex sentence into simpler and more straightforward sentences. Focus on reducing the number of clauses and using accessible vocabulary. Identify and retain the central ideas of the original sentence, ensuring that the essential information is conveyed clearly, while omitting any extraneous details.",
+    "Rewrite the provided complex sentence into a simpler form while preserving its original meaning. Focus on using straightforward vocabulary and structures that enhance clarity and conciseness. Ensure that any important nuances or context are retained, and consider whether adjustments are needed in sentence length or terminology to achieve effective simplification. Aim for a balance that makes the sentence more accessible without losing critical information.",
+    "Ensure that the output matches the structure and vocabulary of the simplified version directly, focusing on achieving maximum clarity and brevity. Strive for exact alignment with the intended simplified form by prioritizing straightforward language and sentence construction.",
+    "Transform the given sentence by replacing any unfamiliar or complex words with simpler alternatives and ensuring that the overall structure remains clear and coherent. Maintain the original meaning of the sentence throughout the process."
+]
+2025-11-10 21:11 - INFO - instruction 1: [
+    "Encourage the System to produce outputs that closely align with common expressions or phrasing found in simplified language, ensuring that the revision is as concise as possible while retaining the original meaning. Emphasize the need to minimize variations in vocabulary and structure to achieve uniformity in representation.",
+    "Break down the complex sentence, which may contain multiple clauses or subordinate elements, into several shorter sentences that each express a single idea while maintaining the original message's intent and key details.",
+    "Rewrite the complex sentence using simpler and clearer language while ensuring the original meaning and appropriate terminology are preserved. Focus on using commonly understood words and phrases, and maintain the relationships between elements in the sentence. If necessary, provide synonyms that convey the same meaning without losing nuance.",
+    "Revise the provided sentence to create a more straightforward version that preserves its original meaning. Focus on simplifying the structure and vocabulary, and feel free to rearrange elements as needed for clarity."
+]
+2025-11-10 21:11 - INFO - rephrased instructions pool: 
+2025-11-10 21:11 - INFO - instruction 0: [
+    "Break down the complex sentence into simpler and clearer statements. Simplify the vocabulary, keep the main ideas intact, and remove any unnecessary details.",
+    "Transform the given complex sentence into a simpler version while maintaining its original meaning. Use clear language and structures to enhance understanding, ensuring that essential details and context are preserved.",
+    "Revise the provided sentence by swapping out any difficult or unfamiliar words for easier options, while keeping the overall structure clear and understandable. Make sure to preserve the original meaning during this transformation."
+]
+2025-11-10 21:11 - INFO - instruction 1: [
+    "Simplify the intricate sentence by dividing it into shorter sentences, ensuring each one conveys a distinct idea while preserving the core message and essential details.",
+    "Rewrite the complicated sentence using straightforward and clear language, making sure the original meaning and key terms remain intact. Use familiar words and phrases while preserving the connections between different parts of the sentence, and offer synonyms when needed to retain subtlety.",
+    "Reword the given sentence to make it clearer while retaining its original meaning. Aim for simpler language and a more straightforward structure, and rearrange parts as necessary for better understanding."
+]
+2025-11-10 21:11 - INFO - instruction 2: [
+    "Break down the complex sentence into simpler, clearer sentences. Aim to reduce clauses and use easy-to-understand words while keeping the main ideas intact and excluding unnecessary details.",
+    "Transform the given complex sentence into a simpler version that maintains its original meaning. Use clear and direct language to improve clarity and brevity, while ensuring that key details and context remain intact.",
+    "Revise the provided sentence by substituting any difficult or unfamiliar words with easier ones while preserving its overall clarity and coherence. Ensure that the original meaning is retained throughout the revision."
+]
+2025-11-10 21:11 - INFO - instruction 3: [
+    "Simplify the complex sentence with multiple clauses by dividing it into shorter sentences, each conveying a single idea while preserving the original message's meaning and essential details.",
+    "Rephrase the complex sentence in straightforward language while keeping its original meaning and key terms intact. Use everyday words and phrases to simplify it, and ensure the connections between the sentence parts remain clear; include synonyms if needed for nuanced meanings.",
+    "Rewrite the given sentence in a clearer and simpler way while maintaining its original meaning. You may change the structure and choose easier words for better understanding."
+]
+2025-11-10 21:11 - INFO - permuted instructions pool: 
+2025-11-10 21:11 - INFO - instruction 0: [
+    "Rewrite the provided complex sentence into a simpler form while preserving its original meaning. Focus on using straightforward vocabulary and structures that enhance clarity and conciseness. Ensure that any important nuances or context are retained, and consider whether adjustments are needed in sentence length or terminology to achieve effective simplification. Aim for a balance that makes the sentence more accessible without losing critical information.",
+    "Transform the given complex sentence into simpler and more straightforward sentences. Focus on reducing the number of clauses and using accessible vocabulary. Identify and retain the central ideas of the original sentence, ensuring that the essential information is conveyed clearly, while omitting any extraneous details.",
+    "Transform the given sentence by replacing any unfamiliar or complex words with simpler alternatives and ensuring that the overall structure remains clear and coherent. Maintain the original meaning of the sentence throughout the process."
+]
+2025-11-10 21:11 - INFO - instruction 1: [
+    "Revise the provided sentence to create a more straightforward version that preserves its original meaning. Focus on simplifying the structure and vocabulary, and feel free to rearrange elements as needed for clarity.",
+    "Break down the complex sentence, which may contain multiple clauses or subordinate elements, into several shorter sentences that each express a single idea while maintaining the original message's intent and key details.",
+    "Rewrite the complex sentence using simpler and clearer language while ensuring the original meaning and appropriate terminology are preserved. Focus on using commonly understood words and phrases, and maintain the relationships between elements in the sentence. If necessary, provide synonyms that convey the same meaning without losing nuance."
+]
+2025-11-10 21:11 - INFO - 
+iter_no = 01, valid_scores = [51.28852549067269, 50.69059527294303, 50.64933464317838, 50.64221186933188, 50.52405851423367, 50.243043769025384, 50.16365522641994, 49.97888613203995, 49.721381379762136, 49.589111210548076]
+2025-11-10 21:11 - INFO - --------------------------------------------------------------------------------
+2025-11-10 21:11 - INFO - init_valid_score = 50.32
+2025-11-10 21:11 - INFO - instructions pool after beam search, above average and generic algorithm: 
+2025-11-10 21:11 - INFO - instruction 0: [
+    "Break down the complex sentence into simpler, clearer sentences. Aim to reduce clauses and use easy-to-understand words while keeping the main ideas intact and excluding unnecessary details.",
+    "Transform the given complex sentence into a simpler version that maintains its original meaning. Use clear and direct language to improve clarity and brevity, while ensuring that key details and context remain intact.",
+    "Revise the provided sentence by substituting any difficult or unfamiliar words with easier ones while preserving its overall clarity and coherence. Ensure that the original meaning is retained throughout the revision."
+]
+2025-11-10 21:11 - INFO - instruction 1: [
+    "Transform the given complex sentence into simpler and more straightforward sentences. Focus on reducing the number of clauses and using accessible vocabulary. Identify and retain the central ideas of the original sentence, ensuring that the essential information is conveyed clearly, while omitting any extraneous details.",
+    "Rewrite the provided complex sentence into a simpler form while preserving its original meaning. Focus on using straightforward vocabulary and structures that enhance clarity and conciseness. Ensure that any important nuances or context are retained, and consider whether adjustments are needed in sentence length or terminology to achieve effective simplification. Aim for a balance that makes the sentence more accessible without losing critical information.",
+    "Ensure that the output matches the structure and vocabulary of the simplified version directly, focusing on achieving maximum clarity and brevity. Strive for exact alignment with the intended simplified form by prioritizing straightforward language and sentence construction.",
+    "Transform the given sentence by replacing any unfamiliar or complex words with simpler alternatives and ensuring that the overall structure remains clear and coherent. Maintain the original meaning of the sentence throughout the process."
+]
+2025-11-10 21:11 - INFO - best_valid_score = 50.69 [ *** BEST *** ]
+2025-11-10 21:11 - INFO - --------------------------------------------------------------------------------
+2025-11-10 21:11 - INFO - best_instructions = [
+    "Break down the complex sentence into simpler, clearer sentences. Aim to reduce clauses and use easy-to-understand words while keeping the main ideas intact and excluding unnecessary details.",
+    "Transform the given complex sentence into a simpler version that maintains its original meaning. Use clear and direct language to improve clarity and brevity, while ensuring that key details and context remain intact.",
+    "Revise the provided sentence by substituting any difficult or unfamiliar words with easier ones while preserving its overall clarity and coherence. Ensure that the original meaning is retained throughout the revision."
+]
+2025-11-10 21:11 - INFO - --------------------------------------------------------------------------------
+2025-11-10 21:15 - INFO - improved instructions pool: 
+2025-11-10 21:15 - INFO - instruction 0: [
+    "Break down the complex sentence into simpler, clearer sentences. Aim to reduce clauses and use easy-to-understand words while keeping the main ideas intact and excluding unnecessary details.",
+    "Transform the given complex sentence into a simpler version that maintains its original meaning. Use clear and direct language to improve clarity and brevity, while ensuring that key details and context remain intact.",
+    "Ensure that the output directly matches the specified structure and phrasing of the input's meaning, while still simplifying the sentence. Focus on retaining all original details and context without introducing new words or variations.",
+    "Revise the provided sentence by substituting any difficult or unfamiliar words with easier ones while preserving its overall clarity and coherence. Ensure that the original meaning is retained throughout the revision."
+]
+2025-11-10 21:15 - INFO - instruction 1: [
+    "Transform the given complex sentence into simpler and more straightforward sentences. Focus on reducing the number of clauses and using accessible vocabulary. Identify and retain the central ideas of the original sentence, ensuring that the essential information is conveyed clearly, while omitting any extraneous details.",
+    "Rewrite the provided complex sentence into a simpler form while preserving its original meaning. Focus on using straightforward vocabulary and structures that enhance clarity and conciseness. Ensure that any important nuances or context are retained, and consider whether adjustments are needed in sentence length or terminology to achieve effective simplification. Aim for a balance that makes the sentence more accessible without losing critical information.",
+    "Ensure that the output matches the structure and vocabulary of the simplified version directly, focusing on achieving maximum clarity and brevity. Strive for exact alignment with the intended simplified form by prioritizing straightforward language and sentence construction.",
+    "Ensure that the output matches the given simplified version perfectly by using the exact phrasing and vocabulary found in that version, thereby eliminating any discrepancies in word choice. Aim for complete alignment in structure and wording to achieve maximum clarity and brevity.",
+    "Transform the given sentence by replacing any unfamiliar or complex words with simpler alternatives and ensuring that the overall structure remains clear and coherent. Maintain the original meaning of the sentence throughout the process."
+]
+2025-11-10 21:15 - INFO - rephrased instructions pool: 
+2025-11-10 21:15 - INFO - instruction 0: [
+    "Simplify the complex sentence into clearer, more straightforward sentences. Focus on reducing the number of clauses and using accessible language while preserving the key ideas and omitting irrelevant details.",
+    "Simplify the provided complex sentence while preserving its original meaning. Use straightforward language to enhance clarity and brevity, ensuring that important details and context are retained.",
+    "Reword the given sentence by replacing complex or challenging words with simpler alternatives, while maintaining its overall clarity and meaning. Ensure that the essence of the original sentence remains intact in your revision."
+]
+2025-11-10 21:15 - INFO - instruction 1: [
+    "Transform the given complex sentence into simpler and more straightforward sentences. Focus on reducing the number of clauses and using accessible vocabulary. Identify and retain the central ideas of the original sentence, ensuring that the essential information is conveyed clearly, while omitting any extraneous details.",
+    "Simplify the given complex sentence while maintaining its original meaning. Use clear language and straightforward structures to enhance understanding, ensuring that essential nuances and context are preserved.",
+    "Make sure the output follows the structure and wording of the simplified version, emphasizing clarity and conciseness. Aim for precise alignment with the simplified format while using clear language and straightforward sentence structure.",
+    "Revise the provided sentence by substituting any difficult or obscure words with simpler options, while ensuring that the overall flow and clarity are preserved. Keep the original meaning intact during this modification."
+]
+2025-11-10 21:15 - INFO - instruction 2: [
+    "Simplify the complex sentence into shorter, clearer sentences. Focus on reducing the number of clauses and using straightforward language while maintaining the main points and omitting extraneous information.",
+    "Simplify the provided complex sentence while preserving its original meaning. Use straightforward language to enhance clarity and conciseness, ensuring that important details and context are still included.",
+    "Modify the given sentence by replacing any complex or unfamiliar terms with simpler alternatives, while maintaining its clarity and overall meaning. Make sure the revised version reflects the same intent as the original."
+]
+2025-11-10 21:15 - INFO - instruction 3: [
+    "Simplify the provided complex sentence into shorter and clearer sentences by reducing the clauses and using easy-to-understand words. Make sure to keep the main ideas intact and convey the important information without unnecessary details.",
+    "Rewrite the provided complex sentence into a simpler form while preserving its original meaning. Focus on using straightforward vocabulary and structures that enhance clarity and conciseness. Ensure that any important nuances or context are retained, and consider whether adjustments are needed in sentence length or terminology to achieve effective simplification. Aim for a balance that makes the sentence more accessible without losing critical information.",
+    "Make sure the output aligns with the structure and wording of the simplified version, emphasizing clarity and conciseness. Aim for precise conformity to the simplified form by using clear language and straightforward sentences.",
+    "Reword the provided sentence by substituting any difficult or unfamiliar words with easier ones, while keeping the structure clear and understandable. Ensure that the original meaning of the sentence is preserved."
+]
+2025-11-10 21:15 - INFO - permuted instructions pool: 
+2025-11-10 21:15 - INFO - instruction 0: [
+    "Revise the provided sentence by substituting any difficult or unfamiliar words with easier ones while preserving its overall clarity and coherence. Ensure that the original meaning is retained throughout the revision.",
+    "Transform the given complex sentence into a simpler version that maintains its original meaning. Use clear and direct language to improve clarity and brevity, while ensuring that key details and context remain intact.",
+    "Break down the complex sentence into simpler, clearer sentences. Aim to reduce clauses and use easy-to-understand words while keeping the main ideas intact and excluding unnecessary details."
+]
+2025-11-10 21:15 - INFO - instruction 1: [
+    "Rewrite the provided complex sentence into a simpler form while preserving its original meaning. Focus on using straightforward vocabulary and structures that enhance clarity and conciseness. Ensure that any important nuances or context are retained, and consider whether adjustments are needed in sentence length or terminology to achieve effective simplification. Aim for a balance that makes the sentence more accessible without losing critical information.",
+    "Transform the given complex sentence into simpler and more straightforward sentences. Focus on reducing the number of clauses and using accessible vocabulary. Identify and retain the central ideas of the original sentence, ensuring that the essential information is conveyed clearly, while omitting any extraneous details.",
+    "Ensure that the output matches the structure and vocabulary of the simplified version directly, focusing on achieving maximum clarity and brevity. Strive for exact alignment with the intended simplified form by prioritizing straightforward language and sentence construction.",
+    "Transform the given sentence by replacing any unfamiliar or complex words with simpler alternatives and ensuring that the overall structure remains clear and coherent. Maintain the original meaning of the sentence throughout the process."
+]
+2025-11-10 21:15 - INFO - 
+iter_no = 02, valid_scores = [51.19781119798978, 51.039648236878215, 50.980326658277384, 50.879844985429166, 50.676340576897424, 50.285235010279386, 50.061410326951965, 49.87746816721515, 49.66209521098917, 49.41025360407065]
+2025-11-10 21:15 - INFO - --------------------------------------------------------------------------------
+2025-11-10 21:15 - INFO - init_valid_score = 50.32
+2025-11-10 21:15 - INFO - instructions pool after beam search, above average and generic algorithm: 
+2025-11-10 21:15 - INFO - instruction 0: [
+    "Break down the complex sentence into simpler, clearer sentences. Aim to reduce clauses and use easy-to-understand words while keeping the main ideas intact and excluding unnecessary details.",
+    "Transform the given complex sentence into a simpler version that maintains its original meaning. Use clear and direct language to improve clarity and brevity, while ensuring that key details and context remain intact.",
+    "Ensure that the output directly matches the specified structure and phrasing of the input's meaning, while still simplifying the sentence. Focus on retaining all original details and context without introducing new words or variations.",
+    "Revise the provided sentence by substituting any difficult or unfamiliar words with easier ones while preserving its overall clarity and coherence. Ensure that the original meaning is retained throughout the revision."
+]
+2025-11-10 21:15 - INFO - best_valid_score = 51.20 [ *** BEST *** ]
+2025-11-10 21:15 - INFO - --------------------------------------------------------------------------------
+2025-11-10 21:15 - INFO - best_instructions = [
+    "Break down the complex sentence into simpler, clearer sentences. Aim to reduce clauses and use easy-to-understand words while keeping the main ideas intact and excluding unnecessary details.",
+    "Transform the given complex sentence into a simpler version that maintains its original meaning. Use clear and direct language to improve clarity and brevity, while ensuring that key details and context remain intact.",
+    "Ensure that the output directly matches the specified structure and phrasing of the input's meaning, while still simplifying the sentence. Focus on retaining all original details and context without introducing new words or variations.",
+    "Revise the provided sentence by substituting any difficult or unfamiliar words with easier ones while preserving its overall clarity and coherence. Ensure that the original meaning is retained throughout the revision."
+]
+2025-11-10 21:15 - INFO - --------------------------------------------------------------------------------
+2025-11-10 21:17 - INFO - improved instructions pool: 
+2025-11-10 21:17 - INFO - instruction 0: [
+    "Break down the complex sentence into simpler, clearer sentences. Aim to reduce clauses and use easy-to-understand words while keeping the main ideas intact and excluding unnecessary details.",
+    "Transform the given complex sentence into a simpler version that maintains its original meaning. Use clear and direct language to improve clarity and brevity, while ensuring that key details and context remain intact.",
+    "Ensure that the output directly matches the specified structure and phrasing of the input's meaning, while still simplifying the sentence. Focus on retaining all original details and context without introducing new words or variations.",
+    "Revise the provided sentence by substituting any difficult or unfamiliar words with easier ones while preserving its overall clarity and coherence. Ensure that the original meaning is retained throughout the revision.",
+    "Ensure that the output matches the structure and phrasing of the input's meaning precisely, focusing on retaining all original details while simplifying the sentence. Aim for the output to consist of short, clear, and direct sentences that maintain the integrity of the original context and information."
+]
+2025-11-10 21:17 - INFO - rephrased instructions pool: 
+2025-11-10 21:17 - INFO - instruction 0: [
+    "Break down the complex sentence into simpler, clearer sentences. Aim to reduce clauses and use easy-to-understand words while keeping the main ideas intact and excluding unnecessary details.",
+    "Rewrite the complex sentence in a simpler form that preserves its meaning. Use straightforward language to enhance clarity and conciseness, while keeping essential details and context.",
+    "Make sure the output aligns precisely with the structure and meaning of the input, simplifying the sentence while keeping all original details and context intact without adding new words or variations.",
+    "Rewrite the given sentence by replacing complex or unfamiliar words with simpler alternatives, making sure to maintain its overall clarity and meaning. Keep the original intent intact in the revised version."
+]
+2025-11-10 21:17 - INFO - instruction 1: [
+    "Break down the complex sentence into simpler, clearer sentences. Aim to reduce clauses and use easy-to-understand words while keeping the main ideas intact and excluding unnecessary details.",
+    "Simplify the provided complex sentence while preserving its original meaning. Utilize straightforward language to enhance clarity and conciseness, ensuring all important details and context are retained.",
+    "Make sure the output aligns with the input's intended structure and meaning, while simplifying the sentence. Retain all essential details and context without adding new words or variations.",
+    "Change the sentence by replacing any hard or unknown words with simpler ones, maintaining its clarity and flow. Make sure the original meaning stays intact."
+]
+2025-11-10 21:17 - INFO - permuted instructions pool: 
+2025-11-10 21:17 - INFO - instruction 0: [
+    "Revise the provided sentence by substituting any difficult or unfamiliar words with easier ones while preserving its overall clarity and coherence. Ensure that the original meaning is retained throughout the revision.",
+    "Ensure that the output directly matches the specified structure and phrasing of the input's meaning, while still simplifying the sentence. Focus on retaining all original details and context without introducing new words or variations.",
+    "Transform the given complex sentence into a simpler version that maintains its original meaning. Use clear and direct language to improve clarity and brevity, while ensuring that key details and context remain intact.",
+    "Break down the complex sentence into simpler, clearer sentences. Aim to reduce clauses and use easy-to-understand words while keeping the main ideas intact and excluding unnecessary details."
+]
+2025-11-10 21:17 - INFO - 
+iter_no = 03, valid_scores = [52.22655742491878, 51.48759322629363, 51.306871623934704, 51.14722826758003, 50.2172866796757]
+2025-11-10 21:17 - INFO - --------------------------------------------------------------------------------
+2025-11-10 21:17 - INFO - init_valid_score = 50.32
+2025-11-10 21:17 - INFO - instructions pool after beam search, above average and generic algorithm: 
+2025-11-10 21:17 - INFO - instruction 0: [
+    "Break down the complex sentence into simpler, clearer sentences. Aim to reduce clauses and use easy-to-understand words while keeping the main ideas intact and excluding unnecessary details.",
+    "Transform the given complex sentence into a simpler version that maintains its original meaning. Use clear and direct language to improve clarity and brevity, while ensuring that key details and context remain intact.",
+    "Ensure that the output directly matches the specified structure and phrasing of the input's meaning, while still simplifying the sentence. Focus on retaining all original details and context without introducing new words or variations.",
+    "Revise the provided sentence by substituting any difficult or unfamiliar words with easier ones while preserving its overall clarity and coherence. Ensure that the original meaning is retained throughout the revision.",
+    "Ensure that the output matches the structure and phrasing of the input's meaning precisely, focusing on retaining all original details while simplifying the sentence. Aim for the output to consist of short, clear, and direct sentences that maintain the integrity of the original context and information."
+]
+2025-11-10 21:17 - INFO - instruction 1: [
+    "Break down the complex sentence into simpler, clearer sentences. Aim to reduce clauses and use easy-to-understand words while keeping the main ideas intact and excluding unnecessary details.",
+    "Rewrite the complex sentence in a simpler form that preserves its meaning. Use straightforward language to enhance clarity and conciseness, while keeping essential details and context.",
+    "Make sure the output aligns precisely with the structure and meaning of the input, simplifying the sentence while keeping all original details and context intact without adding new words or variations.",
+    "Rewrite the given sentence by replacing complex or unfamiliar words with simpler alternatives, making sure to maintain its overall clarity and meaning. Keep the original intent intact in the revised version."
+]
+2025-11-10 21:17 - INFO - best_valid_score = 52.23 [ *** BEST *** ]
+2025-11-10 21:17 - INFO - --------------------------------------------------------------------------------
+2025-11-10 21:17 - INFO - best_instructions = [
+    "Break down the complex sentence into simpler, clearer sentences. Aim to reduce clauses and use easy-to-understand words while keeping the main ideas intact and excluding unnecessary details.",
+    "Transform the given complex sentence into a simpler version that maintains its original meaning. Use clear and direct language to improve clarity and brevity, while ensuring that key details and context remain intact.",
+    "Ensure that the output directly matches the specified structure and phrasing of the input's meaning, while still simplifying the sentence. Focus on retaining all original details and context without introducing new words or variations.",
+    "Revise the provided sentence by substituting any difficult or unfamiliar words with easier ones while preserving its overall clarity and coherence. Ensure that the original meaning is retained throughout the revision.",
+    "Ensure that the output matches the structure and phrasing of the input's meaning precisely, focusing on retaining all original details while simplifying the sentence. Aim for the output to consist of short, clear, and direct sentences that maintain the integrity of the original context and information."
+]
+2025-11-10 21:17 - INFO - --------------------------------------------------------------------------------
+2025-11-10 21:21 - INFO - improved instructions pool: 
+2025-11-10 21:21 - INFO - instruction 0: [
+    "Break down the complex sentence into simpler, clearer sentences. Aim to reduce clauses and use easy-to-understand words while keeping the main ideas intact and excluding unnecessary details.",
+    "Transform the given complex sentence into a simpler version that maintains its original meaning. Use clear and direct language to improve clarity and brevity, while ensuring that key details and context remain intact.",
+    "Ensure that the output matches the phrasing and structure of the input's meaning exactly, with no variations in word choice. Aim for complete alignment with the example outputs provided, focusing on maintaining clarity and simplicity while preserving all details.",
+    "Ensure that the output directly matches the specified structure and phrasing of the input's meaning, while still simplifying the sentence. Focus on retaining all original details and context without introducing new words or variations.",
+    "Revise the provided sentence by substituting any difficult or unfamiliar words with easier ones while preserving its overall clarity and coherence. Ensure that the original meaning is retained throughout the revision.",
+    "Ensure that the output matches the structure and phrasing of the input's meaning precisely, focusing on retaining all original details while simplifying the sentence. Aim for the output to consist of short, clear, and direct sentences that maintain the integrity of the original context and information."
+]
+2025-11-10 21:21 - INFO - instruction 1: [
+    "Ensure that the rephrased sentence mirrors the structure and choice of words in the source material as closely as possible, while still simplifying the content. Focus on using familiar terminology to match the intended meaning without altering the original context or details.",
+    "Break down the complex sentence into simpler, clearer sentences. Aim to reduce clauses and use easy-to-understand words while keeping the main ideas intact and excluding unnecessary details.",
+    "Rewrite the complex sentence in a simpler form that preserves its meaning. Use straightforward language to enhance clarity and conciseness, while keeping essential details and context.",
+    "Make sure the output aligns precisely with the structure and meaning of the input, simplifying the sentence while keeping all original details and context intact without adding new words or variations.",
+    "Rewrite the given sentence by replacing complex or unfamiliar words with simpler alternatives, making sure to maintain its overall clarity and meaning. Keep the original intent intact in the revised version."
+]
+2025-11-10 21:21 - INFO - rephrased instructions pool: 
+2025-11-10 21:21 - INFO - instruction 0: [
+    "Break down the complex sentence into simpler, clearer sentences. Aim to reduce clauses and use easy-to-understand words while keeping the main ideas intact and excluding unnecessary details.",
+    "Rewrite the complex sentence in a simpler form that preserves its meaning. Use straightforward language to enhance clarity and conciseness while keeping important details and context.",
+    "Ensure that the output directly matches the specified structure and phrasing of the input's meaning, while still simplifying the sentence. Focus on retaining all original details and context without introducing new words or variations.",
+    "Rewrite the given sentence by replacing complex or obscure words with simpler alternatives, maintaining its overall clarity and coherence while keeping the original meaning intact.",
+    "Make sure the output closely follows the structure and meaning of the input, simplifying the sentence while retaining all key details. The result should consist of short, clear, and direct sentences that preserve the original context and information."
+]
+2025-11-10 21:21 - INFO - instruction 1: [
+    "Simplify the complex sentence by converting it into shorter, clearer sentences. Focus on minimizing clauses and using straightforward language while preserving the core ideas and omitting extraneous details.",
+    "Rewrite the complex sentence in a simpler form that preserves its meaning. Use straightforward language to enhance clarity and conciseness, while keeping essential details and context.",
+    "Ensure that the output adheres exactly to the format and intent of the input, streamlining the sentence while preserving all original details and context without introducing new words or alterations.",
+    "Revise the provided sentence by substituting difficult or obscure words with easier ones, ensuring that the overall clarity and meaning remain unchanged. Maintain the original purpose in the rewritten version."
+]
+2025-11-10 21:21 - INFO - instruction 2: [
+    "Break down the complex sentence into simpler, clearer sentences. Aim to reduce clauses and use easy-to-understand words while keeping the main ideas intact and excluding unnecessary details.",
+    "Convert the provided complex sentence into a simpler form while preserving its meaning. Aim for clarity and conciseness, ensuring that essential details and context are still included.",
+    "Ensure that the output directly matches the specified structure and phrasing of the input's meaning, while still simplifying the sentence. Focus on retaining all original details and context without introducing new words or variations.",
+    "Reword the given sentence by replacing challenging or uncommon words with simpler alternatives while maintaining its clarity and coherence. Make sure the original meaning remains intact.",
+    "Make sure the output closely follows the structure and meaning of the input, preserving all details while simplifying the phrasing. Strive for short, clear, and direct sentences that uphold the original context and information."
+]
+2025-11-10 21:21 - INFO - instruction 3: [
+    "Break down the complex sentence into simpler, clearer sentences. Aim to reduce clauses and use easy-to-understand words while keeping the main ideas intact and excluding unnecessary details.",
+    "Simplify the complex sentence while maintaining its original meaning. Use clear and direct language to make it more understandable, ensuring all key details and context remain intact.",
+    "Ensure that the output closely follows the input's structure and meaning, simplifying the sentence while preserving all original details and context without introducing new words or variations.",
+    "Rephrase the provided sentence using easier words while ensuring it remains clear and conveys the same meaning. Preserve the original purpose in your revision."
+]
+2025-11-10 21:21 - INFO - permuted instructions pool: 
+2025-11-10 21:21 - INFO - instruction 0: [
+    "Ensure that the output matches the structure and phrasing of the input's meaning precisely, focusing on retaining all original details while simplifying the sentence. Aim for the output to consist of short, clear, and direct sentences that maintain the integrity of the original context and information.",
+    "Revise the provided sentence by substituting any difficult or unfamiliar words with easier ones while preserving its overall clarity and coherence. Ensure that the original meaning is retained throughout the revision.",
+    "Transform the given complex sentence into a simpler version that maintains its original meaning. Use clear and direct language to improve clarity and brevity, while ensuring that key details and context remain intact.",
+    "Ensure that the output directly matches the specified structure and phrasing of the input's meaning, while still simplifying the sentence. Focus on retaining all original details and context without introducing new words or variations.",
+    "Break down the complex sentence into simpler, clearer sentences. Aim to reduce clauses and use easy-to-understand words while keeping the main ideas intact and excluding unnecessary details."
+]
+2025-11-10 21:21 - INFO - instruction 1: [
+    "Rewrite the given sentence by replacing complex or unfamiliar words with simpler alternatives, making sure to maintain its overall clarity and meaning. Keep the original intent intact in the revised version.",
+    "Make sure the output aligns precisely with the structure and meaning of the input, simplifying the sentence while keeping all original details and context intact without adding new words or variations.",
+    "Break down the complex sentence into simpler, clearer sentences. Aim to reduce clauses and use easy-to-understand words while keeping the main ideas intact and excluding unnecessary details.",
+    "Rewrite the complex sentence in a simpler form that preserves its meaning. Use straightforward language to enhance clarity and conciseness, while keeping essential details and context."
+]
