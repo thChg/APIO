@@ -3,9 +3,9 @@ main:
   task_name: text_simplification
   task_description: Text Simplification  # Task description is included in some meta-optimization prompts
   few_shot_num_examples: 3               # Number of examples for Few-Shot, Instruction Induction, and Instruction Optimization
-  sample_num_train: -1                   # If value is more than zero, the train dataset will be reduced to this value
-  sample_num_valid: -1                   # If value is more than zero, the validation dataset will be reduced to this value
-  sample_num_test: -1                    # If value is more than zero, the test dataset will be reduced to this value
+  sample_num_train: 50                   # If value is more than zero, the train dataset will be reduced to this value
+  sample_num_valid: 50                   # If value is more than zero, the validation dataset will be reduced to this value
+  sample_num_test: 50                    # If value is more than zero, the test dataset will be reduced to this value
   save_prompt_builder_zero_shot: True                # Captain Obvious
   save_prompt_builder_few_shot: True                 # Captain Obvious
   save_prompt_builder_instruction_induction: True    # Captain Obvious
@@ -43,7 +43,7 @@ prompt_builder_instruction_optimization:
   
 backend_llm: # LLM parameters for prompt-generation
   #model_name: gpt-4o
-  model_name: gpt-4o-mini
+  model_name: gpt-4.1-mini
   temperature: 0.0
   max_output_tokens: 256
   num_threads: 30
@@ -51,7 +51,7 @@ backend_llm: # LLM parameters for prompt-generation
 
 prompt_builder_llm: # LLM parameters for prompt-optimization
   #model_name: gpt-4o
-  model_name: gpt-4o-mini
+  model_name: gpt-4.1-mini
   temperature: 1.0
   max_output_tokens: 4096
   num_threads: 30

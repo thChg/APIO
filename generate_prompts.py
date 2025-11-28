@@ -22,8 +22,8 @@ def get_full_output_path(output_path: str) -> str:
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--config', '-c', default='text_simplification/config_text_simplification.yaml')
-    parser.add_argument('--output_path', '-o', default='text_simplification/generated_prompts/')
+    parser.add_argument('--config', '-c', default='gec_bea/config_gec_bea.yaml')
+    parser.add_argument('--output_path', '-o', default='gec_bea/generated_prompts/')
     args = parser.parse_args()
 
     with open(args.config, 'r') as file:
