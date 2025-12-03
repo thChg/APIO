@@ -318,32 +318,43 @@ class InstructionInductionPromptBuilder(PromptBuilder):
                     time.sleep(10)
 
     def induce_instructions(self, input_texts: [str], output_texts: [str]) -> [str]:
-        instructions = []
-
+        meta_prompts = []
         for input_text, output_text in zip(input_texts, output_texts):
             meta_prompt = self.meta_prompt_induce_instruction_template
             meta_prompt = meta_prompt.replace('<input_text>', input_text)
             meta_prompt = meta_prompt.replace('<output_example>', output_text)
-            llm_response = self.safe_llm_call(meta_prompt)
-            print("LLM response:", llm_response)
-            instruction = self.postprocess_text(llm_response)
-            # ====================== CHECKER ========================
-            # generate instruction's flaws
-            reflection_prompt = self.reflection_prompt_template.replace('<input_text>', input_text).replace('<output_text>', output_text).replace('<instruction>', instruction)
-            reflection_llm_response = self.run_prompt_builder_llm(reflection_prompt)
-            reflection = extract_tagged_text(text=reflection_llm_response, begin_tag='<reflection>', end_tag='</reflection>')
-            # ========================================================
-            # ====================== REWRITER ========================
-            # Rewrite the instruction
-            rewrite_prompt = self.rewrite_prompt_template.replace('<instruction>', instruction).replace('<reflection>', reflection)
-            rewritten_llm_response = self.run_prompt_builder_llm(rewrite_prompt)
-            print("Rewritten instruction:", rewritten_llm_response)
-            instructions.append(rewritten_llm_response)
-            # ========================================================
-
+            meta_prompts.append(meta_prompt)
+        instructions = self.run_llm_prompt_builder_batch(meta_prompts)
         instructions = self.postprocess_texts(instructions)
-        
         return instructions
+    
+    # def induce_instructions(self, input_texts: [str], output_texts: [str]) -> [str]:
+    #     instructions = []
+
+    #     for input_text, output_text in zip(input_texts, output_texts):
+    #         meta_prompt = self.meta_prompt_induce_instruction_template
+    #         meta_prompt = meta_prompt.replace('<input_text>', input_text)
+    #         meta_prompt = meta_prompt.replace('<output_example>', output_text)
+    #         llm_response = self.safe_llm_call(meta_prompt)
+    #         print("LLM response:", llm_response)
+    #         instruction = self.postprocess_text(llm_response)
+    #         # ====================== CHECKER ========================
+    #         # generate instruction's flaws
+    #         reflection_prompt = self.reflection_prompt_template.replace('<input_text>', input_text).replace('<output_text>', output_text).replace('<instruction>', instruction)
+    #         reflection_llm_response = self.run_prompt_builder_llm(reflection_prompt)
+    #         reflection = extract_tagged_text(text=reflection_llm_response, begin_tag='<reflection>', end_tag='</reflection>')
+    #         # ========================================================
+    #         # ====================== REWRITER ========================
+    #         # Rewrite the instruction
+    #         rewrite_prompt = self.rewrite_prompt_template.replace('<instruction>', instruction).replace('<reflection>', reflection)
+    #         rewritten_llm_response = self.run_prompt_builder_llm(rewrite_prompt)
+    #         print("Rewritten instruction:", rewritten_llm_response)
+    #         instructions.append(rewritten_llm_response)
+    #         # ========================================================
+
+    #     instructions = self.postprocess_texts(instructions)
+        
+    #     return instructions
 
     def generate_prompt(self, prompt_data: dict = None) -> dict:
         few_shot_input_examples, few_shot_output_examples = self.get_few_shot_examples(prompt_data=prompt_data)
@@ -432,22 +443,28 @@ class InstructionOptimizationPromptBuilder(PromptBuilder):
         self.selection_pressure = config['prompt_builder_instruction_optimization']['selection_pressure']
         # ================================
 
-    def fill_beam(common, common_scores, 
+    def fill_beam(self, common, common_scores, 
                 orig1, score1, 
                 orig2, score2, 
                 beam_size):
-
+        print("common =", common)
+        print("common_scores =", common_scores)
+        print("orig1 =", orig1)
+        print("score1 =", score1)
+        print("orig2 =", orig2)
+        print("score2 =", score2)
+        print("beam_size =", beam_size)
         result_elems = list(common)
         result_scores = list(common_scores)
 
-        existing = set(common)
+        # convert lists to tuples so they can be stored in a set
+        existing = {tuple(x) for x in common}
 
         i1 = i2 = 0
-        turn = 0   # 0 = orig1, 1 = orig2
+        turn = 0
 
         while len(result_elems) < beam_size and (i1 < len(orig1) or i2 < len(orig2)):
 
-            # choose primary and fallback arrays
             if turn == 0:
                 arr, scores, idx = orig1, score1, i1
                 fb_arr, fb_scores, fb_idx = orig2, score2, i2
@@ -457,32 +474,40 @@ class InstructionOptimizationPromptBuilder(PromptBuilder):
 
             added = False
 
-            # try primary
             while idx < len(arr):
-                if arr[idx] not in existing:
+                if tuple(arr[idx]) not in existing:
                     result_elems.append(arr[idx])
                     result_scores.append(scores[idx])
-                    existing.add(arr[idx])
+                    existing.add(tuple(arr[idx]))
                     if turn == 0: i1 = idx + 1
                     else:          i2 = idx + 1
                     added = True
                     break
                 idx += 1
+            
+            # Update index even if nothing was added to avoid infinite loop
+            if not added and idx >= len(arr):
+                if turn == 0: i1 = len(orig1)
+                else:          i2 = len(orig2)
 
-            # if primary failed, try fallback
             if not added:
                 while fb_idx < len(fb_arr):
-                    if fb_arr[fb_idx] not in existing:
+                    if tuple(fb_arr[fb_idx]) not in existing:
                         result_elems.append(fb_arr[fb_idx])
                         result_scores.append(fb_scores[fb_idx])
-                        existing.add(fb_arr[fb_idx])
+                        existing.add(tuple(fb_arr[fb_idx]))
                         if turn == 0: i2 = fb_idx + 1
                         else:          i1 = fb_idx + 1
                         added = True
                         break
                     fb_idx += 1
+                
+                # Update fallback index even if nothing was added to avoid infinite loop
+                if not added and fb_idx >= len(fb_arr):
+                    if turn == 0: i2 = len(orig2)
+                    else:          i1 = len(orig1)
 
-            turn ^= 1  # alternate
+            turn ^= 1
 
         return result_elems, result_scores
 
@@ -490,20 +515,22 @@ class InstructionOptimizationPromptBuilder(PromptBuilder):
     def natural_selection(self, instructions_pool, scores):
         generic_descendants = self.generic_descendants
         selection_pressure = self.selection_pressure
-
+        print(f'Applying natural selection: generic_descendants={generic_descendants}, selection_pressure={selection_pressure}')
         # Always return a tuple
         if generic_descendants >= len(scores):
             return instructions_pool, scores
-
+        print(f'Scores before selection: {scores}')
         adjusted = np.power(scores, selection_pressure)
         probs = adjusted / adjusted.sum()
-
+        print(f'Probabilities after selection: {probs}')
         selected_indices = np.random.choice(
             len(scores), size=generic_descendants, replace=False, p=probs
         )        
+        print(f'Selected indices: {selected_indices}')
         selected_instructions = [instructions_pool[i] for i in selected_indices]
         selected_scores = [scores[i] for i in selected_indices]
-
+        print(f'Selected instructions: {selected_instructions}')
+        print(f'Selected scores: {selected_scores}')
         return selected_instructions, selected_scores
 
     def postprocess_text(self, text):
@@ -592,8 +619,10 @@ class InstructionOptimizationPromptBuilder(PromptBuilder):
         prompts = [self.task.fill_prompt_template(prompt_template, train_input) for train_input in train_inputs]
         train_outputs = self.task.run_backend_llm_batch(prompts=prompts)
         # train_outputs = [str1, str2] , train_gold_outputs = [str1' , str 2']
-        train_errors = [semantic_distance(output_text, gold_output_text) for output_text, gold_output_text in
+        train_errors = [levenstein_distance(output_text, gold_output_text) for output_text, gold_output_text in
                         zip(train_outputs, train_gold_outputs)]
+        # train_errors = [semantic_distance(output_text, gold_output_text) for output_text, gold_output_text in
+        #                 zip(train_outputs, train_gold_outputs)]
         sorted_train_inputs, sorted_train_outputs, sorted_train_gold_outputs, sorted_train_errors = (
             zip(*sorted(zip(train_inputs, train_outputs, train_gold_outputs, train_errors),
                         key=lambda x: x[3], reverse=True)))
@@ -699,6 +728,19 @@ class InstructionOptimizationPromptBuilder(PromptBuilder):
                 initial_valid_score = curr_valid_scores[0]
 
             self.logger.info(f'init_valid_score = {initial_valid_score:.2f}')
+
+            best_msg = ''
+            if curr_valid_scores[0] > best_valid_score:
+                best_valid_score = curr_valid_scores[0]
+                best_instructions = instructions_pool[0]
+                best_msg = '[ *** BEST *** ]'
+
+            self.logger.info(f'best_valid_score = {best_valid_score:.2f} {best_msg}')
+
+            self.logger.info('-' * 80)
+            self.logger.info(f'best_instructions = {json.dumps(best_instructions, indent=4)}')
+            self.logger.info('-' * 80)
+
             # ==================== ABOVE AVERAGE ======================
             avg = np.mean(curr_valid_scores)
 

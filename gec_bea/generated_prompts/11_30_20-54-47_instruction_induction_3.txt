@@ -1,0 +1,5 @@
+* Identify and correct any grammatical errors or usage issues in the sentence to improve its correctness and clarity, while preserving the original meaning and intent.
+* Revise the given sentences to ensure correct grammar, punctuation, capitalization, and appropriate word choice, while preserving their original meaning and coherence.
+* Identify and correct all grammatical errors in the given sentence while maintaining its original meaning, then provide the fully corrected sentence as the output.
+Sentence: <input_text>
+Corrected sentence:

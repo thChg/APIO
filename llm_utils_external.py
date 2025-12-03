@@ -24,8 +24,7 @@ def llm_lmstudio(prompt: str, model_name: str, temperature: float, max_output_to
 
 def llm_repack_parameters_wrapper(args):
     prompt, model_name, temperature, max_output_tokens, top_p = args
-
-    if model_name in ['gpt-4o', 'gpt-4o-mini', 'o1-mini']:
+    if model_name in ['gpt-4o', 'gpt-4o-mini', 'o1-mini', 'gpt-4.1-mini']:
         return llm_openai(prompt, model_name, temperature, max_output_tokens, top_p)
     else:
         return llm_lmstudio(prompt, model_name, temperature, max_output_tokens, top_p)
@@ -179,12 +178,14 @@ def llm_openai(prompt: str, model_name: str, temperature: str, max_output_tokens
                                               temperature=temperature,
                                               max_tokens=max_output_tokens,
                                               top_p=top_p,
+                                              stream=False
                                               )
             else:
                 response = litellm.completion(model=f'openai/{model_name}',
                                               messages=messages,
                                               temperature=temperature,
-                                              max_tokens=max_output_tokens
+                                              max_tokens=max_output_tokens,
+                                              stream=False
                                               )
 
             output_text = response.choices[0].message.content

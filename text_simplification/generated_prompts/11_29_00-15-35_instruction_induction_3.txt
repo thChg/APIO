@@ -1,0 +1,5 @@
+* Rewrite the provided text to improve clarity and accessibility by using plain language, simpler vocabulary, and straightforward sentence structures. Maintain the original meaning and important nuances, preserving key terms and qualifiers. You may break down complex sentences into shorter ones or combine brief sentences for better flow, aiming for clear and concise communication without adding or omitting information.
+* Rewrite the sentence to convey the same meaning more clearly and simply, ensuring correct grammar and punctuation. This may involve splitting the sentence or restructuring it, but all original information must be accurately preserved without adding or omitting content.
+* Rewrite the given sentence using clear and simple vocabulary and sentence structure while accurately preserving all original factual information, key details, and the intended meaning.
+Complex sentence: <input_text>
+Simple sentence:

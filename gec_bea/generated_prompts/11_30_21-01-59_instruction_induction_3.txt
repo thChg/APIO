@@ -1,0 +1,5 @@
+* Review the provided sentence and correct any grammatical errors it contains. If no grammatical errors are present, return the sentence unchanged without making additional stylistic or punctuation changes.
+* Identify and correct any grammatical errors in the given sentence, including issues with capitalization, punctuation, and word choice, while preserving the original meaning.
+* Identify and correct all grammatical errors in the given sentence while preserving its original meaning. Output the fully corrected sentence.
+Sentence: <input_text>
+Corrected sentence:

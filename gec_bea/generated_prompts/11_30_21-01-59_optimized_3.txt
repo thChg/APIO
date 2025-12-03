@@ -1,0 +1,6 @@
+* Retain all original phrasing and expressions exactly as in the input unless correcting clear grammatical mistakes, avoiding any rewording or changes in sentence structure. Preserve all punctuation and wording choices, including quotations, even if unconventional, to maintain the original style fully.
+* Correct the grammatical errors in the given text while preserving its original meaning and style. Ensure proper capitalization at the beginning of sentences, correct punctuation, appropriate word choice, and necessary minor prepositional adjustments throughout the text.
+* Revise the given text to improve its grammatical correctness, word choice, and overall clarity while maintaining the original meaning and tone.
+* Revise the sentence to correct grammatical errors, including punctuation, word choice, article usage, and verb forms, while maintaining the original meaning and overall sentence structure.
+Sentence: <input_text>
+Corrected sentence:

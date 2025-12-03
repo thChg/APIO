@@ -1,0 +1,6 @@
+* Favor using concise phrasing with simpler synonyms and avoid adding extra sentences or repeating information. Preserve sentence structure and key vocabulary as closely as possible while simplifying words.
+* Rewrite the sentence using simpler vocabulary and structure while keeping the original meaning intact.
+* Rewrite the sentence using simpler or more common words without changing its meaning.
+* Rewrite the given complex sentence as two or more shorter, simpler sentences that convey the same information clearly and separately.
+Complex sentence: <input_text>
+Simple sentence:

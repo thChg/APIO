@@ -14,7 +14,7 @@ main:
 
 backend_llm: # LLM parameters for prompt-generation
   #model_name: gpt-4o
-  model_name: gpt-5-mini
+  model_name: gpt-4.1-mini
   temperature: 0.0
   max_output_tokens: 256
   num_threads: 40
@@ -22,7 +22,7 @@ backend_llm: # LLM parameters for prompt-generation
 
 prompt_builder_llm: # LLM parameters for prompt-optimization
   #model_name: gpt-4o
-  model_name: gpt-5-mini
+  model_name: gpt-4.1-mini
   temperature: 1.0
   max_output_tokens: 4096
   num_threads: 40
@@ -70,7 +70,7 @@ prompt_builder_instruction_optimization:
   selection_pressure: 5
   # # ================================
   # Use the parameters below to run the pipeline quickly as a smoke test
-  beam_size: 2                                     # For debug purposes
+  beam_size: 8                                     # For debug purposes
   num_optimization_iterations: 1                   # For debug purposes
   rephrase_random_instructions_num_samples: 3      # For debug purposes
   rephrase_random_instructions_scale_factor: 2     # For debug purposes

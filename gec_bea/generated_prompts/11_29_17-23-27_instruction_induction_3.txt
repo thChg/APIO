@@ -1,0 +1,5 @@
+* Review the given sentence for any grammatical errors—including issues with word forms, syntax, punctuation, and agreement—and correct them while preserving the original meaning.
+* Correct the sentence by addressing grammatical errors such as capitalization, punctuation, and subject-verb agreement, while preserving the original meaning.
+* Identify and correct grammatical errors in the given sentences while preserving their original meaning and punctuation. Ensure proper capitalization at the beginning of sentences, appropriate word choice including prepositions, and correct sentence structure in the revised output.
+Sentence: <input_text>
+Corrected sentence:

@@ -31,8 +31,8 @@ prompt_builder_instruction_optimization:
   selection_pressure: 5
   # # ================================
   # Use the parameters below to run the pipeline quickly as a smoke test
-  beam_size: 4                                     # For debug purposes
-  num_optimization_iterations: 3                   # For debug purposes
+  beam_size: 6                                     # For debug purposes
+  num_optimization_iterations: 1                   # For debug purposes
   rephrase_random_instructions_num_samples: 3      # For debug purposes
   rephrase_random_instructions_scale_factor: 2     # For debug purposes
   generate_permuted_instructions_scale_factor: 1   # For debug purposes

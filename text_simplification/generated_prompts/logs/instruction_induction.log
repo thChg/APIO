@@ -1,0 +1,1360 @@
+2025-11-28 22:44 - INFO - sorted_valid_scores = (50.16142512717292, 49.99601853893021, 49.89403313218123, 48.979784327812986, 48.84491507473691, 48.51910190349906, 48.40718574699421, 47.80329690189088, 47.558905205372646, 45.46193327501192)
+2025-11-28 22:44 - INFO - Instructions with their scores:
+
+[
+    {
+        "score": 50.16142512717292,
+        "instructions": [
+            "Rewrite the given sentence using clear and straightforward language while preserving its original meaning, factual content, and any numerical information. Maintain all essential details, and avoid adding, omitting, or altering important contextual or temporal information unless explicitly instructed.",
+            "Rewrite the input text to improve clarity and simplicity by using common vocabulary and straightforward sentence structures while preserving the original meaning and nuances. When numbers are written out as words, convert them into digit form. Ensure that any rephrasing does not alter the intended meaning.",
+            "Rewrite the given complex sentence into one or more simpler sentences by clearly separating distinct ideas and restructuring sentence components using straightforward vocabulary and grammatical structures, while preserving the original meaning, maintaining tense and aspect consistency, and avoiding any addition or omission of information."
+        ]
+    },
+    {
+        "score": 49.99601853893021,
+        "instructions": [
+            "Rewrite the sentence to make it simpler and easier to understand by using clear and straightforward language, breaking down complex structures when appropriate, while preserving the original meaning and maintaining factual accuracy. Retain key details, including numerical information and relevant terms, unless instructed otherwise.",
+            "Rewrite the given complex sentence into a series of shorter, clearer sentences that preserve the original meaning. This may involve splitting the sentence, reordering phrases for clarity, adding transitional words or connectors, and making minor paraphrasing or stylistic adjustments to enhance readability without changing the content.",
+            "Rewrite the given complex sentence into one or more simpler sentences while preserving all original information, including factual and numerical details. Use clear and straightforward language with shorter sentences to improve readability, ensuring accuracy and consistency throughout the transformation without adding, omitting, or altering any key content."
+        ]
+    },
+    {
+        "score": 49.89403313218123,
+        "instructions": [
+            "Rewrite the sentence to use simpler and clearer language while maintaining the original meaning. If the sentence is already clear and simple, make only minimal adjustments to enhance readability without changing any meaning.",
+            "Simplify the input text by breaking down complex sentences into shorter, clearer ones using straightforward language, while preserving the original meaning and all key information. Correct any grammatical or punctuation errors to improve overall clarity without adding or omitting content.",
+            "Rewrite the sentence using simpler vocabulary and sentence structure while maintaining the original meaning. Ensure the revised sentence is grammatically correct, naturally phrased, and clearly conveys the same information."
+        ]
+    },
+    {
+        "score": 48.979784327812986,
+        "instructions": [
+            "Rewrite the given complex sentence by replacing difficult vocabulary and idiomatic or figurative expressions with clearer, more commonly used alternatives, while preserving the original meaning and overall sentence structure.",
+            "Rewrite the given sentence using clear and commonly understood language while preserving its original meaning, tone, and intent. When simplifying vocabulary or phrasing, choose words and expressions that are straightforward and familiar to a general audience, and adjust sentence structure as needed to maintain clarity without altering the sentence’s core message.",
+            "Rewrite the given complex sentence into simpler sentences that maintain the original meaning. Use clear language by reducing sentence length, minimizing jargon or technical terms (or explaining them when needed), and avoiding nested or parenthetical clauses. Preserve important descriptive details without omitting essential information. The number of sentences in the output should be determined by what best enhances clarity and readability."
+        ]
+    },
+    {
+        "score": 48.84491507473691,
+        "instructions": [
+            "Rewrite the sentence using clear, straightforward language that simplifies complex words or phrases while accurately preserving the original meaning and nuance, including idiomatic or culturally specific expressions.",
+            "Rewrite the input sentence or sentences by breaking down any complex or compound structures into clear, simple sentences that preserve the original meaning. Ensure that related ideas remain logically connected and that temporal, causal, or attributive relationships are maintained. Rephrase or separate appositives, parenthetical phrases, and attribution expressions as needed to enhance clarity and readability without adding or changing information.",
+            "Rewrite the given sentence by substituting complex or uncommon words with simpler, more commonly understood alternatives, ensuring that each replacement accurately preserves the original meaning, nuance, and context of the sentence."
+        ]
+    },
+    {
+        "score": 48.51910190349906,
+        "instructions": [
+            "Rewrite the given sentence to use clearer and more accessible language—such as simpler words, phrases, or sentence structures—while preserving the original meaning in its entirety.",
+            "Rewrite the sentence using simpler vocabulary and sentence structure while retaining all key factual information, such as names, dates, and relevant details, without adding or changing the original meaning.",
+            "Rewrite the sentence to improve clarity and directness by explicitly identifying the subject performing the action when it enhances understanding."
+        ]
+    },
+    {
+        "score": 48.40718574699421,
+        "instructions": [
+            "Rewrite the given sentence using clear, simple language that maintains the original meaning, allowing for the use of synonyms and straightforward phrasing without altering any numerical or factual information.",
+            "Rewrite the provided text to improve clarity and readability by simplifying sentence structure and phrasing while maintaining the original meaning. When the text contains multiple related statements, organize them coherently without adding or omitting essential information. Remove or rephrase in-text citations and references to external sources if present. For numerical details, retain key values and units unless simplification is clearly appropriate and does not alter the meaning.",
+            "Rewrite the given sentence to convey the same meaning using clear and straightforward language. Simplify complex vocabulary, sentence structure, and grammar where possible, while ensuring the original information is accurately preserved."
+        ]
+    },
+    {
+        "score": 47.80329690189088,
+        "instructions": [
+            "Rewrite the given text to produce a clearer and more concise version that preserves all essential information, including precise numerical data, units of measurement, and technical terms, while maintaining accuracy and coherence across one or multiple sentences.",
+            "Remove any extraneous headings or non-essential phrases from the text and rewrite the remaining sentences to improve clarity while preserving the original meaning.",
+            "Replace any complex, idiomatic, or uncommon words and phrases in the sentence with simpler, more common equivalents while preserving the original meaning and overall sentence structure."
+        ]
+    },
+    {
+        "score": 47.558905205372646,
+        "instructions": [
+            "Rewrite the sentence to improve clarity and readability by restructuring it as needed, correcting punctuation, and removing any redundant or unnecessary words or phrases, while fully preserving the original meaning.",
+            "Rewrite the sentence using simpler vocabulary and sentence structure while preserving the original meaning. Ensure the revised sentence is grammatically correct, clear, and sounds natural.",
+            "Rewrite the given complex sentence to use simpler and more common vocabulary, ensuring that the original meaning, logical relationships, and domain-specific accuracy are preserved. Where direct synonyms are insufficient, consider rephrasing or briefly explaining specialized terms to maintain clarity without altering the sentence’s intended information."
+        ]
+    },
+    {
+        "score": 45.46193327501192,
+        "instructions": [
+            "Rewrite the given complex sentence into a simpler form by replacing technical or formal terms with everyday language, breaking down complicated phrases, and restructuring sentences for clarity and ease of understanding, while preserving the original meaning.",
+            "Rewrite the given sentence by conveying the original meaning using different wording and sentence structures. Your paraphrase may include changes in voice (active or passive), word order, and phrasing to improve clarity and readability while maintaining the sentence’s intended message.",
+            "Rewrite the given complex sentence into a simpler and more direct version that preserves the original key information and factual details without adding, omitting, or altering quantitative or specific content."
+        ]
+    }
+]
+2025-11-28 22:50 - INFO - sorted_valid_scores = (49.6907395191624, 48.81435359016956, 48.16666872286364, 48.01685925397228, 48.00759292764817, 47.8848550620338, 47.54688327746752, 47.49801393981951, 47.30889044655819, 46.72994858683452)
+2025-11-28 22:50 - INFO - Instructions with their scores:
+
+[
+    {
+        "score": 49.6907395191624,
+        "instructions": [
+            "Rewrite the given sentence to improve clarity by using simpler and more accessible language while preserving the original meaning and maintaining all important details and nuances.",
+            "Rewrite the sentence using vocabulary and sentence structures that are easier to understand while preserving the original meaning, ensuring grammatical correctness and clarity are maintained. Avoid changing the intended message or introducing new information. Rephrasing for conciseness or altering voice is allowed only if it contributes to simplification without distorting the meaning.",
+            "Rewrite the given complex sentence into one or more simpler sentences that clearly and accurately convey all the original key information, including any numerical or factual details. Use straightforward language and break down compound ideas as needed to improve readability, while preserving the full meaning and accuracy of the input text."
+        ]
+    },
+    {
+        "score": 48.81435359016956,
+        "instructions": [
+            "Rewrite the sentence using simpler language and sentence structure while retaining all key information necessary to preserve the original meaning; minor rephrasing and condensation are allowed only if they do not omit essential details.",
+            "Rewrite the given sentence to use clear, simple vocabulary and straightforward sentence structure while preserving the original meaning, maintaining grammatical correctness, consistent verb tense, and natural phrasing.",
+            "Rewrite the given complex sentence to produce a clear, concise, and easy-to-understand version that preserves all essential information and original meaning, while removing or condensing any non-essential or extraneous details."
+        ]
+    },
+    {
+        "score": 48.16666872286364,
+        "instructions": [
+            "Rewrite the sentence to improve clarity and readability by using simpler vocabulary, adjusting the sentence structure as needed—including changing between active and passive voice—to preserve the original meaning without adding or omitting information.",
+            "Rewrite the given sentence to use simpler and clearer language, improve grammatical correctness, and adjust punctuation or conjunctions as needed, while preserving the original meaning.",
+            "Rewrite the provided text to simplify its language and sentence structure by using common words and clear, concise phrasing. Ensure the original meaning, including any nuanced or domain-specific terms, is accurately preserved. You may restructure sentences by splitting or reordering information as needed for clarity, and retain or appropriately adapt any illustrative examples or analogies to maintain the intended message."
+        ]
+    },
+    {
+        "score": 48.01685925397228,
+        "instructions": [
+            "Rewrite the given complex sentence into a clearer and more accessible form by using simpler vocabulary, rephrasing idiomatic or figurative expressions into more common terms, and restructuring sentence elements as needed, while preserving the original meaning and maintaining an appropriate tone.",
+            "Rewrite the given explanatory or descriptive text into a clear, concise sentence that preserves the original meaning by simplifying complex structures, removing redundancies, and consolidating related information where appropriate.",
+            "Rewrite the given text to form a complete sentence by adding explicit subjects and predicates as needed, improving overall clarity and coherence without changing the original meaning."
+        ]
+    },
+    {
+        "score": 48.00759292764817,
+        "instructions": [
+            "Rewrite the given sentence using clear and simple language while preserving its original meaning and essential information, avoiding unnecessary details unless they are crucial to understanding.",
+            "Rewrite the given sentence to improve clarity and readability by removing unnecessary or redundant words and phrases, correcting or repositioning any unrelated introductory elements, and organizing sentence components for smoother flow, while preserving the original meaning.",
+            "Rewrite the given complex sentence into a clearer and more accessible form by using simpler vocabulary and sentence structure, while preserving the original meaning and maintaining an appropriate level of formality for the context. Avoid introducing informal or colloquial expressions unless they suit the intended tone."
+        ]
+    },
+    {
+        "score": 47.8848550620338,
+        "instructions": [
+            "Rewrite the sentence to express the same meaning using clear, concise, and straightforward language. You may simplify wording, restructure phrases, adjust voice (active or passive), and reorder elements as needed to improve clarity and readability, without adding, omitting, or altering the original information.",
+            "Rewrite the sentence using simpler vocabulary and a clearer sentence structure while maintaining the essential information and overall meaning. If appropriate, you may omit less relevant details and standardize proper names by removing diacritics or special characters, ensuring the core message remains accurate and understandable.",
+            "Rewrite the given sentence to improve its clarity and readability by removing any extraneous words or phrases, restructuring as needed, and adding or adjusting punctuation, while preserving the original meaning."
+        ]
+    },
+    {
+        "score": 47.54688327746752,
+        "instructions": [
+            "Rewrite the given complex sentence into a simpler form that preserves the original meaning, using clear and straightforward language. This may involve lexical and syntactic simplification, adjustments to sentence structure or voice, and selective omission of non-essential details, but should avoid altering key semantic information or introducing new content.",
+            "Replace complex, formal, or less common words and phrases in the given sentence with simpler, more common synonyms while preserving the original meaning and sentence structure.",
+            "Rewrite the given complex sentence into a clearer and more accessible form by using simpler vocabulary and sentence structure, while preserving the original meaning, key semantic relationships, and important terminology. Ensure that any metaphors, idiomatic expressions, or specialized terms are retained or appropriately rephrased to maintain accuracy and nuance without altering the intended message."
+        ]
+    },
+    {
+        "score": 47.49801393981951,
+        "instructions": [
+            "Simplify the given sentence by reducing unnecessary detail and complexity while retaining its core meaning. Focus on removing optional or non-essential information—such as specific dates, detailed descriptions, or modal expressions—only when doing so does not alter the main message. Ensure the resulting sentence remains clear and accurately conveys the primary idea regardless of the original sentence’s complexity.",
+            "Rewrite the given sentence using clear and straightforward language while preserving its original meaning and nuances. Simplify vocabulary and sentence structure as needed to improve understanding, but do not add, remove, or alter any essential information or context. When encountering idiomatic or culturally specific expressions, rephrase them in a way that maintains their intended meaning and is accessible to a general audience.",
+            "Rewrite the given sentence or passage to use simpler and clearer language by reducing syntactic complexity and using more common vocabulary, while fully preserving the original meaning, factual details, and temporal or geographic references. Ensure that the transformation maintains accuracy without altering the intended information, tone, or emphasis."
+        ]
+    },
+    {
+        "score": 47.30889044655819,
+        "instructions": [
+            "Simplify the original sentence by replacing difficult or uncommon words and phrases with more common equivalents, shortening or restructuring sentences for clarity, and maintaining the original meaning, specificity, tone, and formality. When simplifying numeric expressions or proper nouns, preserve accuracy and avoid altering essential details.",
+            "Rewrite the sentence to simplify its language and structure by using more common vocabulary and straightforward expressions while preserving the original meaning, tone, and level of formality.",
+            "Rewrite the given sentence to improve clarity by using simpler words and sentence structures while preserving the original meaning and retaining all essential information, including examples or illustrative content unless otherwise specified."
+        ]
+    },
+    {
+        "score": 46.72994858683452,
+        "instructions": [
+            "Rewrite the sentence to convey the original meaning more clearly and concisely by restructuring or simplifying complex phrases. When appropriate and unambiguous, use widely recognized abbreviations to enhance readability, ensuring that the sentence remains easy to understand.",
+            "Rewrite the given complex sentence into a clearer and more concise sentence by using simpler vocabulary and straightforward sentence structure while maintaining the original meaning and an appropriate level of formality. Avoid introducing informal expressions or altering the sentence’s tone, and when applicable, rephrase passive or overly complex constructions into active or simpler forms.",
+            "Rewrite the given sentence to use simpler, more commonly used words and phrases while preserving the original meaning. Make any necessary adjustments to sentence structure, punctuation, and conjunctions to improve clarity and naturalness without altering the intended message."
+        ]
+    }
+]
+2025-11-28 22:56 - INFO - sorted_valid_scores = (50.296017943237395, 50.265211506151395, 49.66934128805108, 49.657390744451014, 48.698082061879006, 47.932672366105386, 47.86911272509301, 47.867095153910306, 47.63878789151687, 47.542434909539814)
+2025-11-28 22:56 - INFO - Instructions with their scores:
+
+[
+    {
+        "score": 50.296017943237395,
+        "instructions": [
+            "Rewrite the given complex sentence into one or more clearer and more concise sentences, using more common vocabulary and simpler sentence structures while preserving the original meaning. Maintain important technical terms and specific details, including measurements and numerical information, unless simplification would cause misunderstanding.",
+            "Rewrite the given complex sentence into a simpler version that maintains all essential information and technical accuracy, using clearer sentence structure and more accessible vocabulary without omitting key details or altering the original meaning.",
+            "Rewrite the given sentence using simpler vocabulary and sentence structures while preserving the original meaning and any essential technical or domain-specific terms. Ensure that simplification does not alter key concepts or introduce inaccuracies, and maintain clarity by using shorter sentences or less complex grammar where appropriate."
+        ]
+    },
+    {
+        "score": 50.265211506151395,
+        "instructions": [
+            "Rewrite the input text by dividing complex sentences into multiple shorter sentences that each express a single idea, ensuring the original meaning and all content are fully preserved to enhance clarity and readability.",
+            "Simplify the provided phrase, list, or sentence by rewriting it into a single clear sentence that conveys the original meaning using straightforward and accessible language. When multiple related terms or synonyms are present, combine or select terms as needed to create a coherent and concise explanation without adding new information.",
+            "Rewrite the given complex sentence into a simpler form that preserves its original meaning as accurately as possible, using clear and straightforward language. When simplifying, reduce technical jargon and complex structures while maintaining essential information, allowing for minor adjustments in detail to improve readability without changing the sentence’s overall intent."
+        ]
+    },
+    {
+        "score": 49.66934128805108,
+        "instructions": [
+            "Paraphrase the text using clear, simple, and commonly understood vocabulary while preserving the original meaning and important descriptive details. Ensure the rewritten text is easy to read and conveys the same information without adding or omitting content.",
+            "Transform the given input, which may include one or multiple terms, phrases, or definitions, into one or more clear, complete sentences that explain the meaning or provide a concise description. Ensure that all relevant terms or synonyms are addressed, preserving their relationships and important details, and express the explanation in straightforward, accessible language without adding information not present in the original input.",
+            "Rewrite the given complex sentence into two grammatically correct and logically coherent simpler sentences that preserve the original meaning without adding, omitting, or altering factual information. Ensure that the division into two sentences enhances clarity and readability while maintaining an appropriate tone and smooth flow between the sentences."
+        ]
+    },
+    {
+        "score": 49.657390744451014,
+        "instructions": [
+            "Rewrite the given complex sentence into one or more clear and concise sentences that preserve the original meaning. Separate ideas to improve readability, including breaking down complex or compound structures, such as lists or combined place names, while ensuring all relevant information is accurately conveyed without unnecessary omission or alteration.",
+            "Rewrite the given sentence using simpler language and structure while retaining the essential meaning and key details; when simplifying, prioritize clarity and readability, and avoid removing information that is important to the sentence’s overall message.",
+            "Rewrite the given complex sentence into a clearer and more accessible version while preserving its original meaning. Simplify vocabulary by replacing difficult or specialized terms with more common alternatives where appropriate, and clarify or restructure complex phrases or clauses to improve readability. Ensure that any numerical information is retained accurately but presented in a straightforward manner without unnecessary detail."
+        ]
+    },
+    {
+        "score": 48.698082061879006,
+        "instructions": [
+            "Rewrite the given complex sentence into a clearer and more straightforward form by using simple language and structure. Retain all essential information and key facts, while omitting unnecessary technical details or elaborate descriptions that do not affect the overall meaning. Ensure the simplified sentence remains accurate and understandable without adding or changing the original content.",
+            "Rewrite the given sentence to make it easier to understand by using clear, straightforward vocabulary and sentence structure while preserving the original meaning and key details, including any examples or parenthetical information.",
+            "Rewrite the given sentence using clear and simple language while accurately preserving the original meaning, nuances, and any idiomatic expressions or key phrases."
+        ]
+    },
+    {
+        "score": 47.932672366105386,
+        "instructions": [
+            "Rewrite the given complex sentence into multiple simpler sentences by dividing it into coherent semantic units or clauses. Ensure that the resulting sentences together preserve the original meaning, maintain grammatical correctness, and clearly convey the logical relationships between the ideas.",
+            "Rewrite the given sentence to improve clarity and readability by simplifying complex structures, explicitly clarifying relationships—including quantitative, comparative, or technical details—and maintaining the original meaning and accuracy.",
+            "Rewrite the given sentence using clear and simple language while preserving all the original factual information and meaning without adding, omitting, or altering details."
+        ]
+    },
+    {
+        "score": 47.86911272509301,
+        "instructions": [
+            "Rewrite the given sentence using simpler, more common words while preserving its original meaning, tone, and grammatical correctness. Ensure the sentence remains clear and coherent, adjusting length and phrasing as needed for appropriate clarity without changing the intent.",
+            "Rewrite the original complex sentence into one or more simpler sentences that accurately preserve its meaning and logical relationships. You may restructure the sentence, adjust punctuation, and rephrase as needed to improve clarity and coherence, while maintaining the original nuance and intent.",
+            "Rewrite the given sentence to make it easier to understand by using simpler vocabulary, clearer phrasing, and more direct sentence structure while preserving the original meaning. Replace less common words with more familiar alternatives and clarify any complex expressions or numbers as needed."
+        ]
+    },
+    {
+        "score": 47.867095153910306,
+        "instructions": [
+            "Rewrite the given sentence by expressing its meaning using clearer, more accessible vocabulary and simpler sentence structures, while preserving the original tone, intent, and nuanced meaning, including idiomatic expressions and phraseology where possible.",
+            "Rewrite the sentence to use an explicit subject and a finite verb, converting phrases like gerunds or nominalizations into complete clauses while preserving the original meaning.",
+            "Simplify the given complex sentence by rewriting it in clear, straightforward language that preserves the essential meaning, removing any non-essential details or extraneous information while maintaining accuracy."
+        ]
+    },
+    {
+        "score": 47.63878789151687,
+        "instructions": [
+            "Rewrite the sentence to improve readability and flow by restructuring and rephrasing as needed—such as combining or condensing phrases—while preserving the original meaning, tone, and nuances.",
+            "Rewrite the sentence to improve clarity and readability by using simpler language, shorter expressions, and restructuring as needed, while retaining the original meaning and omitting any non-essential details.",
+            "Rewrite the sentence or phrase to form a complete, clear statement by adding an explicit subject and verb as needed, converting fragments, abstract expressions, or passive constructions into active, straightforward sentences that preserve the original meaning."
+        ]
+    },
+    {
+        "score": 47.542434909539814,
+        "instructions": [
+            "Rewrite the sentence by rephrasing and, if needed, rearranging its elements to improve clarity and readability while preserving the original meaning.",
+            "Rewrite the given sentence by replacing difficult words, phrases, or idiomatic expressions with clearer and more straightforward alternatives, while preserving the original meaning and maintaining the sentence’s structure unless otherwise specified.",
+            "Rewrite the given sentence to make it easier to understand by using clear and concise language, simpler vocabulary, and shorter phrases, while accurately preserving the original meaning and essential information. When necessary, reduce or rephrase background details or complex structures in a way that does not change the core message."
+        ]
+    }
+]
+2025-11-28 23:37 - INFO - sorted_valid_scores = (50.46806964077795, 49.3486796223602, 49.254739858288474, 48.44143467399321, 48.38643387248601, 47.6167452420166, 47.26090547157693, 47.15249632804336, 46.6805823002563, 45.28364341515486)
+2025-11-28 23:37 - INFO - Instructions with their scores:
+
+[
+    {
+        "score": 50.46806964077795,
+        "instructions": [
+            "Rewrite the sentence to improve clarity and readability by using simpler words and shorter phrases, while preserving the original meaning and retaining essential details as appropriate.",
+            "Rewrite the given complex sentence into one or more simpler sentences that maintain the original meaning and intent. Ensure that the tense and subjects remain consistent or logically coherent across the simplified sentences. Simplify vocabulary by using more common or familiar words where appropriate, without altering the core meaning.",
+            "Rewrite the given complex sentence into a grammatically correct, simpler version by using clearer and more straightforward language while preserving the original meaning, verb tense, and modality."
+        ]
+    },
+    {
+        "score": 49.3486796223602,
+        "instructions": [
+            "Rewrite the sentence to improve clarity and simplicity by using straightforward language and standard numeric forms (e.g., digits or numerals) where appropriate, while preserving the original meaning and intent without adding or omitting information.",
+            "Rewrite the given sentence to improve clarity and readability by simplifying complex or wordy phrasing without altering the original meaning. Remove unnecessary repetition or redundant expressions, but retain essential comparative or qualifying information to preserve important nuances.",
+            "Rewrite the sentence by dividing complex or compound structures into simpler, clear sentences that preserve all original information. When necessary, rephrase or clarify expressions and formatting (such as slash-separated terms or complex modifiers) to enhance readability without omitting or altering meaning."
+        ]
+    },
+    {
+        "score": 49.254739858288474,
+        "instructions": [
+            "Rewrite the given sentence by replacing complex, uncommon, or idiomatic words and phrases with simpler, more commonly used equivalents, while preserving the original meaning and overall structure.",
+            "Rewrite the given complex sentence into one or more clear and concise sentences using simpler vocabulary and sentence structures. Ensure that all original facts, including numerical and quantitative information, are accurately preserved without omission or alteration. Prioritize maintaining the original meaning while improving readability and clarity.",
+            "Rewrite the given sentence to improve overall clarity and readability by using simpler vocabulary, more natural phrasing, and clearer sentence structure; this includes appropriately revising conjunctions and punctuation while preserving the original meaning and maintaining the correct form of proper nouns."
+        ]
+    },
+    {
+        "score": 48.44143467399321,
+        "instructions": [
+            "Rewrite the given sentence to improve clarity and readability by using simpler vocabulary and a more direct sentence structure. Where appropriate, prefer active voice and explicit subjects, but only if they maintain the original meaning and tone. Avoid adding or changing information.",
+            "Rewrite the given sentence using simpler, more commonly used words and phrases while preserving the original meaning and overall tone. Ensure that the rewritten sentence remains clear and natural, allowing for adjustments in vocabulary and sentence structure as needed without changing the intended message.",
+            "Rewrite the sentence using clear and straightforward language and shorter sentence structures while preserving the original meaning, key details, and the roles of the main entities involved."
+        ]
+    },
+    {
+        "score": 48.38643387248601,
+        "instructions": [
+            "Rewrite the given sentence to improve clarity and readability by simplifying vocabulary and sentence structure, reorganizing elements as needed, and preserving the original meaning without adding or omitting information.",
+            "Rewrite the sentence using simpler language and structure while fully preserving the original meaning, including all important details such as subjects, temporal references, and narrative focus.",
+            "Rewrite the given text into a single, clear, and coherent sentence by consolidating related information, selecting the most relevant terms among synonyms or alternatives, removing redundant or uncommon expressions, and simplifying complex wording to enhance overall clarity and readability."
+        ]
+    },
+    {
+        "score": 47.6167452420166,
+        "instructions": [
+            "Rewrite the given complex sentence into a simpler and clearer version that preserves the original meaning; if simplification requires omitting or summarizing some details, ensure that the core information remains accurate and the reasoning behind any reduction is appropriate.",
+            "Rewrite the given sentence to improve clarity and readability by simplifying language and sentence structure, removing redundant or unnecessary words, and ensuring correct punctuation, while preserving the original meaning.",
+            "Rewrite the given complex sentence into a simpler version that preserves the essential information using clear, straightforward language. Avoid including technical terms, specialized notation, or citations. Combine closely related ideas concisely to improve readability, while keeping distinct facts separate if necessary for clarity. Retain numerical data and units only when they are important and understandable; otherwise, simplify or omit them to enhance comprehension."
+        ]
+    },
+    {
+        "score": 47.26090547157693,
+        "instructions": [
+            "Rewrite the given sentence to improve its overall clarity and readability by simplifying vocabulary, correcting punctuation, and refining sentence structure while preserving the original meaning.",
+            "Rewrite the given complex sentence into a clearer and more straightforward form while preserving its original meaning, key information, and important terminology. Simplify sentence structure and vocabulary as appropriate without altering technical terms or semantic relationships, and avoid introducing new information or changing the intent of the sentence.",
+            "Rewrite the given sentence to improve clarity and readability while preserving its original meaning. Simplify complex phrases and, when multiple synonymous or related terms are present, consolidate or select the most appropriate ones to enhance understanding without altering the intended message."
+        ]
+    },
+    {
+        "score": 47.15249632804336,
+        "instructions": [
+            "Rewrite the sentence using vocabulary that is more common and easier to understand, while accurately preserving the original meaning and nuances.",
+            "Rewrite the given sentence to use clearer and more accessible language and simpler sentence structures, ensuring that the original meaning and key details are fully preserved without adding or omitting information.",
+            "Rewrite the given sentence to use vocabulary that is easier to understand and to organize the sentence more clearly, without changing its original meaning. Only make changes if the sentence is complex or unclear; if it is already simple and clear, the sentence can remain as is. Use common, straightforward words and clear sentence structures to enhance readability."
+        ]
+    },
+    {
+        "score": 46.6805823002563,
+        "instructions": [
+            "Rewrite the sentence to improve clarity by simplifying vocabulary and sentence structure where appropriate, while preserving the original meaning, maintaining grammatical correctness, and ensuring that idiomatic or culturally specific expressions remain accurate and understandable.",
+            "Rewrite the given complex sentence into a simpler version that maintains the original meaning and key relationships, using clear language and structure. When simplifying, clarify any implicit ideas and handle technical terms appropriately to ensure the sentence remains accurate and understandable.",
+            "Rewrite the sentence to improve clarity and conciseness by using widely recognized abbreviations or shorter expressions when appropriate, ensuring the original meaning is fully preserved. When choosing whether to abbreviate, consider if the abbreviation is commonly understood and maintains or enhances readability; if not, prefer rephrasing to simplify without introducing abbreviations."
+        ]
+    },
+    {
+        "score": 45.28364341515486,
+        "instructions": [
+            "Rewrite the given sentence to express the same meaning more clearly and concisely, allowing for the simplification of structure and the removal of non-essential details without altering the intended message.",
+            "Simplify the given sentence by removing redundant or non-essential words and phrases while preserving its original meaning and ensuring proper punctuation.",
+            "Rewrite the sentence to improve its clarity and readability by restructuring or rephrasing as needed, while preserving its original meaning and factual content."
+        ]
+    }
+]
+2025-11-28 23:51 - INFO - sorted_valid_scores = (49.877441032373646, 49.09460447181325, 48.85986860846418, 48.74297657431051, 48.07068900904022, 47.302707617782495, 47.16208727022134, 46.71745310023632, 46.56047553015378, 45.549637072973646)
+2025-11-28 23:51 - INFO - Instructions with their scores:
+
+[
+    {
+        "score": 49.877441032373646,
+        "instructions": [
+            "Rewrite the given complex sentence into one or more simpler sentences that use clear and precise language while accurately preserving the original meaning, including key entities and relationships, without introducing any factual or grammatical errors.",
+            "Rewrite the given complex sentence into a clearer and more concise version that preserves the original meaning. Simplify sentence structure by using straightforward language, shorter clauses, and, where appropriate, active voice or alternative phrasing to improve readability without altering the content.",
+            "Rewrite the sentence by replacing complex or uncommon words with simpler, more familiar alternatives while carefully preserving the original meaning, tone, and factual accuracy."
+        ]
+    },
+    {
+        "score": 49.09460447181325,
+        "instructions": [
+            "Rewrite the given sentence to improve clarity and simplicity only if doing so does not change its original meaning; if the sentence is already clear and simple, you may leave it unchanged.",
+            "Identify all complex sentences in the given text and rewrite each by dividing it into two or more shorter sentences that maintain the original meaning. When splitting, separate independent clauses and appropriately adjust or remove conjunctions and transitional phrases to ensure the resulting sentences are clear and grammatically correct. Aim for sentences that are straightforward and easy to understand without altering the intended information.",
+            "Rewrite the given complex sentence to make it easier to understand by using simpler vocabulary and clearer sentence structures, such as replacing less common words with common synonyms, converting passive constructions to active or more direct forms, and reducing sentence length or complexity, while preserving the original meaning and intended message."
+        ]
+    },
+    {
+        "score": 48.85986860846418,
+        "instructions": [
+            "Simplify the given sentence by rewriting it using clear and straightforward language while preserving the original meaning. Remove any unnecessary or overly complex details and structures, but retain important temporal, contextual, and attributive information unless it is clearly irrelevant to the main message. Use standard abbreviations only when they are widely recognized and appropriate.",
+            "Rewrite the sentence by replacing uncommon, formal, or complex words and expressions with simpler, more commonly used alternatives, while preserving the original meaning and overall sentence structure.",
+            "Rewrite the sentence to improve clarity and readability by using complete sentences, making the subject and action explicit, and simplifying phrasing without changing the original meaning."
+        ]
+    },
+    {
+        "score": 48.74297657431051,
+        "instructions": [
+            "Rewrite the given complex sentence into one or more simpler sentences that maintain the original meaning, using clear, straightforward language and, when appropriate, paraphrasing or simplifying technical or specialized terms to enhance understanding.",
+            "Rewrite the given sentence to improve clarity and readability by using simpler vocabulary and a more straightforward sentence structure, while retaining the essential meaning. You may omit or rephrase non-essential details if doing so enhances understanding without changing the main idea.",
+            "Remove any non-essential introductory phrases or headings from the given text, then present the remaining content clearly and coherently without altering its original meaning."
+        ]
+    },
+    {
+        "score": 48.07068900904022,
+        "instructions": [
+            "Paraphrase the provided text to improve its clarity and readability while preserving the original meaning. Use simpler vocabulary and adjust sentence structure as needed, including combining, splitting, or reordering sentences, without introducing new information or changing the intent.",
+            "Rewrite the given complex sentence into a clearer and simpler form by using more common vocabulary and straightforward phrasing, while accurately preserving the original meaning. When encountering idiomatic or culturally specific expressions, either retain their intended sense through appropriate paraphrasing or simplify them carefully to avoid altering the sentence’s meaning. Ensure that any structural changes do not omit essential information or introduce unintended shifts in nuance.",
+            "Rewrite the given sentence or sentences to simplify complex or dense structures while preserving the original meaning, factual details, and relationships between ideas. Ensure that the resulting sentences are clear, coherent, grammatically correct, and use accessible language. When separating or reorganizing ideas, maintain any nuanced connections—including conjunctions, modifying clauses, and transitional phrases—so that the intended tone and emphasis remain intact. Adapt the simplification approach as needed to suit different sentence types, avoiding omission or alteration of key information."
+        ]
+    },
+    {
+        "score": 47.302707617782495,
+        "instructions": [
+            "Simplify the sentence by removing redundant or unnecessary words, restructuring phrases for clarity and readability—including punctuation and word order adjustments—and ensuring the original meaning is fully preserved.",
+            "Rewrite the given complex sentence into a simpler, clearer version by identifying and stating the most important information or predictions in straightforward language. Preserve all key numerical data as presented, but omit ancillary details such as citations, references to tables, or unit conversions that are not essential to the main message. Ensure the simplified sentence maintains the original meaning without adding or altering information.",
+            "Transform the original sentence into a clearer and more accessible version by simplifying vocabulary and sentence structure—such as breaking up long sentences or rephrasing complex phrases—while preserving the original meaning accurately and maintaining coherence."
+        ]
+    },
+    {
+        "score": 47.16208727022134,
+        "instructions": [
+            "Rewrite the given sentence to express the same meaning more clearly and accessibly, using appropriate vocabulary and structure while preserving the original tone and nuances.",
+            "Rewrite the sentence using simpler vocabulary and sentence structures while maintaining the main meaning. You may omit less essential details if doing so helps simplify the sentence without changing its overall message.",
+            "Rewrite the given complex sentence into a simpler sentence that clearly and concisely conveys the main information by using straightforward vocabulary and structure. When simplifying, prioritize key facts and essential details while omitting or reducing less relevant descriptive elements, ensuring the resulting sentence remains accurate and understandable."
+        ]
+    },
+    {
+        "score": 46.71745310023632,
+        "instructions": [
+            "Rewrite the sentence using simpler vocabulary and clearer phrasing while preserving the original meaning and intent.",
+            "Remove any introductory or header-like phrases from the beginning of the text, then present the remaining content clearly and accurately without altering its original meaning.",
+            "Rewrite the given sentence to simplify its language and structure while preserving the original meaning, using clearer phrasing, more common vocabulary—even replacing technical terms or jargon with accessible alternatives—and, when helpful, breaking down complex clauses into simpler parts."
+        ]
+    },
+    {
+        "score": 46.56047553015378,
+        "instructions": [
+            "Rewrite the given sentence to use clear and straightforward language while retaining the original meaning. Remove any details that do not contribute essential information or understanding, and ensure that important factual elements, such as dates or specific references, are preserved unless they are explicitly irrelevant to the sentence’s core message.",
+            "Rewrite the given sentence to improve its clarity and readability by replacing difficult or unfamiliar words and phrases with simpler, more common alternatives, while preserving the original meaning and nuances.",
+            "Rewrite the sentence to improve clarity by using simpler words and shorter structures, while preserving the essential meaning; you may also condense or omit less relevant details and simplify technical terms when appropriate."
+        ]
+    },
+    {
+        "score": 45.549637072973646,
+        "instructions": [
+            "Rewrite the sentence by replacing well-known named entities, organizations, or commonly referenced terms with their widely recognized abbreviations or acronyms to improve clarity and conciseness.",
+            "Rewrite the given complex sentence into a simpler form that preserves all essential factual details, key relationships (including temporal and causal), and the original meaning, using clearer and more straightforward language without changing the underlying information or omitting important nuances.",
+            "Rewrite the given sentence to improve clarity and readability by simplifying complex language and clearly expressing relationships, including numeric or technical comparisons, while preserving the original meaning and accuracy."
+        ]
+    }
+]
+2025-11-29 00:19 - INFO - sorted_valid_scores = (50.0125586325746, 49.55304017116648, 49.24941137776307, 49.09245964014332, 48.294027674588335, 47.826284460996476, 47.7687039138141, 47.73707996056751, 47.21606547988557, 47.104640391745306)
+2025-11-29 00:19 - INFO - Instructions with their scores:
+
+[
+    {
+        "score": 50.0125586325746,
+        "instructions": [
+            "Rewrite the provided text to improve clarity and accessibility by using plain language, simpler vocabulary, and straightforward sentence structures. Maintain the original meaning and important nuances, preserving key terms and qualifiers. You may break down complex sentences into shorter ones or combine brief sentences for better flow, aiming for clear and concise communication without adding or omitting information.",
+            "Rewrite the sentence to convey the same meaning more clearly and simply, ensuring correct grammar and punctuation. This may involve splitting the sentence or restructuring it, but all original information must be accurately preserved without adding or omitting content.",
+            "Rewrite the given sentence using clear and simple vocabulary and sentence structure while accurately preserving all original factual information, key details, and the intended meaning."
+        ]
+    },
+    {
+        "score": 49.55304017116648,
+        "instructions": [
+            "Rewrite the given sentence using simpler and more common words and sentence structures, ensuring the result is grammatically correct, natural, and faithful to the original meaning.",
+            "Rewrite the given complex sentence into one or more clearer sentences by preserving all original information, maintaining the logical flow, temporal order, and nuances, and enhancing overall clarity without altering the meaning.",
+            "Rewrite the given complex sentence or sentences into one or more simpler sentences that preserve the original meaning. Use clear and natural language, ensuring grammatical correctness and maintaining accurate tense, modality, and nuance throughout the simplification."
+        ]
+    },
+    {
+        "score": 49.24941137776307,
+        "instructions": [
+            "Rewrite the sentence using simpler, more common words while maintaining the original meaning and overall sentence structure.",
+            "Rewrite the given complex sentence into a clearer and more accessible form by using common vocabulary and straightforward sentence structures, ensuring that the original meaning—including any idiomatic or culturally specific expressions—is fully preserved through accurate paraphrasing when necessary.",
+            "Rewrite the given complex sentence into one or more simpler sentences that maintain the original meaning. Break down compound ideas and complex structures into clear, concise statements, preserving all information and explicitly separating or clarifying any enumerations, parenthetical elements, or combined terms without omitting details."
+        ]
+    },
+    {
+        "score": 49.09245964014332,
+        "instructions": [
+            "Rewrite the sentence by replacing complex or less common words and phrases with simpler, more widely understood alternatives while preserving the original meaning and overall sentence structure. Ensure the rewritten sentence remains clear and appropriate for a general audience.",
+            "Rewrite the given complex sentence using simpler language and clearer sentence structure while accurately maintaining the original meaning and all essential information, including relevant details such as numerical data or parenthetical content unless explicitly unnecessary for understanding.",
+            "Rewrite the given complex sentence as one or more simpler sentences that preserve the original meaning, factual content, and temporal order. Use clear and straightforward language by restructuring sentence elements, adjusting sentence length, and substituting vocabulary as needed, while avoiding changes that alter the voice or introduce new information."
+        ]
+    },
+    {
+        "score": 48.294027674588335,
+        "instructions": [
+            "Rewrite the input text as a complete, grammatically correct sentence that clearly conveys the original meaning without adding new information or altering its intent.",
+            "Rewrite the given sentence using clear, simple language and everyday words to make it easier to understand. Maintain all essential factual information, including proper names, dates, and key details, without adding or omitting important content. Use shorter phrases and avoid complex vocabulary while preserving the original meaning.",
+            "Rewrite the given complex sentence into a clearer and more accessible form by simplifying vocabulary, sentence structure, and phrasing where appropriate, while preserving the original meaning, tone, and stylistic nuances."
+        ]
+    },
+    {
+        "score": 47.826284460996476,
+        "instructions": [
+            "Rewrite the given sentence to improve clarity and readability by using simpler language and more concise phrasing while preserving the original meaning and maintaining any essential descriptive or technical details appropriately.",
+            "Rewrite the given sentence to convey the original meaning clearly and accurately using simpler vocabulary, straightforward sentence structures, and preserving any important figurative language, analogies, or illustrative elements.",
+            "Rewrite the given sentence using simpler vocabulary and sentence structure while preserving all essential information, including temporal details and agency, to maintain the original meaning clearly and accurately."
+        ]
+    },
+    {
+        "score": 47.7687039138141,
+        "instructions": [
+            "Rewrite the given sentence to express the same meaning using clear, simple language and sentence structure, while ensuring grammatical accuracy, natural phrasing, and consistent verb tense.",
+            "Rewrite the given complex sentence into a simpler and more readable form by clarifying the information and making it more concise, while accurately preserving the original meaning, factual details, proper names, and standard punctuation.",
+            "Rewrite the given sentence using language that is simpler and clearer only if doing so preserves the original meaning and improves readability; if the sentence is already sufficiently clear and simple, it may remain unchanged."
+        ]
+    },
+    {
+        "score": 47.73707996056751,
+        "instructions": [
+            "Rewrite the given sentence to enhance its clarity and readability by using simpler vocabulary, straightforward sentence structures, and clear phrasing, while maintaining the original meaning. Paraphrasing and reordering sentence components are allowed if they contribute to easier understanding without adding or altering information.",
+            "Rewrite the given sentence using clear and straightforward language while accurately preserving its original meaning, including maintaining all proper names and key details without omission or alteration.",
+            "Simplify the given complex sentence by using clearer and more natural vocabulary, restructuring it for improved readability, and converting numerical expressions and quantifiers into common or standardized forms, all while preserving the original meaning."
+        ]
+    },
+    {
+        "score": 47.21606547988557,
+        "instructions": [
+            "Rewrite the sentence using simpler vocabulary and sentence structure while retaining all original factual information and meaning.",
+            "Rewrite the given sentence to preserve its original meaning while improving readability by using clear, accessible language and straightforward sentence structure. Replace technical terms or jargon with common words when appropriate, and ensure the sentence flows logically without altering any figurative or specialized expressions.",
+            "Rewrite the given sentence using simpler and more commonly understood words and sentence structures while preserving its original meaning, including any idiomatic or culturally specific expressions, by rephrasing them clearly without losing nuance or introducing ambiguity."
+        ]
+    },
+    {
+        "score": 47.104640391745306,
+        "instructions": [
+            "Rewrite the given sentence to make it easier to understand by using simpler vocabulary and clearer sentence structure while preserving the original meaning and essential information. When the sentence contains specialized or technical terms, retain their meaning by explaining them in more general or accessible language rather than omitting important details. Ensure the simplified version remains accurate and complete without adding or changing the original intent.",
+            "Rewrite the given sentence to improve clarity and readability by using straightforward language and concise phrasing, while preserving its original meaning and essential information. Remove non-essential details such as specific dates, source attributions, or qualifiers when they do not impact the core message. Simplify vocabulary and sentence structure as needed to enhance understanding without altering the factual content.",
+            "Simplify the given complex sentence by removing redundant or non-essential words and phrases while carefully preserving its original meaning and important nuances, including any qualifying or comparative expressions. Adjust punctuation as needed to ensure the resulting sentence remains clear and grammatically correct."
+        ]
+    }
+]
+2025-11-29 00:27 - INFO - sorted_valid_scores = (50.16582942581448, 49.96097782777107, 49.825721875592514, 49.76339140760771, 48.35385139588897, 48.26835165149566, 47.67326592841636, 47.56446829071131, 47.431137376651975, 47.1872897288571)
+2025-11-29 00:27 - INFO - Instructions with their scores:
+
+[
+    {
+        "score": 50.16582942581448,
+        "instructions": [
+            "Rewrite the complex sentence into one or more simpler sentences that preserve the original meaning clearly and concisely. Simplify sentence structure and vocabulary as needed, favoring clarity and readability; you may adjust sentence length, voice (active or passive), and word choice while maintaining the original intent.",
+            "Rewrite the given sentence by replacing complex or less common words with simpler, more widely understood synonyms, while maintaining the original meaning and sentence structure.",
+            "Rewrite the given sentence to improve clarity by using simpler and more concise language while fully preserving the original meaning, including all key details such as specific names, quantities, and factual information."
+        ]
+    },
+    {
+        "score": 49.96097782777107,
+        "instructions": [
+            "Rewrite the given complex sentence into a simpler form by using clear, commonly understood vocabulary and straightforward phrasing while preserving the original meaning and maintaining an appropriate level of formality; avoid introducing informal or idiomatic expressions unless explicitly allowed.",
+            "Rewrite the given complex sentence into one or more simpler sentences that preserve the original meaning. Use clear and straightforward language by breaking down compound structures, clarifying ambiguous references, and separating distinct ideas when appropriate. Minor paraphrasing or condensation of details is acceptable if it enhances clarity without changing the factual content. Retain key information, including compound or grouped items, either by rephrasing or listing them clearly.",
+            "Rewrite the given complex sentence into one or more clear and concise sentences using straightforward language, ensuring that all original information—including numerical data and factual details—is accurately preserved and presented consistently."
+        ]
+    },
+    {
+        "score": 49.825721875592514,
+        "instructions": [
+            "Rewrite the given phrase as a complete sentence by adding any necessary subjects and verbs to ensure clarity and grammatical correctness.",
+            "Rewrite the given complex sentence into one or more simpler sentences by using common vocabulary and clear phrasing, simplifying both lexical and syntactic complexity as needed, while preserving the original meaning.",
+            "Rewrite the sentence to improve clarity and readability by restructuring sentence elements and using straightforward language, while preserving the original meaning and information."
+        ]
+    },
+    {
+        "score": 49.76339140760771,
+        "instructions": [
+            "Rewrite the given sentence using simpler vocabulary and sentence structures to improve clarity while accurately preserving the original meaning, including all factual content, proper names, and specific entities, without altering or introducing new information.",
+            "Rewrite the provided sentence by breaking it into two or more simpler sentences that together preserve the original meaning. Ensure that the temporal, causal, and logical relationships between ideas are clearly maintained, and use clear and concise language to improve readability without adding or altering the intended information.",
+            "Rewrite the given complex sentence into a clearer and more concise form that maintains the original meaning, allowing for the generalization or omission of specific details and numeric data when necessary to improve readability."
+        ]
+    },
+    {
+        "score": 48.35385139588897,
+        "instructions": [
+            "Rewrite the given complex sentence into a clearer and more concise version that preserves the original meaning, maintaining accuracy especially for any technical or domain-specific terms, and using straightforward language appropriate for a general audience.",
+            "Rewrite the given complex sentence into a version that preserves the original meaning while improving clarity and readability through appropriate lexical, syntactic, or structural changes such as word choice, sentence restructuring, or voice transformation.",
+            "Rewrite the given complex sentence into a clearer and simpler sentence that preserves all original factual details, including quantities and key information, without altering the meaning."
+        ]
+    },
+    {
+        "score": 48.26835165149566,
+        "instructions": [
+            "Rewrite the given complex sentence into a clearer and more natural version by simplifying vocabulary, sentence structure, and phrasing while preserving the original meaning and tone.",
+            "Rewrite the given sentence using simpler vocabulary and sentence structure while preserving all original factual information and the overall meaning. Avoid omitting or altering specific details such as dates, names, or other essential facts unless they are complex or can be clearly simplified without loss of meaning.",
+            "Rewrite the given sentence using simpler vocabulary and sentence structure while preserving the original meaning, maintaining grammatical correctness, verb tense consistency, and all temporal and modal nuances."
+        ]
+    },
+    {
+        "score": 47.67326592841636,
+        "instructions": [
+            "Rewrite the sentence using simpler words and phrasing while preserving its original meaning. Simplify complex structures by rephrasing or omitting non-essential descriptive details, including parenthetical information, to improve clarity and ease of understanding without altering key nuances.",
+            "Rewrite the given sentence to make it easier to understand by using simpler vocabulary, clearer phrasing, and, if needed, restructuring or splitting the sentence, while preserving the original meaning and explicitly clarifying or replacing idiomatic or figurative expressions.",
+            "Rewrite the sentence to improve clarity and readability while preserving its original meaning. Use clear and natural language with appropriate vocabulary and sentence structure, ensuring grammatical correctness and maintaining the intended message without adding or changing information."
+        ]
+    },
+    {
+        "score": 47.56446829071131,
+        "instructions": [
+            "Rewrite the sentence to improve clarity by restructuring complex phrases, explicitly adjusting conjunctions or connectors to clearly express relationships, and restating numerical or comparative information in a straightforward and easily understandable manner without altering the original meaning.",
+            "Rewrite the given complex sentence to improve clarity and readability by using simpler vocabulary and more straightforward sentence structures while preserving the original meaning. When appropriate, combine closely related information to create a concise statement, but avoid merging elements if it reduces clarity or introduces ambiguity. Remove or rephrase unnecessary details such as specific references or extraneous numerical units to enhance understanding, ensuring that all essential information remains accurate and complete.",
+            "Rewrite the sentence to improve its clarity and readability by using simpler vocabulary and adjusting sentence structure as needed—such as shortening, combining, or rephrasing sentences—while preserving the original meaning and maintaining a natural, coherent flow."
+        ]
+    },
+    {
+        "score": 47.431137376651975,
+        "instructions": [
+            "Rewrite the given complex sentence into a simpler form by using clear and straightforward language, simplifying sentence structure where appropriate, and explaining or clarifying technical terms and measurements as needed, while preserving the original meaning and all essential information.",
+            "Rewrite the given sentence to improve clarity and readability while preserving its original meaning and factual accuracy. Simplify complex phrasing and sentence structure where appropriate, use common vocabulary without altering technical or proper terms, and ensure that all names, locations, and factual details remain correct and properly formatted. Correct any grammatical or punctuation errors as needed.",
+            "Rewrite the sentence to improve clarity and readability by simplifying its structure and wording, while strictly preserving all original meanings, including any comparative, qualifying, or nuanced elements. Avoid removing or altering words or phrases that affect the sentence’s intended meaning or subtle distinctions."
+        ]
+    },
+    {
+        "score": 47.1872897288571,
+        "instructions": [
+            "Rewrite the sentence to improve clarity by simplifying its structure and wording while fully preserving the original meaning, including any important qualifiers, comparisons, or nuances. Avoid removing or altering details that affect the sentence’s intended emphasis or informational content, ensuring the result is clear, accurate, and easy to understand.",
+            "Rewrite the given sentence using simpler vocabulary and sentence structures while preserving its original meaning. Replace complex words and phrases with more common and straightforward expressions to enhance clarity and readability. When numerals appear as words, you may convert them to digits or format them consistently, ensuring this change does not alter the meaning. Avoid altering specific subject references or nuanced tone unless it is necessary for simplification.",
+            "Simplify the given complex sentence by rephrasing it with clearer language and more commonly used words, ensuring that any technical terms, analogies, or relationships are replaced with accurate and accessible equivalents while preserving the original meaning."
+        ]
+    }
+]
+2025-11-29 00:38 - INFO - sorted_valid_scores = (50.5401328814314, 50.10437106581036, 49.32423642725286, 48.8946919973115, 48.67086366092076, 48.4267304246049, 47.97111388279743, 47.565099806515946, 47.56324131799713, 46.464660697910574)
+2025-11-29 00:38 - INFO - Instructions with their scores:
+
+[
+    {
+        "score": 50.5401328814314,
+        "instructions": [
+            "Rewrite the given complex sentence into two or more simpler sentences that together preserve the original meaning. Ensure each resulting sentence conveys a complete and coherent idea using clear and grammatically correct language. Maintain the original tense, aspect, and subject continuity as much as possible to preserve semantic equivalence. Aim for simplicity by using straightforward sentence structures without overly fragmenting the information.",
+            "Rewrite the sentence to convey the essential information clearly and concisely by using simpler vocabulary and shorter phrasing, while removing unnecessary descriptive details that do not change the core meaning.",
+            "Rewrite the given complex sentence into one or more simpler sentences that preserve the original meaning. Use clear and accessible language by breaking long or complex sentences into shorter ones, and clarify or explain any technical terms, unusual proper nouns, or detailed descriptions as needed to enhance understanding without changing the intended content."
+        ]
+    },
+    {
+        "score": 50.10437106581036,
+        "instructions": [
+            "Rewrite the given sentence to improve clarity by using simpler and more precise language, while preserving the original meaning and important details. Ensure that any specialized terms or complex concepts are explained in an accurate, accessible manner without altering the intended message.",
+            "Rewrite the given sentence to improve clarity and readability by converting passive or complex constructions into active and straightforward ones, restructuring elements as needed to ensure natural flow and logical order, while preserving the original meaning and all relevant information.",
+            "Rewrite the input sentence by breaking down complex structures into multiple shorter sentences or simpler clauses, ensuring that each resulting sentence is clear, concise, and retains the complete original meaning without adding or omitting information."
+        ]
+    },
+    {
+        "score": 49.32423642725286,
+        "instructions": [
+            "Rewrite the sentence to improve clarity and readability by simplifying vocabulary and sentence structure, and by reorganizing or consolidating phrases as needed, while preserving the original meaning and emphasis.",
+            "Rewrite the given complex sentence to improve clarity and ease of understanding by simplifying its structure and language, which may include splitting it into multiple sentences or rephrasing while ensuring the original meaning and factual information are fully preserved.",
+            "Rewrite the given sentence to express the same meaning using clear, straightforward language. Ensure the sentence remains accurate and easy to understand by appropriately adjusting vocabulary, sentence structure, and voice without altering the original information."
+        ]
+    },
+    {
+        "score": 48.8946919973115,
+        "instructions": [
+            "Rewrite the given complex sentence into a simpler form by using clear and straightforward language while preserving the original meaning, including any technical or domain-specific terms unless a non-technical equivalent can be used without altering the intended sense or relationships expressed.",
+            "Rewrite the given sentence using simpler and more common vocabulary and sentence structures while preserving the original meaning. When encountering technical terms, specialized jargon, or abstract concepts, simplify them only as much as necessary to maintain clarity without losing important nuances. Retain any analogies or examples by expressing them in clearer, more accessible language without omitting key details. Ensure the resulting sentence remains coherent and logically consistent throughout.",
+            "Rewrite the given complex sentence into one or more simpler sentences that maintain the original meaning. Use clear, straightforward language by breaking down complicated structures, explaining or paraphrasing technical terms as needed, and optionally condensing or omitting non-essential elaborations such as parenthetical phrases or examples to improve readability without altering the core information."
+        ]
+    },
+    {
+        "score": 48.67086366092076,
+        "instructions": [
+            "Rewrite the given sentence or phrase to improve clarity and readability by simplifying its structure and language while preserving the original meaning and important details. When multiple related terms or synonyms are present, consolidate or clarify them as appropriate without losing nuance, and avoid unnecessary complexity, redundancy, or jargon.",
+            "Simplify the given sentence by replacing difficult, uncommon, or idiomatic words and phrases with easier, more familiar alternatives while preserving the original meaning.",
+            "Rewrite the given complex sentence into one or more shorter, clearer sentences while preserving the original meaning. Use simple, precise language by replacing difficult words or technical terms with more accessible alternatives, and improve readability by breaking down long or complex structures without altering the intended information."
+        ]
+    },
+    {
+        "score": 48.4267304246049,
+        "instructions": [
+            "Rewrite the given sentence to improve clarity and readability by restructuring phrasing, explicitly presenting relationships (including numerical or proportional information when relevant), and simplifying complex or convoluted constructions, while preserving the original meaning and intent.",
+            "Rewrite the given sentence to improve clarity and readability by using simpler and more precise language, while preserving all original technical terms, factual details, and the formal tone. Ensure that the meaning remains accurate and no information is added or omitted.",
+            "Simplify the given text by using clear and concise language and shorter sentences while preserving all original meaning, factual details, and nuances. Ensure the rewritten version remains accurate and easy to understand without omitting important information or altering key terms."
+        ]
+    },
+    {
+        "score": 47.97111388279743,
+        "instructions": [
+            "Rewrite the given sentence using simpler and more common words while preserving the original meaning and important details. Replace technical terms with plain language only when doing so does not alter accuracy; otherwise, keep or briefly explain them to maintain clarity and precision.",
+            "Rewrite the given sentence to improve clarity and readability by simplifying complex structures, removing redundant or unnecessary words and phrases, and rearranging components when needed for better flow, while preserving the original meaning.",
+            "Rewrite the given sentence or passage to improve clarity and readability by using clear, straightforward language and more accessible vocabulary. Simplify complex grammatical structures and, when appropriate, divide long or compound sentences into shorter ones to enhance understanding. Ensure the original meaning and important details are accurately preserved without adding, omitting, or altering the intended information."
+        ]
+    },
+    {
+        "score": 47.565099806515946,
+        "instructions": [
+            "Simplify the given sentence by replacing complex or uncommon words with simpler, more commonly understood alternatives, ensuring that each substitution preserves the original meaning, connotation, and context without altering the sentence’s factual content or tone.",
+            "Rewrite the given complex sentence into a clearer and more accessible form by simplifying vocabulary and sentence structure while preserving the original meaning, key details, and exact factual information, including specific terms and numeric expressions.",
+            "Rewrite the given text to improve clarity and readability by simplifying vocabulary and sentence structure while retaining the original meaning. Remove non-prose elements such as headings or labels unless they are essential to the text’s message."
+        ]
+    },
+    {
+        "score": 47.56324131799713,
+        "instructions": [
+            "Rewrite the sentence to improve clarity and readability by using straightforward language and, if needed, reorganizing its components, while preserving the original meaning and factual accuracy.",
+            "Rewrite the given sentence to improve clarity and readability by using clear and straightforward language while preserving the original meaning and all essential information. Ensure that factual accuracy and proper names are maintained, and avoid introducing any errors or changes in meaning during the transformation.",
+            "Rewrite the sentence by replacing one or more named entities with their widely recognized standard abbreviations, ensuring the original meaning remains unchanged."
+        ]
+    },
+    {
+        "score": 46.464660697910574,
+        "instructions": [
+            "Rewrite the sentence by replacing complex or less common words with clearer, more widely understood alternatives, ensuring that the original meaning and nuance are fully maintained.",
+            "Rewrite the given text by removing any headings or introductory labels and retaining only the main content, preserving the original meaning.",
+            "Rewrite the given sentence using simpler vocabulary and sentence structures while preserving its original meaning and essential details. When simplifying, replace complex or uncommon words with more common alternatives and rephrase parenthetical or detailed descriptions in a way that maintains their intent without introducing new information or losing important nuances. Ensure that all significant descriptive elements, including subtle distinctions such as color variations or modifiers, are conveyed clearly and accurately in the simpler form."
+        ]
+    }
+]
+2025-11-29 00:50 - INFO - sorted_valid_scores = (50.617061104036715, 50.19024015565382, 50.014082966039126, 49.633612714732884, 49.568782876994646, 49.48147738688658, 48.88599678117592, 48.85975885635514, 48.26677382357699, 46.585901964875326)
+2025-11-29 00:50 - INFO - Instructions with their scores:
+
+[
+    {
+        "score": 50.617061104036715,
+        "instructions": [
+            "Rewrite the given complex sentence into one or more simple sentences that preserve the original meaning, splitting clauses and adjusting punctuation as needed to improve clarity and readability without adding or changing information.",
+            "Rewrite the given sentence using clear, commonly used vocabulary and straightforward sentence structure while preserving its original meaning. Simplify or rephrase complex or compound descriptions to enhance readability, and consistently handle stylistic elements such as parentheses or color qualifiers by integrating or clarifying them without changing the intended information.",
+            "Rewrite the given sentence to improve readability by using simpler vocabulary and sentence structures, and by allowing minor rephrasing or condensation as needed, while preserving the original meaning."
+        ]
+    },
+    {
+        "score": 50.19024015565382,
+        "instructions": [
+            "Rewrite the given sentence by replacing complex vocabulary and phrasing with simpler, more common alternatives, while accurately preserving the original meaning and important domain-specific terms. Ensure that any technical or specialized language is either maintained or clearly simplified without altering its precise meaning. The revised sentence should enhance readability and clarity without adding, omitting, or distorting key information.",
+            "Split complex sentences into two or more grammatically correct simpler sentences that retain the original meaning and logical connections, ensuring clarity without altering emphasis or introducing new information.",
+            "Rewrite the given sentence using vocabulary and sentence structure that are easier to understand, while accurately preserving all essential information and meaning without omitting or altering key details."
+        ]
+    },
+    {
+        "score": 50.014082966039126,
+        "instructions": [
+            "Rewrite the given sentence to preserve its original meaning while improving clarity and readability. This may involve simplifying vocabulary, shortening or restructuring the sentence, changing the sentence voice (e.g., active to passive), or adjusting phrasing to make the sentence easier to understand without altering its intent.",
+            "Rewrite the given complex sentence into one or more simpler sentences that preserve the original meaning, improving clarity and readability. This may involve splitting sentences, reordering phrases for logical flow, and rephrasing for conciseness without omitting any factual information.",
+            "Rewrite the given complex sentence into a simpler form by using clear and straightforward language while preserving the original meaning, including all factual details, proper nouns, and the roles of entities, without introducing ambiguity or altering the semantic relationships."
+        ]
+    },
+    {
+        "score": 49.633612714732884,
+        "instructions": [
+            "Rewrite the given sentence using simpler vocabulary and sentence structure while preserving all original factual information and the overall meaning. Do not omit or add details such as names, dates, or other specific facts unless they can be clearly simplified without altering the intended message.",
+            "Rewrite the given complex sentence into a simpler version by using clear, commonly understood words and expressions while preserving the original meaning and maintaining the accuracy of any technical or specialized terms.",
+            "Rewrite the given complex sentence to improve clarity and readability by simplifying its structure and vocabulary while preserving all original meaning and important details. You may split it into one or more sentences as needed to ensure the information is conveyed clearly and accurately."
+        ]
+    },
+    {
+        "score": 49.568782876994646,
+        "instructions": [
+            "Rewrite the given sentence using simpler vocabulary and sentence structures while preserving its main meaning. You may condense or rephrase non-essential temporal or contextual details for clarity, but do not add, remove, or alter key information.",
+            "Rewrite the given complex sentence into a simpler sentence by using clear and straightforward language while preserving the original meaning, grammatical tense, aspect, and modality.",
+            "Rewrite the sentence to improve clarity and readability by restructuring any complex or incomplete parts into clear, independent sentences with explicit subjects and verbs."
+        ]
+    },
+    {
+        "score": 49.48147738688658,
+        "instructions": [
+            "Rewrite the given sentence to improve its clarity and readability by using simpler vocabulary and sentence structure, while preserving all essential information. When simplifying, you may omit or restructure non-critical details and convert passive voice to active voice if it enhances understanding, but do not add, distort, or remove any key facts or meanings.",
+            "Rewrite the given complex sentence into one or more simpler sentences that preserve the original meaning, using clear and concise language to improve readability and comprehension.",
+            "Rewrite the given sentence using simpler vocabulary and sentence structures while preserving the original meaning and all relevant information, including time-related or contextual phrases."
+        ]
+    },
+    {
+        "score": 48.88599678117592,
+        "instructions": [
+            "Rewrite the given complex sentence by dividing it into two or more shorter sentences that are easier to understand, ensuring the original meaning is fully preserved. Simplify sentence structure by reducing subordinate clauses and minimizing conjunctions where appropriate, while maintaining clarity, cohesion, and natural flow.",
+            "Rewrite the sentence to improve clarity and understanding by replacing vague or abstract language with specific, concrete expressions, and by making implicit information explicit when necessary, without altering the original meaning.",
+            "Rewrite the complex sentence into one or more shorter sentences that preserve the original meaning, improve clarity, and present the information in a logical, easy-to-understand order. This may include reorganizing sentence elements, breaking down complex structures, and making minor lexical or stylistic adjustments such as adding clarifying modifiers or paraphrasing, without changing the intended message."
+        ]
+    },
+    {
+        "score": 48.85975885635514,
+        "instructions": [
+            "Rewrite the sentence to improve its clarity and readability by restructuring its phrasing, word order, and sentence structure as needed, while preserving the original meaning without adding or omitting information.",
+            "Rewrite the given sentence to use simpler language and structure while preserving its original meaning; if the sentence is already clear and simple, it may remain unchanged.",
+            "Rewrite the given complex sentence into a clear and easy-to-understand version by using straightforward vocabulary and shorter sentence structures, while accurately preserving all original meanings and important details, including examples and specialized terms."
+        ]
+    },
+    {
+        "score": 48.26677382357699,
+        "instructions": [
+            "Rewrite the given sentence to improve clarity and simplicity by using clear, direct language and phrasing while preserving the original meaning, tone, and level of formality. Ensure that any changes maintain the sentence’s intent without introducing informal expressions or altering key nuances.",
+            "Rewrite the given complex sentence into one or more sentences that simplify its structure and wording while preserving all original information and nuances. When encountering compound phrases such as those joined by slashes or parentheses, maintain their meaning by appropriately clarifying or separating them. The output should be clear and accurate without unnecessary additions or omissions, and sentence splitting should be applied only as needed to enhance clarity.",
+            "Rewrite the complex sentence into two or more shorter sentences that preserve the original meaning and maintain clarity. Ensure each new sentence is grammatically correct, with appropriate punctuation and word usage. When splitting, separate clauses or ideas logically, such as at conjunctions or subordinate clauses, to enhance readability without altering the intended message."
+        ]
+    },
+    {
+        "score": 46.585901964875326,
+        "instructions": [
+            "Rewrite the given complex sentence into a clearer, simpler version that emphasizes the main predictions or findings. When numerical data is present, present it in a concise and accessible manner, avoiding excessive detail or technical references, to maintain both clarity and essential information.",
+            "Rewrite the given sentence to improve clarity and readability by simplifying complex grammatical structures and phrasing, while preserving the original meaning, key information, and factual accuracy. Correct any grammatical or factual errors as needed, without adding, omitting, or altering the intended content.",
+            "Remove any introductory phrases, labels, or non-sentence fragments from the beginning of the given text while preserving the original meaning and ensuring the remaining content forms a clear, complete sentence."
+        ]
+    }
+]
+2025-11-30 21:49 - INFO - sorted_valid_scores = (49.956546568151545, 49.80471676683848, 49.467295600688225, 49.45898970659827, 49.407620503635066, 48.48223522632022, 47.38274796811246, 47.08268887210471, 46.9309893644215, 45.81918044823086)
+2025-11-30 21:49 - INFO - Instructions with their scores:
+
+[
+    {
+        "score": 49.956546568151545,
+        "instructions": [
+            "Rewrite the given complex sentence into one or more clear and concise sentences that preserve all original factual information and numerical details accurately, improving readability by logically separating ideas without altering meaning.",
+            "Rewrite the given sentence using clear, commonly used words and phrases while preserving the original meaning and maintaining a neutral, appropriate level of formality. Simplify sentence structure where possible to enhance readability, avoiding slang, idioms, or overly casual expressions. Ensure that the tone and intensity of the original sentence are retained.",
+            "Rewrite the sentence to improve clarity and readability by using simpler vocabulary and phrasing, restructuring as needed, and replacing idiomatic or formal expressions with more common alternatives, while accurately preserving the original meaning and tone."
+        ]
+    },
+    {
+        "score": 49.80471676683848,
+        "instructions": [
+            "Rewrite the given sentence to improve clarity and ease of understanding by using simpler vocabulary and sentence structure. When appropriate, remove or reorder less important details to make the main idea clear and concise without changing its original meaning.",
+            "Divide the given complex sentence into multiple shorter sentences to improve clarity and readability, ensuring that the original meaning, tone, and logical connections are fully preserved. Adjust punctuation and conjunctions as needed to maintain coherence without adding, omitting, or altering information.",
+            "Rewrite the given complex sentence into a clearer and more accessible form by using straightforward language and concise phrasing while preserving the original meaning and all essential information. Retain critical quantitative data and technical details unless they can be simplified without losing accuracy, and omit supplementary references or secondary information only if they do not affect the core understanding."
+        ]
+    },
+    {
+        "score": 49.467295600688225,
+        "instructions": [
+            "Rewrite the given sentence using clear and easy-to-understand language without changing its original meaning. If the sentence is already simple and clear, you may leave it unchanged.",
+            "Rewrite the given text into a clearer and more accessible version by using simpler vocabulary and shorter sentences while preserving all essential details and the original meaning.",
+            "Rewrite the given complex sentence into one or more simpler sentences that preserve the original meaning. Organize temporal or contextual elements to enhance clarity, and adjust syntax as needed—such as revising pronouns, inserting articles, or clarifying appositions—to maintain readability and coherence. Use clear, precise, and straightforward language to ensure the transformation is easily understood."
+        ]
+    },
+    {
+        "score": 49.45898970659827,
+        "instructions": [
+            "Rewrite the given complex sentence into a simpler, clearer form by using straightforward language and structure while preserving the original meaning, ensuring grammatical correctness and maintaining consistent verb tense and modality throughout.",
+            "Rewrite the given complex sentence into one or more clear and simple sentences that preserve the original meaning and include all important details without adding or changing information.",
+            "Rewrite the given sentence using simpler, more common vocabulary and phrasing while preserving its original meaning, maintaining domain-specific terminology as needed, and ensuring the result reads naturally and fluently."
+        ]
+    },
+    {
+        "score": 49.407620503635066,
+        "instructions": [
+            "Rewrite the given sentence by replacing complex words and grammatical structures with simpler alternatives while maintaining the original meaning as closely as possible. Ensure the sentence is easier to understand without adding, omitting, or altering its intended message.",
+            "Transform the given sentence into one or more sentences that improve clarity and readability while maintaining the original meaning, including tense and temporal relationships. Use straightforward language and appropriate sentence structures without altering the intended information.",
+            "Rewrite the given sentence to improve clarity by simplifying vocabulary and sentence structure while preserving the original meaning, maintaining grammatical correctness, and ensuring appropriate verb tense and agreement. Avoid altering idiomatic expressions or nuanced phrases to the extent that it changes the intended message, and balance simplicity with natural fluency."
+        ]
+    },
+    {
+        "score": 48.48223522632022,
+        "instructions": [
+            "Rewrite the given complex sentence into a simpler version that preserves the original meaning, using clear and straightforward language. When simplifying, remove unnecessary technical details such as citations, parenthetical information, and unit conversions, while ensuring key terms and factual content remain accurate and unchanged.",
+            "Rewrite the given complex sentence into simpler sentence(s) that accurately preserve all original information, using clear and concise language with shorter sentence structures. Ensure that any details, relationships, or nuances are fully retained, and handle punctuation and conjunctions appropriately to maintain clarity.",
+            "Replace phrases in the sentence with widely recognized abbreviations or standard shortened forms to make the sentence more concise, ensuring the original meaning remains clear and unchanged."
+        ]
+    },
+    {
+        "score": 47.38274796811246,
+        "instructions": [
+            "Rewrite the sentence to improve readability and comprehension by using clear, straightforward language and simplifying complex sentence structures, while preserving the original meaning and maintaining grammatical correctness.",
+            "Rewrite the given text into one clear and concise sentence that conveys the main idea using simple, straightforward language; prioritize the core concept and remove any unnecessary details or redundant information.",
+            "Rewrite the given sentence to improve clarity and conciseness while preserving its original meaning and ensuring factual and grammatical accuracy."
+        ]
+    },
+    {
+        "score": 47.08268887210471,
+        "instructions": [
+            "Rewrite the given complex sentence to produce a clearer and more concise version by removing words or phrases that do not contribute essential meaning. Ensure that the simplified sentence preserves the original intent and nuance, maintains grammatical correctness, and retains important modifiers, conjunctions, and clarifying elements necessary for accurate understanding.",
+            "Rewrite the given sentence to make it easier to understand by using clear, natural language and simpler words or phrasing where appropriate, while preserving the original meaning, tone, and level of formality.",
+            "Rewrite the original sentence using simpler vocabulary and sentence structure while accurately preserving the original meaning, including any specialized terms or concepts."
+        ]
+    },
+    {
+        "score": 46.9309893644215,
+        "instructions": [
+            "Rewrite the sentence to make it easier to understand by using simpler and more common vocabulary, shorter or less complex sentence structures, and clear, straightforward phrasing, while maintaining the original meaning and nuance without adding, omitting, or altering key information.",
+            "Rewrite the sentence by identifying words that are uncommon or difficult to understand and substituting them with simpler, more widely recognized synonyms, while keeping the original meaning, sentence structure, punctuation, and style unchanged.",
+            "Rewrite the given sentence or phrase to improve clarity and readability by using simpler language and structure, without changing its original meaning. If the input includes introductory phrases or non-essential elements, you may remove or rephrase them to enhance overall understanding, ensuring the core content remains intact."
+        ]
+    },
+    {
+        "score": 45.81918044823086,
+        "instructions": [
+            "Remove any initial introductory phrase or header from the sentence, retaining the main content without altering its original meaning.",
+            "Rewrite the given sentence to improve clarity and readability by simplifying its structure, replacing complex or uncommon words with more familiar terms, and removing non-essential details such as specific dates or qualifying phrases, while preserving the main information and original meaning.",
+            "Rewrite the given sentence using clear and simple language while preserving the original meaning, ensuring that any idiomatic or culturally specific expressions are either accurately retained or replaced with equivalent phrases that maintain their intended sense."
+        ]
+    }
+]
+2025-11-30 21:54 - INFO - sorted_valid_scores = (50.56739570268959, 50.19899908481069, 50.11689540650659, 49.57493612446092, 48.42254414089542, 47.843570911273126, 47.826507519046196, 47.78954421222752, 47.06022606482708, 46.296450114337915)
+2025-11-30 21:54 - INFO - Instructions with their scores:
+
+[
+    {
+        "score": 50.56739570268959,
+        "instructions": [
+            "Rewrite one or more complex sentences by dividing them into multiple shorter sentences that retain the original meaning. Ensure each resulting sentence expresses a single clear idea, adjust punctuation as needed, and appropriately rephrase or reposition conjunctions and connectors to maintain coherence and readability.",
+            "Rewrite the sentence using clear and straightforward language while preserving its original meaning. Simplify vocabulary and sentence structure, and remove any non-essential details such as examples, clarifications, or parenthetical information to improve readability.",
+            "Simplify the given sentence by replacing complex, uncommon, or difficult words and expressions—including idiomatic phrases—with simpler, more familiar alternatives, while preserving the original meaning and keeping the sentence structure intact."
+        ]
+    },
+    {
+        "score": 50.19899908481069,
+        "instructions": [
+            "Rewrite the given complex sentence into one or more simpler sentences that preserve the original meaning using clear and straightforward language. When appropriate, separate distinct concepts or ideas to enhance readability. If compound names or combined elements are unclear or overly detailed, you may clarify or simplify them while maintaining the core information. Minor omissions or rephrasings are allowed only if they do not change the original meaning.",
+            "Rewrite the complex sentence into a simpler version by using common vocabulary, shorter phrases, and a clearer sentence structure while preserving the original meaning. Use numerals consistently to represent numbers. When appropriate, replace less familiar or specialized terms with easier-to-understand alternatives. Additionally, consider revising sentence voice and grammatical constructions to enhance clarity, such as changing passive voice to active voice when it improves readability.",
+            "Rewrite the given sentence using simpler vocabulary and sentence structure while preserving all essential information and the original meaning. Maintain accuracy by retaining important factual details unless explicitly instructed otherwise."
+        ]
+    },
+    {
+        "score": 50.11689540650659,
+        "instructions": [
+            "Rewrite the sentence to improve clarity and ease of understanding while preserving its original meaning. Use simpler vocabulary and sentence structures, and you may adjust the sentence voice (active or passive) if it contributes to making the sentence clearer and more accessible.",
+            "Rewrite the given complex sentence into one or more clear and concise sentences by breaking down the information while preserving all original details, including numerical and factual accuracy. Maintain the original meaning without adding, omitting, or altering any information.",
+            "Rewrite the given sentence using simpler vocabulary while preserving all original proper nouns and key terms, ensuring that the meaning remains accurate and contextually appropriate without altering historical, factual, or sensitive information."
+        ]
+    },
+    {
+        "score": 49.57493612446092,
+        "instructions": [
+            "Rewrite the given sentence to use simpler and clearer language while preserving its original meaning. When simplifying, clarify or rephrase complex expressions, including parenthetical information, compound adjectives, and descriptive phrases such as colors or materials, ensuring the sentence remains accurate and natural without introducing new ideas or altering the intended message.",
+            "Rewrite the given complex sentence into two or more simpler sentences that maintain the original meaning and logical relationships. Ensure that verb tenses remain consistent and that pronoun references or other expressions clearly and accurately reflect their antecedents to avoid ambiguity. Use clear and straightforward language to improve readability without altering the intended message.",
+            "Rewrite the sentence using simpler, more common words to improve clarity while retaining the original meaning. Minor adjustments to wording and structure are allowed when they help make the sentence easier to understand, but do not add, omit, or change the sentence’s core message."
+        ]
+    },
+    {
+        "score": 48.42254414089542,
+        "instructions": [
+            "Rewrite the given sentence using clear and straightforward language and sentence structure while preserving its core meaning and important details. Simplify vocabulary and grammar without omitting essential information or altering the original intent.",
+            "Rewrite the given sentence to improve clarity and readability by simplifying complex phrasing and clearly expressing relationships, while accurately preserving the original meaning, technical details, and numerical information.",
+            "Transform the given complex sentence into a clearer and more accessible version by using simpler vocabulary and phrasing, adjusting sentence structure as needed (such as splitting or reordering) to enhance readability, while fully preserving the original meaning and any key examples or analogies."
+        ]
+    },
+    {
+        "score": 47.843570911273126,
+        "instructions": [
+            "Rewrite the given sentence to improve clarity and readability by using plain language, concise phrasing, and a simplified sentence structure, while preserving the original meaning and essential information. Minor content adjustments—such as removing speculative expressions or non-essential details—are allowed only if they enhance clarity without altering the factual content.",
+            "Simplify the given sentence—whether complex or compound—by rewriting it to use clearer, more straightforward language while preserving the original meaning and all key details. You may adjust sentence structure, vocabulary, and phrasing as needed, but do not omit or alter any essential information or implied references.",
+            "Rewrite the given complex or compound sentence(s) into a clearer and more concise version that conveys the main information in straightforward, easy-to-understand language. Simplify or remove unnecessary technical details, references, parenthetical elements, and units to improve readability, while preserving the original meaning and essential data. Paraphrase as needed for clarity without adding or altering the intended information."
+        ]
+    },
+    {
+        "score": 47.826507519046196,
+        "instructions": [
+            "Rewrite the given sentence to improve clarity and readability by simplifying complex phrasing, restructuring comparative or relational expressions, and explicitly conveying numerical or quantitative information as needed, while preserving the original meaning.",
+            "Rewrite the sentence by replacing complex or uncommon words with simpler, more commonly used alternatives, ensuring that the original meaning and nuance are accurately preserved.",
+            "Remove any unnecessary introductory or irrelevant segments from the given sentence or text, such as headers or labels, to produce a clearer and more focused version without changing the original meaning."
+        ]
+    },
+    {
+        "score": 47.78954421222752,
+        "instructions": [
+            "Rewrite the given sentence to convey the same meaning using clearer, more straightforward language by simplifying sentence structure—such as shortening clauses, favoring active voice when appropriate, and organizing information logically—while preserving all essential details and the original temporal or logical relationships.",
+            "Rewrite the sentence to improve clarity and directness by using active voice, clearly identifying the subject performing the actions, and replacing vague or abstract expressions with specific and concrete language where appropriate.",
+            "Rewrite the sentence to use clear, straightforward language and simpler sentence structures while preserving the original meaning. Maintain any metaphors, analogies, or idiomatic expressions in a way that remains understandable. Ensure the rewritten sentence is grammatically correct, coherent, and easy to read using common, everyday words."
+        ]
+    },
+    {
+        "score": 47.06022606482708,
+        "instructions": [
+            "Rewrite the sentence to improve clarity and readability by using straightforward language and clear sentence structure, while preserving the original meaning and ensuring grammatical correctness.",
+            "Rewrite the sentence to make it easier to understand by replacing complex or uncommon words and phrases with simpler, more widely used alternatives while preserving the original meaning. You may rephrase parts of the sentence as needed, but avoid changing the overall message or introducing new information.",
+            "Simplify and clarify the given sentence by using straightforward language and restructuring as needed, while preserving the original meaning. Remove any irrelevant details or examples that do not directly contribute to the main idea to ensure the resulting sentence is clear and concise."
+        ]
+    },
+    {
+        "score": 46.296450114337915,
+        "instructions": [
+            "Rewrite the given sentence to improve clarity by simplifying vocabulary, shortening phrases, and, when appropriate, omitting non-essential details, while ensuring that the core meaning and main message remain accurate and intact.",
+            "Rewrite the sentence by replacing one or more longer proper nouns with their widely recognized abbreviations or acronyms, ensuring that the resulting sentence remains clear and preserves the original meaning.",
+            "Rewrite the given sentence or passage to improve clarity and readability by using more common vocabulary and straightforward sentence structures, while preserving the original meaning, key details, and any important formatting such as punctuation or references. Simplify or rephrase complex, redundant, or awkward phrases as needed without changing the informational content."
+        ]
+    }
+]
+2025-11-30 22:03 - INFO - sorted_valid_scores = (50.38349625798677, 50.24526313360705, 49.4344816464507, 49.2286463723662, 48.45490120126012, 48.258421073464625, 48.1568744780615, 47.19170479928122, 46.91382985179627, 46.51381643739213)
+2025-11-30 22:03 - INFO - Instructions with their scores:
+
+[
+    {
+        "score": 50.38349625798677,
+        "instructions": [
+            "Rewrite the given sentence into a simpler form by using clear and commonly understood vocabulary and straightforward sentence structures, while accurately preserving the original meaning, tense, modality, and grammatical correctness. Ensure the resulting sentence is fluent and natural without omitting any essential information.",
+            "Rewrite the given complex sentence into one or more simple sentences that clearly and accurately convey the same information using clear and straightforward language. Ensure all original details, including quantitative and qualitative information, are fully preserved without distortion or omission.",
+            "Rewrite the given sentence to improve its clarity and readability while preserving the original meaning, using techniques such as restructuring or simplifying phrasing as needed."
+        ]
+    },
+    {
+        "score": 50.24526313360705,
+        "instructions": [
+            "Simplify the given complex sentence by using clearer vocabulary and sentence structures while maintaining the original meaning, grammatical correctness, and natural fluency. Ensure that verb tenses, modal verbs, and agreement remain consistent throughout the transformation.",
+            "Rewrite the given complex sentence into one or more clear and grammatically correct sentences that preserve the original meaning. Simplify the sentence structure by separating distinct ideas or details into individual statements without omitting important information or causing unnecessary fragmentation.",
+            "Rewrite the given complex sentence into a simpler sentence that uses clear and straightforward language while preserving the original meaning and key information without adding, omitting, or altering factual details."
+        ]
+    },
+    {
+        "score": 49.4344816464507,
+        "instructions": [
+            "Rewrite the given complex sentence into one or more simpler sentences that preserve the original meaning, maintaining all factual and numerical details accurately, and using clear, straightforward language without altering or omitting any important information.",
+            "Simplify the given complex sentence by rewriting it using clear, straightforward language while preserving the original meaning and important details, including proper nouns and key identifiers. When appropriate and consistent within the context, replace written numbers with digits. Ensure that pronouns and possessive forms are adjusted carefully to maintain accuracy and clarity without altering the intended reference or ownership.",
+            "Rewrite the given sentence or passage to make it easier to understand by using clear, straightforward language and simpler sentence structures. Ensure all original information, subjects, and meanings are fully preserved. You may split or condense sentences as needed to improve clarity without adding, omitting, or altering the intended message."
+        ]
+    },
+    {
+        "score": 49.2286463723662,
+        "instructions": [
+            "Rewrite the given sentence to express the same main idea in a clearer and more concise form, simplifying complex structures while retaining essential meaning and relevant information. When simplifying, consider removing or rephrasing subordinate clauses, technical terms, or citations only if they are not critical to the core message.",
+            "Rewrite the given sentence to improve clarity and readability by using straightforward vocabulary and structure while preserving the original meaning. Ensure that all factual information, proper nouns, and geographical names are accurate and correctly presented. Avoid introducing grammatical errors, factual inaccuracies, or changes that alter the intended meaning.",
+            "Simplify complex or lengthy sentences by dividing them into shorter, clearer sentences that preserve the original meaning and context. Adjust punctuation and conjunctions as needed to ensure clarity and coherence, while maintaining the overall tone and style of the original text. Use clear and direct language to make relationships between ideas easy to understand without altering the intended message."
+        ]
+    },
+    {
+        "score": 48.45490120126012,
+        "instructions": [
+            "Rewrite the given complex sentence into a clearer and more accessible version by using simpler vocabulary and sentence structures, including rephrasing or reorganizing content as needed, while preserving the original meaning. Clarify any technical terms or numerical information when appropriate, without adding new information or changing the sentence’s intent.",
+            "Rewrite the given sentence to make it clearer and easier to understand by using simpler vocabulary and sentence structures, while maintaining grammatical accuracy, natural phrasing, and preserving the original meaning precisely.",
+            "Rewrite the given complex sentence into a simpler sentence using clear and straightforward vocabulary and sentence structure, while maintaining the original meaning exactly. Ensure that the simplified sentence does not alter key entities, introduce ambiguity, or change the intended message in any way."
+        ]
+    },
+    {
+        "score": 48.258421073464625,
+        "instructions": [
+            "Rewrite the given sentence to improve clarity by explicitly stating important relationships such as causal, comparative, or numeric connections, and simplify sentence structure through clear phrasing and logical organization, while preserving the original meaning and details.",
+            "Rewrite the given sentence to improve clarity and accessibility by replacing complex vocabulary with more common words and simplifying sentence structures, while preserving all original meanings, details, and nuances without adding or omitting information.",
+            "Rewrite the sentence by replacing names of organizations, divisions, or other multi-word proper nouns with their standard or widely recognized abbreviations or shortened forms, maintaining correct grammatical structures such as possessives."
+        ]
+    },
+    {
+        "score": 48.1568744780615,
+        "instructions": [
+            "Rewrite the given sentence or phrase to present its meaning more clearly and simply by using straightforward language, selecting relevant terms when multiple synonyms or examples are provided, reorganizing components if needed for clarity, and removing redundancy without altering the original meaning.",
+            "Rewrite the given complex sentence into a simpler, clearer version that retains the original meaning. Use straightforward language, remove unnecessary introductory or temporal phrases when appropriate, and restate numerical information plainly without altering its value.",
+            "Rewrite the given sentence to improve its clarity and readability while preserving the original meaning and all key details. Use simpler vocabulary and sentence structures where appropriate, ensuring that important nuances, distinctions (such as singular vs. plural forms), and technical accuracy are maintained throughout."
+        ]
+    },
+    {
+        "score": 47.19170479928122,
+        "instructions": [
+            "Rewrite the given sentence to improve clarity and readability by simplifying vocabulary, correcting punctuation, and enhancing sentence flow, while preserving the original meaning.",
+            "Rewrite the sentence to improve clarity and readability by using simpler, more common words and phrases, restructuring sentences as needed for easier understanding, and replacing less familiar terms with clearer alternatives, while preserving the original meaning. When appropriate, adjust grammatical voice or phrasing to enhance flow without altering the content. Maintain consistency in handling numeric expressions and proper nouns according to the context.",
+            "Rewrite the given complex sentence into a simpler version by using clearer and more straightforward language, simplifying sentence structure and verb forms as needed, while ensuring that all essential information and key details are accurately retained."
+        ]
+    },
+    {
+        "score": 46.91382985179627,
+        "instructions": [
+            "Rewrite the sentence by replacing complex, uncommon, or idiomatic expressions with simpler, more widely understood words or phrases, while preserving the original meaning and maintaining the sentence’s grammatical structure and word order as closely as possible.",
+            "Rewrite the given sentence to use simpler vocabulary and clearer sentence structure while maintaining the original meaning, allowing for paraphrasing that may include condensing or omitting non-essential details to improve clarity and conciseness without adding or altering factual information.",
+            "Rewrite the given sentence to improve clarity and accessibility by using simpler vocabulary and clearer sentence structure, while maintaining the original meaning, tone, and level of detail without introducing new information or altering the intended emphasis."
+        ]
+    },
+    {
+        "score": 46.51381643739213,
+        "instructions": [
+            "Rewrite the sentence using clear, simple language and a concise structure, removing or condensing non-essential details as needed, while ensuring the main idea and key information are preserved.",
+            "Rewrite the given sentence or passage to convey the original meaning more clearly and concisely by simplifying complex structures, removing extraneous information, and restructuring as needed, while preserving all essential details without adding or altering the content.",
+            "Rewrite the given complex sentence into a clear and concise version that preserves the essential information, using simpler language and shorter sentences. Remove or generalize overly technical details, specific references, and complex numerical data when they do not affect the main message."
+        ]
+    }
+]
+2025-11-30 22:10 - INFO - sorted_valid_scores = (50.4601982733787, 50.216943843957985, 50.16292642561575, 49.954188289886474, 49.87125552751714, 49.39894098272288, 49.26570227218278, 48.11770316616869, 47.82230840150033, 46.86202991711638)
+2025-11-30 22:10 - INFO - Instructions with their scores:
+
+[
+    {
+        "score": 50.4601982733787,
+        "instructions": [
+            "Rewrite the given complex sentence into multiple clear and concise sentences that preserve all original information, including qualifiers, modifiers, and grouped entities. Ensure that each simplified sentence conveys a distinct piece of information without omitting or altering semantic details, and carefully separate combined or compound elements while maintaining the original meaning.",
+            "Rewrite the given sentence using simpler vocabulary and sentence structures while accurately preserving the original meaning, key details, and any important technical or specific terms. Avoid introducing new information or altering the sentence’s intent, and ensure that the rewritten version remains clear and precise.",
+            "Rewrite the given sentence using simpler vocabulary and sentence structure while maintaining the original meaning, key details, and nuance. Ensure the language is clear and accessible without altering the intended message."
+        ]
+    },
+    {
+        "score": 50.216943843957985,
+        "instructions": [
+            "Rewrite the given complex sentence into one or more clear and concise sentences that preserve the original meaning and key information without adding, omitting, or altering the essential content.",
+            "Rewrite the sentence to use simpler vocabulary and sentence structure while maintaining the original meaning. Replace complex words and phrases with easier alternatives, adjust pronouns and possessives as needed for clarity and naturalness, and rephrase passive or complex constructions using straightforward expressions. Convert number words to digits only when it improves readability and consistency within the context.",
+            "Rewrite the given sentence to improve clarity and readability while preserving its original meaning and technical accuracy. Use straightforward language and clear sentence structure, ensuring that any numerical values, measurements, and comparative expressions are represented precisely and unambiguously."
+        ]
+    },
+    {
+        "score": 50.16292642561575,
+        "instructions": [
+            "Simplify the given complex sentence by rewriting it into one or more clearer, more concise sentences that convey the same essential information. Use straightforward language and structure by removing unnecessary details such as parentheticals or redundant phrases, while retaining important quantitative data, units, and references unless they are irrelevant to the main meaning. Ensure that key facts and meanings are preserved without adding or altering information.",
+            "Rewrite the given complex sentence into one or more simpler sentences by breaking down the information into clear, concise statements. Ensure the simplified version is easy to understand while accurately preserving all original details, including numerical data and any distinctions in meaning. Verify that no key information is omitted or altered in the process.",
+            "Rewrite the given complex sentence by simplifying its language and structure. Use more common, easily understood words and phrases, and reorganize the sentence as needed to improve clarity and readability, while preserving the original meaning without adding or omitting information."
+        ]
+    },
+    {
+        "score": 49.954188289886474,
+        "instructions": [
+            "Rewrite the given complex sentence into a simpler and clearer form while accurately preserving the original meaning, including all key entities and relationships, without introducing any new information or altering the sentence’s intent.",
+            "Simplify the given complex sentence into one or more clear and concise sentences while preserving all original information and ensuring that any numerical or factual details remain accurate and unchanged.",
+            "Rewrite the given sentence to improve its overall clarity and readability by simplifying vocabulary, using more common words, and applying clear and natural phrasing, including appropriate use of conjunctions and punctuation."
+        ]
+    },
+    {
+        "score": 49.87125552751714,
+        "instructions": [
+            "Rewrite the given complex sentence into a simpler and clearer form that preserves the core meaning and factual accuracy. When simplifying, you may summarize or omit less critical details as needed, but avoid introducing new information or altering the essential facts conveyed by the original sentence.",
+            "Rewrite the sentence using simpler vocabulary and sentence structure while preserving all essential information and the original meaning. Ensure that any temporal phrases, technical terms, or specific details are retained or clearly rephrased to maintain accuracy and clarity.",
+            "Rewrite the sentence to improve clarity by transforming verbal or non-finite phrases (such as gerunds) into complete, straightforward finite sentences."
+        ]
+    },
+    {
+        "score": 49.39894098272288,
+        "instructions": [
+            "Rewrite the given sentence using clear, everyday language to make it easier to understand, while preserving all original facts and maintaining the intended meaning.",
+            "Simplify the given complex sentence by using clear and accessible vocabulary and a more concise structure, while maintaining the core meaning and essential information.",
+            "Rewrite the given complex sentence into one or more simpler sentences that use clear and straightforward language while accurately preserving all original facts, including numerical details. When simplifying, maintain the exact meaning without omitting or altering key information, and ensure that any conjunctions or multiple events are clearly and correctly represented. After rewriting, verify that all factual and quantitative details remain consistent with the original sentence."
+        ]
+    },
+    {
+        "score": 49.26570227218278,
+        "instructions": [
+            "Rewrite the given complex sentence into one or more simpler sentences by dividing it at appropriate conjunctions or breaks, restructuring as needed to preserve the original meaning, and using clear and precise language without altering the intended information.",
+            "Rewrite the given sentence or sentences to improve clarity and readability by simplifying complex structures, which may include splitting long sentences, reordering information, or breaking down detailed or compound expressions—such as grouped or slash-separated terms—while preserving the original meaning and maintaining any necessary grouping of related information.",
+            "Rewrite the given complex sentence into a simpler version by using more common vocabulary and clearer sentence structure, while preserving the original meaning and maintaining a similar tone and formality."
+        ]
+    },
+    {
+        "score": 48.11770316616869,
+        "instructions": [
+            "Rewrite the sentence to make it easier to understand by using simpler vocabulary and sentence structure, while preserving the original meaning, including any idiomatic expressions or nuances, and avoiding changes that alter the intended message.",
+            "Rewrite the sentence using clear and straightforward language and sentence structure while preserving the original meaning, maintaining grammatical correctness, and keeping the tone and formality consistent. Avoid adding, omitting, or altering information beyond simplifying phrasing and syntax.",
+            "Rewrite the given complex sentence into a clearer and more concise form while preserving the original meaning, key information, and overall sentence structure, including voice and the placement of temporal and locational phrases."
+        ]
+    },
+    {
+        "score": 47.82230840150033,
+        "instructions": [
+            "Rewrite the given sentence to improve clarity by using simpler, more common words and clearer sentence structure, including appropriate use of conjunctions, while preserving the original meaning.",
+            "Rewrite the given sentence by using simpler and clearer language, reducing unnecessary or overly detailed information, while ensuring that the core meaning and essential message remain intact.",
+            "Rewrite the given sentence or sentences to convey the same meaning and information using clearer, simpler language and sentence structures. Preserve the original intent, style, and emphasis as much as possible, and ensure that any parenthetical or additional information is appropriately integrated or retained without altering its meaning."
+        ]
+    },
+    {
+        "score": 46.86202991711638,
+        "instructions": [
+            "Rewrite the sentence to use clear and accessible language by simplifying vocabulary, phrasing, and any idiomatic expressions, while preserving the original meaning, tone, and context.",
+            "Rewrite the given sentence to use simpler vocabulary and sentence structures while preserving its main ideas. When simplifying, selectively omit or condense detailed descriptive elements as needed to maintain clarity and focus on the essential information without adding or changing the original meaning. Ensure the resulting sentence is concise and clear, with an appropriate level of simplification for general understanding.",
+            "Rewrite the given sentence by replacing complex or uncommon words and phrases with simpler, more commonly used alternatives while preserving the original meaning. You may also rephrase the sentence to improve clarity and ease of understanding without changing its intent."
+        ]
+    }
+]
+2025-11-30 23:21 - INFO - sorted_valid_scores = (50.745854027275165, 50.05754426840385, 49.66192453667876, 48.99968796429181, 48.921943388629984, 48.61261364236149, 48.36862087807896, 47.379047036350606, 47.26866644958299, 46.6054166290726)
+2025-11-30 23:21 - INFO - Instructions with their scores:
+
+[
+    {
+        "score": 50.745854027275165,
+        "instructions": [
+            "Rewrite the given complex sentence into a simpler version that conveys the same information clearly and concisely, using easier vocabulary and sentence structure.",
+            "Rewrite the complex sentence into two simpler sentences that preserve the original meaning. Separate distinct pieces of information so that each sentence expresses a single idea clearly and straightforwardly.",
+            "Rewrite the given complex sentence into one or more simpler sentences that convey the same key information clearly and concisely. Focus on breaking down compound information and using straightforward language while preserving all important details."
+        ]
+    },
+    {
+        "score": 50.05754426840385,
+        "instructions": [
+            "Rewrite the given sentence using simpler vocabulary and structure while preserving the original meaning.",
+            "Rewrite the given complex sentence by breaking it into two simpler sentences that clearly separate the ideas, making the information easier to understand.",
+            "Rewrite the given complex sentence into a simpler form while preserving the original meaning and important details. Use clearer and more straightforward language, maintaining grammatical correctness."
+        ]
+    },
+    {
+        "score": 49.66192453667876,
+        "instructions": [
+            "Rewrite the given sentence to make it easier to understand by using simpler vocabulary and clearer structure, while preserving the original meaning.",
+            "Rewrite the given complex sentence by splitting it into two or more shorter, simpler sentences while preserving the original meaning.",
+            "Rephrase the given complex sentence into a simpler and clearer sentence while preserving the original meaning and any numerical information."
+        ]
+    },
+    {
+        "score": 48.99968796429181,
+        "instructions": [
+            "Rewrite the given complex sentence into a simpler form by removing unnecessary words or phrases while preserving the original meaning.",
+            "Rewrite the complex sentence into one or more simpler sentences that convey the original meaning clearly and use straightforward language. Ensure the simplified version breaks down complex structures while preserving all key information.",
+            "Rewrite the given text to create a clear and concise sentence that explains the meaning in simple terms."
+        ]
+    },
+    {
+        "score": 48.921943388629984,
+        "instructions": [
+            "Rewrite the given complex sentence into a simpler version by using easier vocabulary and clearer phrasing while preserving the original meaning.",
+            "Rewrite the given sentence to make it easier to understand by using simpler words and shorter sentences, while preserving the original meaning.",
+            "Rewrite the given complex sentence into two or more simpler sentences that preserve the original meaning. Use easier vocabulary and break down combined ideas to improve clarity and readability."
+        ]
+    },
+    {
+        "score": 48.61261364236149,
+        "instructions": [
+            "Rewrite the given sentence in a clearer and more straightforward way while retaining the original meaning.",
+            "Rewrite the given complex sentence into a simpler version that is easier to understand while preserving the original meaning. Use clear and straightforward language.",
+            "Rewrite the sentence using simpler vocabulary and structure while preserving the original meaning."
+        ]
+    },
+    {
+        "score": 48.36862087807896,
+        "instructions": [
+            "Rewrite the sentence using simpler or more common words while keeping the original meaning intact.",
+            "Rewrite the given complex sentence into one or more simpler sentences that preserve the original meaning while improving clarity and readability.",
+            "Rewrite the given complex sentence into a simpler version by using more common words and clearer phrasing, while preserving the original meaning."
+        ]
+    },
+    {
+        "score": 47.379047036350606,
+        "instructions": [
+            "Rewrite the sentence to make it easier to understand by using simpler words and shorter phrases, while preserving the original meaning. Replace specific numbers in words with numerals when appropriate.",
+            "Rewrite the given complex sentence into simpler sentences by breaking down the information into smaller, clearer statements while preserving the original meaning.",
+            "Rewrite the given sentence using simpler language while preserving the original meaning. Remove specific dates and detailed identifiers to make the sentence easier to understand."
+        ]
+    },
+    {
+        "score": 47.26866644958299,
+        "instructions": [
+            "Rewrite the given complex sentence into a simpler version by using easier vocabulary and structure while preserving the original meaning. Replace numerical words with digits where appropriate and substitute more complex expressions with straightforward phrases.",
+            "Rewrite the given complex sentence into a simpler version that conveys the same meaning using clearer and more straightforward language while preserving all key information.",
+            "Rewrite the sentence using simpler and clearer language while preserving the original meaning."
+        ]
+    },
+    {
+        "score": 46.6054166290726,
+        "instructions": [
+            "Rewrite the given complex sentence into a simpler form by using more common vocabulary and clearer phrasing, while preserving the original meaning.",
+            "Simplify the sentence by rephrasing it with clearer and more straightforward language while preserving the original meaning. Ensure the location details are presented in a more concise and familiar format.",
+            "Rewrite the given sentence to make it easier to understand by simplifying the structure and vocabulary while preserving the original meaning."
+        ]
+    }
+]
+2025-12-01 00:17 - INFO - sorted_valid_scores = (49.78002076225125, 49.04392217695005, 48.99052297923489, 48.746587329423676, 48.546209800618705, 48.25168770802739, 48.189120948970604, 47.59942775391881, 46.75685561639059, 46.73912963577042)
+2025-12-01 00:17 - INFO - Instructions with their scores:
+
+[
+    {
+        "score": 49.78002076225125,
+        "instructions": [
+            "Rewrite the given complex sentence into a simpler version that conveys the same meaning using clearer and more straightforward language.",
+            "Rewrite the given complex sentence into a simpler form that conveys the same meaning using clearer and more straightforward language.",
+            "Rewrite the given complex sentence into one or more simpler sentences that convey the same information clearly and concisely, breaking down compound ideas and using straightforward language."
+        ]
+    },
+    {
+        "score": 49.04392217695005,
+        "instructions": [
+            "Rewrite the sentence to make it easier to understand by using simpler language and shorter phrases, while keeping the original meaning.",
+            "Rewrite the given complex sentence into a simpler form by using more straightforward vocabulary and sentence structure while maintaining the original meaning.",
+            "Rewrite the given complex sentence into one or more simpler sentences that convey the same meaning clearly and concisely, breaking down complex structures and using straightforward language."
+        ]
+    },
+    {
+        "score": 48.99052297923489,
+        "instructions": [
+            "Rewrite the given complex sentence into a simpler form while preserving its original meaning and key information. Use more straightforward vocabulary and sentence structure to enhance clarity and ease of understanding.",
+            "Rewrite the sentence to make it easier to understand by replacing complex or formal phrases with simpler, more common language while preserving the original meaning.",
+            "Rewrite the given complex sentence into one or more simpler sentences that preserve the original meaning, using clearer and more straightforward language where possible."
+        ]
+    },
+    {
+        "score": 48.746587329423676,
+        "instructions": [
+            "Rewrite the given sentence in a clearer and easier-to-understand way, breaking down complex information into simpler, shorter sentences while preserving the original meaning.",
+            "Rewrite the sentence by replacing complex or less common words with simpler, more easily understood alternatives while preserving the original meaning.",
+            "Rewrite the given sentence in a simpler and clearer way while preserving the original meaning."
+        ]
+    },
+    {
+        "score": 48.546209800618705,
+        "instructions": [
+            "Rewrite the given sentence to make it easier to understand by simplifying its structure and wording while preserving the original meaning.",
+            "Rewrite the given complex sentence into a simpler and clearer version while preserving the original meaning and key details. Use straightforward language and shorter sentence structures to improve readability.",
+            "Rewrite the given sentence to make it easier to understand by using simpler words and clearer phrasing, while preserving the original meaning. Remove complex terminology and break down complicated structures."
+        ]
+    },
+    {
+        "score": 48.25168770802739,
+        "instructions": [
+            "Rewrite the given sentence to make it easier to understand by using simpler structure and clearer phrasing while preserving the original meaning.",
+            "Rewrite the given complex sentence into a simpler form by using clearer and more common vocabulary while preserving the original meaning. Ensure the simplified sentence remains easy to understand and retains all key information.",
+            "Rewrite the given complex sentence into a simpler version by using more straightforward vocabulary and structure, while preserving the original meaning."
+        ]
+    },
+    {
+        "score": 48.189120948970604,
+        "instructions": [
+            "Rewrite the complex sentence into a simpler version by using clearer and more straightforward language while preserving the original meaning.",
+            "Rewrite the given complex sentence into a simpler, clearer sentence that conveys the main information using straightforward language and shorter phrases.",
+            "Rewrite the given complex sentence into a simpler sentence that clearly explains the meaning in an easy-to-understand way."
+        ]
+    },
+    {
+        "score": 47.59942775391881,
+        "instructions": [
+            "Rewrite the given sentence using easier vocabulary and simpler sentence structure while keeping the original meaning intact.",
+            "Rewrite the given sentence using simpler vocabulary and sentence structure while preserving the original meaning.",
+            "Rewrite the sentence using simpler language and structure while preserving the main idea."
+        ]
+    },
+    {
+        "score": 46.75685561639059,
+        "instructions": [
+            "Rewrite the given sentence using simpler language and structure while retaining the main information.",
+            "Rewrite the given sentence so that it is easier to understand by using simpler vocabulary and structure while preserving the original meaning.",
+            "Rewrite the given sentence in a simpler and more easily understandable way while preserving the original meaning. Use everyday language and expressions to make the content accessible to a broader audience."
+        ]
+    },
+    {
+        "score": 46.73912963577042,
+        "instructions": [
+            "Rewrite the given complex sentence into a simpler version that uses easier vocabulary and clearer phrasing while preserving the original meaning.",
+            "Rewrite the given complex sentence into a simpler form by using more common vocabulary and structures, ensuring the original meaning is preserved and the sentence is easier to understand.",
+            "Rewrite the given complex sentence into a simpler version by preserving the main information while using clearer and more straightforward language. Avoid unnecessary details and ensure the sentence is easy to understand."
+        ]
+    }
+]
+2025-12-01 00:31 - INFO - sorted_valid_scores = (50.69935014037753, 50.354931923741844, 50.35456782703201, 49.496488837046165, 49.191743058620204, 49.03128869474008, 47.560874239743136, 47.29136925581752, 46.403664913824514, 43.05728765912274)
+2025-12-01 00:31 - INFO - Instructions with their scores:
+
+[
+    {
+        "score": 50.69935014037753,
+        "instructions": [
+            "Rewrite the given complex sentence into one or more simpler sentences that preserve the original meaning but use clearer and more straightforward language. Ensure that information is broken down into shorter statements to enhance readability.",
+            "Rewrite the given complex sentence into a simpler sentence that conveys the same meaning using clearer and more straightforward language.",
+            "Rewrite the given sentence using simpler vocabulary and sentence structure while preserving the original meaning. Ensure the sentence is clear and easy to understand."
+        ]
+    },
+    {
+        "score": 50.354931923741844,
+        "instructions": [
+            "Rewrite the given complex sentence into one or more simpler sentences that convey the same information clearly and separately.",
+            "Rewrite the sentence to make it clearer and easier to understand by using a more direct and complete statement.",
+            "Rewrite the given sentence to make it easier to understand by using simpler words and clearer descriptions, while preserving the original meaning."
+        ]
+    },
+    {
+        "score": 50.35456782703201,
+        "instructions": [
+            "Rewrite the given complex sentence into simpler, clearer sentences by breaking down the information into smaller parts while preserving the original meaning.",
+            "Rewrite the given sentence using simpler language and structure while preserving the main idea.",
+            "Rewrite the given complex sentence into a simpler form by using more common words and simpler sentence structures while preserving the original meaning."
+        ]
+    },
+    {
+        "score": 49.496488837046165,
+        "instructions": [
+            "Rewrite the sentence using simpler vocabulary and structure while keeping the original meaning intact.",
+            "Rewrite the sentence using simpler or more common words without changing its meaning.",
+            "Rewrite the given complex sentence as two or more shorter, simpler sentences that convey the same information clearly and separately."
+        ]
+    },
+    {
+        "score": 49.191743058620204,
+        "instructions": [
+            "Rewrite the given complex sentence into a simpler and clearer form while preserving its original meaning.",
+            "Rewrite the sentence using simpler or more common words while keeping the original meaning intact.",
+            "Rewrite the given complex sentence into one or more simpler sentences that preserve the original meaning and improve clarity by breaking down complex structures and using more straightforward language."
+        ]
+    },
+    {
+        "score": 49.03128869474008,
+        "instructions": [
+            "Rewrite the given complex sentence into a simpler version that conveys the same main information clearly and concisely.",
+            "Rewrite the given sentence using simpler and more common words while preserving the original meaning.",
+            "Rewrite the given complex sentence into one or more simpler sentences that preserve the original meaning while using clearer and more straightforward language."
+        ]
+    },
+    {
+        "score": 47.560874239743136,
+        "instructions": [
+            "Rewrite the sentence using simpler vocabulary and structure while preserving the original meaning.",
+            "Rewrite the given sentence to make it easier to understand while preserving the original meaning.",
+            "Rewrite the given complex sentence into a simpler form by breaking down or rephrasing information for easier understanding, while preserving the original meaning."
+        ]
+    },
+    {
+        "score": 47.29136925581752,
+        "instructions": [
+            "Rewrite the given sentence using simpler words and structure while preserving the original meaning.",
+            "Rewrite the given complex sentence into a simpler form by breaking down intricate phrases, using more common vocabulary, and clarifying the meaning while retaining the original information.",
+            "Simplify the given complex sentence into a clear and concise sentence that conveys the same main idea using simpler vocabulary and sentence structure."
+        ]
+    },
+    {
+        "score": 46.403664913824514,
+        "instructions": [
+            "Rewrite the given sentence in a simpler and more concise way while preserving the main idea.",
+            "Rewrite the given sentence using easier vocabulary while preserving the original meaning.",
+            "Rewrite the given complex sentence into a simpler version that preserves the original meaning while using more common vocabulary and clearer, more straightforward sentence structure."
+        ]
+    },
+    {
+        "score": 43.05728765912274,
+        "instructions": [
+            "Rewrite the given complex sentence by splitting it into two clear and concise sentences, ensuring that each sentence conveys a distinct idea while maintaining the original meaning.",
+            "Rewrite the given complex sentence into a simpler version by making the structure clearer and removing any unnecessary words, while preserving the original meaning.",
+            "Rewrite the given complex sentence into a simpler version by using more common words and clearer phrasing while preserving the original meaning."
+        ]
+    }
+]

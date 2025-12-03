@@ -1,0 +1,374 @@
+[
+    {
+        "config": {
+            "main": {
+                "use_llm_proxy": false,
+                "task_name": "text_simplification",
+                "task_description": "Text Simplification",
+                "few_shot_num_examples": 3,
+                "sample_num_train": 50,
+                "sample_num_valid": 50,
+                "sample_num_test": 50,
+                "save_prompt_builder_zero_shot": true,
+                "save_prompt_builder_few_shot": true,
+                "save_prompt_builder_instruction_induction": true,
+                "save_prompt_builder_mixed": false,
+                "save_prompt_builder_instruction_optimization": true
+            },
+            "prompt_builder_instruction_optimization": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+                "generic_descendants": 4,
+                "selection_pressure": 5,
+                "beam_size": 4,
+                "num_optimization_iterations": 1,
+                "rephrase_random_instructions_num_samples": 3,
+                "rephrase_random_instructions_scale_factor": 2,
+                "generate_permuted_instructions_scale_factor": 1,
+                "improve_by_feedback_scale_factor": 1,
+                "train_batch_size": 4,
+                "max_instructions_num": 15,
+                "instructions_feedback_num_trials": 3
+            },
+            "backend_llm": {
+                "model_name": "gpt-4.1-mini",
+                "temperature": 0.0,
+                "max_output_tokens": 256,
+                "num_threads": 30,
+                "top_p": 0.1
+            },
+            "prompt_builder_llm": {
+                "model_name": "gpt-4.1-mini",
+                "temperature": 1.0,
+                "max_output_tokens": 4096,
+                "num_threads": 30,
+                "top_p": 1.0
+            },
+            "prompt_builder_zero_shot": {
+                "prompt_header": "Rewrite to make this easier to understand: <input_text>",
+                "prompt_footer": "\nANSWER:"
+            },
+            "prompt_builder_few_shot": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+                "random_search_num_trials": 10
+            },
+            "prompt_builder_instruction_induction": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+                "random_search_num_trials": 10
+            },
+            "prompt_builder_mixed": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:"
+            },
+            "args": {
+                "config": "text_simplification/config_text_simplification.yaml",
+                "output_path": "/home/chuongdz/Desktop/school/apio/text_simplification/generated_prompts"
+            }
+        },
+        "PROMPT_TEMPLATE": "* Rewrite the given complex sentence into a simpler version that conveys the same meaning using clearer and more straightforward language.\n* Rewrite the given complex sentence into a simpler form that conveys the same meaning using clearer and more straightforward language.\n* Rewrite the given complex sentence into one or more simpler sentences that convey the same information clearly and concisely, breaking down compound ideas and using straightforward language.\nComplex sentence: <input_text>\nSimple sentence:",
+        "few_shot_input_examples": [
+            "With its completion in 1992, uninterrupted water transport was made possible between the North Sea and the Black Sea.",
+            "Ban became actively involved in issues relating to inter-Korean relationships.",
+            "The tornado destroyed 20 homes, left 30 others severely damaged, injured one person, and caused power outages for about 300 people."
+        ],
+        "few_shot_output_examples": [
+            "Since being completed in 1992, water has been able to be transported between the North and Black Sea.",
+            "There were bans in issues that has to do with inter-Korean relationships.",
+            "The tornado injured one person, destroyed 20 homes and left 20 partially destroyed. It caused power outages for about 300 people."
+        ],
+        "instructions": [
+            "Rewrite the given complex sentence into a simpler version that conveys the same meaning using clearer and more straightforward language.",
+            "Rewrite the given complex sentence into a simpler form that conveys the same meaning using clearer and more straightforward language.",
+            "Rewrite the given complex sentence into one or more simpler sentences that convey the same information clearly and concisely, breaking down compound ideas and using straightforward language."
+        ]
+    },
+    {
+        "config": {
+            "main": {
+                "use_llm_proxy": false,
+                "task_name": "text_simplification",
+                "task_description": "Text Simplification",
+                "few_shot_num_examples": 3,
+                "sample_num_train": 50,
+                "sample_num_valid": 50,
+                "sample_num_test": 50,
+                "save_prompt_builder_zero_shot": true,
+                "save_prompt_builder_few_shot": true,
+                "save_prompt_builder_instruction_induction": true,
+                "save_prompt_builder_mixed": false,
+                "save_prompt_builder_instruction_optimization": true
+            },
+            "prompt_builder_instruction_optimization": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+                "generic_descendants": 4,
+                "selection_pressure": 5,
+                "beam_size": 4,
+                "num_optimization_iterations": 1,
+                "rephrase_random_instructions_num_samples": 3,
+                "rephrase_random_instructions_scale_factor": 2,
+                "generate_permuted_instructions_scale_factor": 1,
+                "improve_by_feedback_scale_factor": 1,
+                "train_batch_size": 4,
+                "max_instructions_num": 15,
+                "instructions_feedback_num_trials": 3
+            },
+            "backend_llm": {
+                "model_name": "gpt-4.1-mini",
+                "temperature": 0.0,
+                "max_output_tokens": 256,
+                "num_threads": 30,
+                "top_p": 0.1
+            },
+            "prompt_builder_llm": {
+                "model_name": "gpt-4.1-mini",
+                "temperature": 1.0,
+                "max_output_tokens": 4096,
+                "num_threads": 30,
+                "top_p": 1.0
+            },
+            "prompt_builder_zero_shot": {
+                "prompt_header": "Rewrite to make this easier to understand: <input_text>",
+                "prompt_footer": "\nANSWER:"
+            },
+            "prompt_builder_few_shot": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+                "random_search_num_trials": 10
+            },
+            "prompt_builder_instruction_induction": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+                "random_search_num_trials": 10
+            },
+            "prompt_builder_mixed": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:"
+            },
+            "args": {
+                "config": "text_simplification/config_text_simplification.yaml",
+                "output_path": "/home/chuongdz/Desktop/school/apio/text_simplification/generated_prompts"
+            }
+        },
+        "PROMPT_TEMPLATE": "* Rewrite the sentence to make it easier to understand by using simpler language and shorter phrases, while keeping the original meaning.\n* Rewrite the given complex sentence into a simpler form by using more straightforward vocabulary and sentence structure while maintaining the original meaning.\n* Rewrite the given complex sentence into one or more simpler sentences that convey the same meaning clearly and concisely, breaking down complex structures and using straightforward language.\nComplex sentence: <input_text>\nSimple sentence:",
+        "few_shot_input_examples": [
+            "Description Anchovies are small green fish with blue reflections due to a silver longitudinal stripe that runs from the base of the caudal fin.",
+            "The hot metal straightener slid easily through the hair, causing less damage and dryness than previously-used techniques.",
+            "The subsequent campaigns were more or less successful, and the Imperial Exarchate was established in Ravenna to oversee Italy, though actually imperial influence was often limited."
+        ],
+        "few_shot_output_examples": [
+            "Anchovies are small green fish with a stripe on their tail fins.",
+            "The hot metal straightener do slide easily through the hair thereby causing less damage and dryness than former techniques.",
+            "The subsequent campaigns were more or less successful. The Imperial Exarchate was established in Ravenna to oversee Italy although it's influence was often limited."
+        ],
+        "instructions": [
+            "Rewrite the sentence to make it easier to understand by using simpler language and shorter phrases, while keeping the original meaning.",
+            "Rewrite the given complex sentence into a simpler form by using more straightforward vocabulary and sentence structure while maintaining the original meaning.",
+            "Rewrite the given complex sentence into one or more simpler sentences that convey the same meaning clearly and concisely, breaking down complex structures and using straightforward language."
+        ]
+    },
+    {
+        "config": {
+            "main": {
+                "use_llm_proxy": false,
+                "task_name": "text_simplification",
+                "task_description": "Text Simplification",
+                "few_shot_num_examples": 3,
+                "sample_num_train": 50,
+                "sample_num_valid": 50,
+                "sample_num_test": 50,
+                "save_prompt_builder_zero_shot": true,
+                "save_prompt_builder_few_shot": true,
+                "save_prompt_builder_instruction_induction": true,
+                "save_prompt_builder_mixed": false,
+                "save_prompt_builder_instruction_optimization": true
+            },
+            "prompt_builder_instruction_optimization": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+                "generic_descendants": 4,
+                "selection_pressure": 5,
+                "beam_size": 4,
+                "num_optimization_iterations": 1,
+                "rephrase_random_instructions_num_samples": 3,
+                "rephrase_random_instructions_scale_factor": 2,
+                "generate_permuted_instructions_scale_factor": 1,
+                "improve_by_feedback_scale_factor": 1,
+                "train_batch_size": 4,
+                "max_instructions_num": 15,
+                "instructions_feedback_num_trials": 3
+            },
+            "backend_llm": {
+                "model_name": "gpt-4.1-mini",
+                "temperature": 0.0,
+                "max_output_tokens": 256,
+                "num_threads": 30,
+                "top_p": 0.1
+            },
+            "prompt_builder_llm": {
+                "model_name": "gpt-4.1-mini",
+                "temperature": 1.0,
+                "max_output_tokens": 4096,
+                "num_threads": 30,
+                "top_p": 1.0
+            },
+            "prompt_builder_zero_shot": {
+                "prompt_header": "Rewrite to make this easier to understand: <input_text>",
+                "prompt_footer": "\nANSWER:"
+            },
+            "prompt_builder_few_shot": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+                "random_search_num_trials": 10
+            },
+            "prompt_builder_instruction_induction": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+                "random_search_num_trials": 10
+            },
+            "prompt_builder_mixed": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:"
+            },
+            "args": {
+                "config": "text_simplification/config_text_simplification.yaml",
+                "output_path": "/home/chuongdz/Desktop/school/apio/text_simplification/generated_prompts"
+            }
+        },
+        "PROMPT_TEMPLATE": "* Rewrite the given complex sentence into a simpler form while preserving its original meaning and key information. Use more straightforward vocabulary and sentence structure to enhance clarity and ease of understanding.\n* Rewrite the sentence to make it easier to understand by replacing complex or formal phrases with simpler, more common language while preserving the original meaning.\n* Rewrite the given complex sentence into one or more simpler sentences that preserve the original meaning, using clearer and more straightforward language where possible.\nComplex sentence: <input_text>\nSimple sentence:",
+        "few_shot_input_examples": [
+            "They claimed to be playing an April Fool's joke, but most people who saw the signs were unfamiliar with the phrase.",
+            "The WWF consisted of Stone Cold Steve Austin, Kurt Angle, Chris Jericho, Kane, and the Undertaker, who all squared off against the team of DDP, Booker T, Rhyno, and the Dudley Boys.",
+            "The subsequent campaigns were more or less successful, and the Imperial Exarchate was established in Ravenna to oversee Italy, though actually imperial influence was often limited."
+        ],
+        "few_shot_output_examples": [
+            "They claimed it was April Fool but most people who saw the signs were unfamiliar with the phrase.",
+            "The WWF consisted of Stone Cold Steve Austin, Kurt Angle, Chris Jericho, Kane, and the Undertaker, who all fought against the team of DDP, Booker T, Rhyno, and the Dudley Boys.",
+            "The subsequent campaigns were more or less successful. The Imperial Exarchate was established in Ravenna to oversee Italy although it's influence was often limited."
+        ],
+        "instructions": [
+            "Rewrite the given complex sentence into a simpler form while preserving its original meaning and key information. Use more straightforward vocabulary and sentence structure to enhance clarity and ease of understanding.",
+            "Rewrite the sentence to make it easier to understand by replacing complex or formal phrases with simpler, more common language while preserving the original meaning.",
+            "Rewrite the given complex sentence into one or more simpler sentences that preserve the original meaning, using clearer and more straightforward language where possible."
+        ]
+    },
+    {
+        "config": {
+            "main": {
+                "use_llm_proxy": false,
+                "task_name": "text_simplification",
+                "task_description": "Text Simplification",
+                "few_shot_num_examples": 3,
+                "sample_num_train": 50,
+                "sample_num_valid": 50,
+                "sample_num_test": 50,
+                "save_prompt_builder_zero_shot": true,
+                "save_prompt_builder_few_shot": true,
+                "save_prompt_builder_instruction_induction": true,
+                "save_prompt_builder_mixed": false,
+                "save_prompt_builder_instruction_optimization": true
+            },
+            "prompt_builder_instruction_optimization": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+                "generic_descendants": 4,
+                "selection_pressure": 5,
+                "beam_size": 4,
+                "num_optimization_iterations": 1,
+                "rephrase_random_instructions_num_samples": 3,
+                "rephrase_random_instructions_scale_factor": 2,
+                "generate_permuted_instructions_scale_factor": 1,
+                "improve_by_feedback_scale_factor": 1,
+                "train_batch_size": 4,
+                "max_instructions_num": 15,
+                "instructions_feedback_num_trials": 3
+            },
+            "backend_llm": {
+                "model_name": "gpt-4.1-mini",
+                "temperature": 0.0,
+                "max_output_tokens": 256,
+                "num_threads": 30,
+                "top_p": 0.1
+            },
+            "prompt_builder_llm": {
+                "model_name": "gpt-4.1-mini",
+                "temperature": 1.0,
+                "max_output_tokens": 4096,
+                "num_threads": 30,
+                "top_p": 1.0
+            },
+            "prompt_builder_zero_shot": {
+                "prompt_header": "Rewrite to make this easier to understand: <input_text>",
+                "prompt_footer": "\nANSWER:"
+            },
+            "prompt_builder_few_shot": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+                "random_search_num_trials": 10
+            },
+            "prompt_builder_instruction_induction": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+                "random_search_num_trials": 10
+            },
+            "prompt_builder_mixed": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:"
+            },
+            "args": {
+                "config": "text_simplification/config_text_simplification.yaml",
+                "output_path": "/home/chuongdz/Desktop/school/apio/text_simplification/generated_prompts"
+            }
+        },
+        "PROMPT_TEMPLATE": "* Rewrite the given sentence in a clearer and easier-to-understand way, breaking down complex information into simpler, shorter sentences while preserving the original meaning.\n* Rewrite the sentence by replacing complex or less common words with simpler, more easily understood alternatives while preserving the original meaning.\n* Rewrite the given sentence in a simpler and clearer way while preserving the original meaning.\nComplex sentence: <input_text>\nSimple sentence:",
+        "few_shot_input_examples": [
+            "The tornado destroyed 20 homes, left 30 others severely damaged, injured one person, and caused power outages for about 300 people.",
+            "The WWF consisted of Stone Cold Steve Austin, Kurt Angle, Chris Jericho, Kane, and the Undertaker, who all squared off against the team of DDP, Booker T, Rhyno, and the Dudley Boys.",
+            "The moon is very elongated, with its short axis 0.5 \u00b1 0.1 times the long axis."
+        ],
+        "few_shot_output_examples": [
+            "The tornado injured one person, destroyed 20 homes and left 20 partially destroyed. It caused power outages for about 300 people.",
+            "The WWF consisted of Stone Cold Steve Austin, Kurt Angle, Chris Jericho, Kane, and the Undertaker, who all fought against the team of DDP, Booker T, Rhyno, and the Dudley Boys.",
+            "The moon is very elongated as its short axis is 0.5 \u00b1 0.1 times longer than the long axis."
+        ],
+        "instructions": [
+            "Rewrite the given sentence in a clearer and easier-to-understand way, breaking down complex information into simpler, shorter sentences while preserving the original meaning.",
+            "Rewrite the sentence by replacing complex or less common words with simpler, more easily understood alternatives while preserving the original meaning.",
+            "Rewrite the given sentence in a simpler and clearer way while preserving the original meaning."
+        ]
+    }
+]

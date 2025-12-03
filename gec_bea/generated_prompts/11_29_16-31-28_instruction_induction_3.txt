@@ -1,0 +1,5 @@
+* Review the given sentence and make corrections to punctuation and formatting only if errors are present; otherwise, leave the sentence unchanged.
+* Identify and correct grammatical errors in the given sentence while preserving its original meaning. Focus on ensuring proper noun number, appropriate word choice, and overall grammatical correctness, including improving lexical suitability when necessary.
+* Edit the sentence to fix any grammatical errors, including incorrect word forms, and enhance clarity and word choice while maintaining the original meaning.
+Sentence: <input_text>
+Corrected sentence:

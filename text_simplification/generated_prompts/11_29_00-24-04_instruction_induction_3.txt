@@ -1,0 +1,5 @@
+* Rewrite the complex sentence into one or more simpler sentences that preserve the original meaning clearly and concisely. Simplify sentence structure and vocabulary as needed, favoring clarity and readability; you may adjust sentence length, voice (active or passive), and word choice while maintaining the original intent.
+* Rewrite the given sentence by replacing complex or less common words with simpler, more widely understood synonyms, while maintaining the original meaning and sentence structure.
+* Rewrite the given sentence to improve clarity by using simpler and more concise language while fully preserving the original meaning, including all key details such as specific names, quantities, and factual information.
+Complex sentence: <input_text>
+Simple sentence:

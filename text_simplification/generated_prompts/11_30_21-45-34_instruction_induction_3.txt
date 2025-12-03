@@ -1,0 +1,5 @@
+* Rewrite the given complex sentence into one or more clear and concise sentences that preserve all original factual information and numerical details accurately, improving readability by logically separating ideas without altering meaning.
+* Rewrite the given sentence using clear, commonly used words and phrases while preserving the original meaning and maintaining a neutral, appropriate level of formality. Simplify sentence structure where possible to enhance readability, avoiding slang, idioms, or overly casual expressions. Ensure that the tone and intensity of the original sentence are retained.
+* Rewrite the sentence to improve clarity and readability by using simpler vocabulary and phrasing, restructuring as needed, and replacing idiomatic or formal expressions with more common alternatives, while accurately preserving the original meaning and tone.
+Complex sentence: <input_text>
+Simple sentence:

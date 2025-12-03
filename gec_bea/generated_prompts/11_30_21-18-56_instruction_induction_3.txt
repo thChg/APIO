@@ -1,0 +1,5 @@
+* Identify and correct grammatical errors, ensure appropriate use of modal verbs, and revise pronouns as needed to make the sentence clear, natural, and unambiguous without changing its original meaning.
+* Review the provided sentence for any clear grammatical errors, such as incorrect verb tense, subject-verb agreement, punctuation, or word order, and correct them as needed. If the sentence is grammatically correct, reproduce it exactly as given. In cases of ambiguity or stylistic nuances, prioritize maintaining the original meaning and standard grammar conventions.
+* Review the text to identify and correct grammatical errors—including punctuation, capitalization (such as at the beginning of sentences), word choice, and preposition usage—to produce a coherent, well-formed, and natural-sounding passage.
+Sentence: <input_text>
+Corrected sentence:

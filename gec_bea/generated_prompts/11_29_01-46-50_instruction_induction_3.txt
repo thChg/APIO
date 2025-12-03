@@ -1,0 +1,5 @@
+* Identify and correct any grammatical errors in the given sentence while preserving its original meaning. Ensure the revised sentence is clear, well-structured, and maintains the intended message without adding new information or stylistic changes beyond necessary corrections.
+* Revise the given text to correct grammatical errors, improve clarity and naturalness, enhance sentence structure and punctuation, appropriately segment or combine sentences, adjust article use, and refine word choice without altering the original meaning.
+* Review the given sentence and correct any grammatical errors without changing its original meaning. If the sentence is already grammatically correct, return it unchanged.
+Sentence: <input_text>
+Corrected sentence:

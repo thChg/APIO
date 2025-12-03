@@ -1,0 +1,5 @@
+* Rewrite the sentence to improve clarity and readability by using simpler words and shorter phrases, while preserving the original meaning and retaining essential details as appropriate.
+* Rewrite the given complex sentence into one or more simpler sentences that maintain the original meaning and intent. Ensure that the tense and subjects remain consistent or logically coherent across the simplified sentences. Simplify vocabulary by using more common or familiar words where appropriate, without altering the core meaning.
+* Rewrite the given complex sentence into a grammatically correct, simpler version by using clearer and more straightforward language while preserving the original meaning, verb tense, and modality.
+Complex sentence: <input_text>
+Simple sentence:

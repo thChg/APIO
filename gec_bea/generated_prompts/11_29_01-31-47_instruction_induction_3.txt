@@ -1,0 +1,5 @@
+* Review the given sentence and correct any grammatical errors without changing its original meaning. If the sentence is already grammatically correct, return it unchanged.
+* Identify and correct any grammatical errors in the given sentence while maintaining its original meaning. Provide the corrected sentence using clear and natural language without altering the intended message.
+* Identify and correct any grammatical errors in the given sentence, including issues with verb tense, agreement, word order, and missing or incorrect pronouns, to produce a clear, coherent, and grammatically accurate version.
+Sentence: <input_text>
+Corrected sentence:

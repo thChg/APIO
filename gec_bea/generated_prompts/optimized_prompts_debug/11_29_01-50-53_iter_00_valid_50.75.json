@@ -1,0 +1,90 @@
+{
+    "config": {
+        "main": {
+            "use_llm_proxy": false,
+            "task_name": "gec_bea",
+            "task_description": "Grammatical Error Correction",
+            "few_shot_num_examples": 3,
+            "sample_num_train": 50,
+            "sample_num_valid": 50,
+            "sample_num_test": 50,
+            "save_prompt_builder_zero_shot": true,
+            "save_prompt_builder_few_shot": true,
+            "save_prompt_builder_instruction_induction": true,
+            "save_prompt_builder_mixed": false,
+            "save_prompt_builder_instruction_optimization": true
+        },
+        "backend_llm": {
+            "model_name": "gpt-4.1-mini",
+            "temperature": 0.0,
+            "max_output_tokens": 256,
+            "num_threads": 40,
+            "top_p": 0.1
+        },
+        "prompt_builder_llm": {
+            "model_name": "gpt-4.1-mini",
+            "temperature": 1.0,
+            "max_output_tokens": 4096,
+            "num_threads": 40,
+            "top_p": 1.0
+        },
+        "prompt_builder_zero_shot": {
+            "prompt_header": "",
+            "prompt_footer": "Reply with a corrected version of the sentence with all grammatical and spelling errors fixed. If there are no errors, reply with a copy of the original sentence.\nInput sentence: <input_text>\nCorrected sentence:"
+        },
+        "prompt_builder_few_shot": {
+            "prompt_header": "",
+            "input_example_label": "Sentence:",
+            "output_example_label": "Corrected sentence:",
+            "prompt_footer": "Sentence: <input_text>\nCorrected sentence:",
+            "random_search_num_trials": 10
+        },
+        "prompt_builder_instruction_induction": {
+            "prompt_header": "",
+            "input_example_label": "Sentence:",
+            "output_example_label": "Corrected sentence:",
+            "prompt_footer": "Sentence: <input_text>\nCorrected sentence:",
+            "random_search_num_trials": 10
+        },
+        "prompt_builder_mixed": {
+            "prompt_header": "",
+            "input_example_label": "Sentence:",
+            "output_example_label": "Corrected sentence:",
+            "prompt_footer": "Sentence: <input_text>\nCorrected sentence:"
+        },
+        "prompt_builder_instruction_optimization": {
+            "prompt_header": "",
+            "input_example_label": "Sentence:",
+            "output_example_label": "Corrected sentence:",
+            "prompt_footer": "Sentence: <input_text>\nCorrected sentence:",
+            "generic_descendants": 4,
+            "selection_pressure": 5,
+            "beam_size": 8,
+            "num_optimization_iterations": 1,
+            "rephrase_random_instructions_num_samples": 3,
+            "rephrase_random_instructions_scale_factor": 2,
+            "generate_permuted_instructions_scale_factor": 1,
+            "improve_by_feedback_scale_factor": 1,
+            "train_batch_size": 4,
+            "max_instructions_num": 15,
+            "instructions_feedback_num_trials": 3
+        },
+        "args": {
+            "config": "gec_bea/config_gec_bea.yaml",
+            "output_path": "/home/chuongdz/Desktop/school/apio/gec_bea/generated_prompts"
+        }
+    },
+    "PROMPT_TEMPLATE": "* Identify and correct any grammatical errors in the given sentence while preserving its original meaning. Ensure the revised sentence is clear, well-structured, and maintains the intended message without adding new information or stylistic changes beyond necessary corrections.\n* Revise the given text to correct grammatical errors, improve clarity and naturalness, enhance sentence structure and punctuation, appropriately segment or combine sentences, adjust article use, and refine word choice without altering the original meaning.\n* Review the given sentence and correct any grammatical errors without changing its original meaning. If the sentence is already grammatically correct, return it unchanged.\nSentence: <input_text>\nCorrected sentence:",
+    "initial_instructions": [
+        "Identify and correct any grammatical errors in the given sentence while preserving its original meaning. Ensure the revised sentence is clear, well-structured, and maintains the intended message without adding new information or stylistic changes beyond necessary corrections.",
+        "Revise the given text to correct grammatical errors, improve clarity and naturalness, enhance sentence structure and punctuation, appropriately segment or combine sentences, adjust article use, and refine word choice without altering the original meaning.",
+        "Review the given sentence and correct any grammatical errors without changing its original meaning. If the sentence is already grammatically correct, return it unchanged."
+    ],
+    "initial_valid_score": 50.74999999999999,
+    "instructions": [
+        "Identify and correct any grammatical errors in the given sentence while preserving its original meaning. Ensure the revised sentence is clear, well-structured, and maintains the intended message without adding new information or stylistic changes beyond necessary corrections.",
+        "Revise the given text to correct grammatical errors, improve clarity and naturalness, enhance sentence structure and punctuation, appropriately segment or combine sentences, adjust article use, and refine word choice without altering the original meaning.",
+        "Review the given sentence and correct any grammatical errors without changing its original meaning. If the sentence is already grammatically correct, return it unchanged."
+    ],
+    "best_valid_score": 50.74999999999999
+}

@@ -1,0 +1,6 @@
+* Ensure precise word choice by matching the most natural and contextually appropriate expressions, avoiding unnecessary additions or omissions. Maintain original sentence structures and punctuation closely unless correction is necessary for grammar or clarity, and avoid inserting or deleting words that alter style or subtle meaning.
+* Identify and correct all grammatical errors in the given sentence, including verb form consistency, while maintaining its original meaning and producing a clear, grammatically correct sentence.
+* Review the given sentence and correct any grammatical errors found, ensuring the original meaning is preserved; if no errors are present, return the sentence unchanged.
+* Revise the given sentence to correct grammatical errors, improve punctuation and capitalization, enhance sentence structure for clarity, and appropriately introduce sentence boundaries by splitting run-on sentences or overly long sentences into separate, coherent sentences.
+Sentence: <input_text>
+Corrected sentence:

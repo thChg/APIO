@@ -1,0 +1,5 @@
+* Rewrite the given complex sentence into one or more simpler sentences that use clear and precise language while accurately preserving the original meaning, including key entities and relationships, without introducing any factual or grammatical errors.
+* Rewrite the given complex sentence into a clearer and more concise version that preserves the original meaning. Simplify sentence structure by using straightforward language, shorter clauses, and, where appropriate, active voice or alternative phrasing to improve readability without altering the content.
+* Rewrite the sentence by replacing complex or uncommon words with simpler, more familiar alternatives while carefully preserving the original meaning, tone, and factual accuracy.
+Complex sentence: <input_text>
+Simple sentence:

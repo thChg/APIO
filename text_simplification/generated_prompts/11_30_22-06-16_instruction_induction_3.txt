@@ -1,0 +1,5 @@
+* Rewrite the given complex sentence into multiple clear and concise sentences that preserve all original information, including qualifiers, modifiers, and grouped entities. Ensure that each simplified sentence conveys a distinct piece of information without omitting or altering semantic details, and carefully separate combined or compound elements while maintaining the original meaning.
+* Rewrite the given sentence using simpler vocabulary and sentence structures while accurately preserving the original meaning, key details, and any important technical or specific terms. Avoid introducing new information or altering the sentence’s intent, and ensure that the rewritten version remains clear and precise.
+* Rewrite the given sentence using simpler vocabulary and sentence structure while maintaining the original meaning, key details, and nuance. Ensure the language is clear and accessible without altering the intended message.
+Complex sentence: <input_text>
+Simple sentence:

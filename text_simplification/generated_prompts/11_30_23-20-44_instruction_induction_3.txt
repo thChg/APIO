@@ -1,0 +1,5 @@
+* Rewrite the given complex sentence into a simpler version that conveys the same information clearly and concisely, using easier vocabulary and sentence structure.
+* Rewrite the complex sentence into two simpler sentences that preserve the original meaning. Separate distinct pieces of information so that each sentence expresses a single idea clearly and straightforwardly.
+* Rewrite the given complex sentence into one or more simpler sentences that convey the same key information clearly and concisely. Focus on breaking down compound information and using straightforward language while preserving all important details.
+Complex sentence: <input_text>
+Simple sentence:

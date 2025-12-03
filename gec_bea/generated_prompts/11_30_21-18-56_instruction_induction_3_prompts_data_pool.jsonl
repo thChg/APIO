@@ -1,0 +1,374 @@
+[
+    {
+        "config": {
+            "main": {
+                "use_llm_proxy": false,
+                "task_name": "gec_bea",
+                "task_description": "Grammatical Error Correction",
+                "few_shot_num_examples": 3,
+                "sample_num_train": 50,
+                "sample_num_valid": 50,
+                "sample_num_test": 50,
+                "save_prompt_builder_zero_shot": true,
+                "save_prompt_builder_few_shot": true,
+                "save_prompt_builder_instruction_induction": true,
+                "save_prompt_builder_mixed": false,
+                "save_prompt_builder_instruction_optimization": true
+            },
+            "backend_llm": {
+                "model_name": "gpt-4.1-mini",
+                "temperature": 0.0,
+                "max_output_tokens": 256,
+                "num_threads": 40,
+                "top_p": 0.1
+            },
+            "prompt_builder_llm": {
+                "model_name": "gpt-4.1-mini",
+                "temperature": 1.0,
+                "max_output_tokens": 4096,
+                "num_threads": 40,
+                "top_p": 1.0
+            },
+            "prompt_builder_zero_shot": {
+                "prompt_header": "",
+                "prompt_footer": "Reply with a corrected version of the sentence with all grammatical and spelling errors fixed. If there are no errors, reply with a copy of the original sentence.\nInput sentence: <input_text>\nCorrected sentence:"
+            },
+            "prompt_builder_few_shot": {
+                "prompt_header": "",
+                "input_example_label": "Sentence:",
+                "output_example_label": "Corrected sentence:",
+                "prompt_footer": "Sentence: <input_text>\nCorrected sentence:",
+                "random_search_num_trials": 10
+            },
+            "prompt_builder_instruction_induction": {
+                "prompt_header": "",
+                "input_example_label": "Sentence:",
+                "output_example_label": "Corrected sentence:",
+                "prompt_footer": "Sentence: <input_text>\nCorrected sentence:",
+                "random_search_num_trials": 10
+            },
+            "prompt_builder_mixed": {
+                "prompt_header": "",
+                "input_example_label": "Sentence:",
+                "output_example_label": "Corrected sentence:",
+                "prompt_footer": "Sentence: <input_text>\nCorrected sentence:"
+            },
+            "prompt_builder_instruction_optimization": {
+                "prompt_header": "",
+                "input_example_label": "Sentence:",
+                "output_example_label": "Corrected sentence:",
+                "prompt_footer": "Sentence: <input_text>\nCorrected sentence:",
+                "generic_descendants": 4,
+                "selection_pressure": 5,
+                "beam_size": 6,
+                "num_optimization_iterations": 1,
+                "rephrase_random_instructions_num_samples": 3,
+                "rephrase_random_instructions_scale_factor": 2,
+                "generate_permuted_instructions_scale_factor": 1,
+                "improve_by_feedback_scale_factor": 1,
+                "train_batch_size": 4,
+                "max_instructions_num": 15,
+                "instructions_feedback_num_trials": 3
+            },
+            "args": {
+                "config": "gec_bea/config_gec_bea.yaml",
+                "output_path": "/home/chuongdz/Desktop/school/apio/gec_bea/generated_prompts"
+            }
+        },
+        "PROMPT_TEMPLATE": "* Identify and correct grammatical errors, ensure appropriate use of modal verbs, and revise pronouns as needed to make the sentence clear, natural, and unambiguous without changing its original meaning.\n* Review the provided sentence for any clear grammatical errors, such as incorrect verb tense, subject-verb agreement, punctuation, or word order, and correct them as needed. If the sentence is grammatically correct, reproduce it exactly as given. In cases of ambiguity or stylistic nuances, prioritize maintaining the original meaning and standard grammar conventions.\n* Review the text to identify and correct grammatical errors\u2014including punctuation, capitalization (such as at the beginning of sentences), word choice, and preposition usage\u2014to produce a coherent, well-formed, and natural-sounding passage.\nSentence: <input_text>\nCorrected sentence:",
+        "few_shot_input_examples": [
+            "Her sister is 6 years old and you should look after every weekend.",
+            "I'm looking forward to seeing you.",
+            "I love children, and I enjoy looking after them. also, I organized many sports activities before in my school."
+        ],
+        "few_shot_output_examples": [
+            "Her sister is 6 years old and you would have to look after her every weekend.",
+            "I'm looking forward to seeing you.",
+            "I love children, and I enjoy looking after them. Also, I organized many sports activities before at my school."
+        ],
+        "instructions": [
+            "Identify and correct grammatical errors, ensure appropriate use of modal verbs, and revise pronouns as needed to make the sentence clear, natural, and unambiguous without changing its original meaning.",
+            "Review the provided sentence for any clear grammatical errors, such as incorrect verb tense, subject-verb agreement, punctuation, or word order, and correct them as needed. If the sentence is grammatically correct, reproduce it exactly as given. In cases of ambiguity or stylistic nuances, prioritize maintaining the original meaning and standard grammar conventions.",
+            "Review the text to identify and correct grammatical errors\u2014including punctuation, capitalization (such as at the beginning of sentences), word choice, and preposition usage\u2014to produce a coherent, well-formed, and natural-sounding passage."
+        ]
+    },
+    {
+        "config": {
+            "main": {
+                "use_llm_proxy": false,
+                "task_name": "gec_bea",
+                "task_description": "Grammatical Error Correction",
+                "few_shot_num_examples": 3,
+                "sample_num_train": 50,
+                "sample_num_valid": 50,
+                "sample_num_test": 50,
+                "save_prompt_builder_zero_shot": true,
+                "save_prompt_builder_few_shot": true,
+                "save_prompt_builder_instruction_induction": true,
+                "save_prompt_builder_mixed": false,
+                "save_prompt_builder_instruction_optimization": true
+            },
+            "backend_llm": {
+                "model_name": "gpt-4.1-mini",
+                "temperature": 0.0,
+                "max_output_tokens": 256,
+                "num_threads": 40,
+                "top_p": 0.1
+            },
+            "prompt_builder_llm": {
+                "model_name": "gpt-4.1-mini",
+                "temperature": 1.0,
+                "max_output_tokens": 4096,
+                "num_threads": 40,
+                "top_p": 1.0
+            },
+            "prompt_builder_zero_shot": {
+                "prompt_header": "",
+                "prompt_footer": "Reply with a corrected version of the sentence with all grammatical and spelling errors fixed. If there are no errors, reply with a copy of the original sentence.\nInput sentence: <input_text>\nCorrected sentence:"
+            },
+            "prompt_builder_few_shot": {
+                "prompt_header": "",
+                "input_example_label": "Sentence:",
+                "output_example_label": "Corrected sentence:",
+                "prompt_footer": "Sentence: <input_text>\nCorrected sentence:",
+                "random_search_num_trials": 10
+            },
+            "prompt_builder_instruction_induction": {
+                "prompt_header": "",
+                "input_example_label": "Sentence:",
+                "output_example_label": "Corrected sentence:",
+                "prompt_footer": "Sentence: <input_text>\nCorrected sentence:",
+                "random_search_num_trials": 10
+            },
+            "prompt_builder_mixed": {
+                "prompt_header": "",
+                "input_example_label": "Sentence:",
+                "output_example_label": "Corrected sentence:",
+                "prompt_footer": "Sentence: <input_text>\nCorrected sentence:"
+            },
+            "prompt_builder_instruction_optimization": {
+                "prompt_header": "",
+                "input_example_label": "Sentence:",
+                "output_example_label": "Corrected sentence:",
+                "prompt_footer": "Sentence: <input_text>\nCorrected sentence:",
+                "generic_descendants": 4,
+                "selection_pressure": 5,
+                "beam_size": 6,
+                "num_optimization_iterations": 1,
+                "rephrase_random_instructions_num_samples": 3,
+                "rephrase_random_instructions_scale_factor": 2,
+                "generate_permuted_instructions_scale_factor": 1,
+                "improve_by_feedback_scale_factor": 1,
+                "train_batch_size": 4,
+                "max_instructions_num": 15,
+                "instructions_feedback_num_trials": 3
+            },
+            "args": {
+                "config": "gec_bea/config_gec_bea.yaml",
+                "output_path": "/home/chuongdz/Desktop/school/apio/gec_bea/generated_prompts"
+            }
+        },
+        "PROMPT_TEMPLATE": "* Identify and correct grammatical errors in the given sentence, including issues with phrasing, punctuation, and the proper use and spacing of hyphens, to produce a clear and grammatically accurate version.\n* Identify and correct any grammatical errors in the given sentence, returning the original sentence unchanged if no errors are present.\n* Identify and correct any grammatical errors in the given sentence, including verb forms, possessive constructions, and punctuation, to produce a clear, properly structured, and natural-sounding sentence without altering its original meaning.\nSentence: <input_text>\nCorrected sentence:",
+        "few_shot_input_examples": [
+            "Due to the above mentioned reasons, I am going to conclude that travelling by car is much more convenient.",
+            "Maybe I'll change my mind, maybe not.",
+            "I am looking forward to join you in this year summer camps."
+        ],
+        "few_shot_output_examples": [
+            "For the above - mentioned reasons, I am going to conclude that travelling by car is much more convenient.",
+            "Maybe I'll change my mind, maybe not.",
+            "I am looking forward to joining you in this year's summer camps."
+        ],
+        "instructions": [
+            "Identify and correct grammatical errors in the given sentence, including issues with phrasing, punctuation, and the proper use and spacing of hyphens, to produce a clear and grammatically accurate version.",
+            "Identify and correct any grammatical errors in the given sentence, returning the original sentence unchanged if no errors are present.",
+            "Identify and correct any grammatical errors in the given sentence, including verb forms, possessive constructions, and punctuation, to produce a clear, properly structured, and natural-sounding sentence without altering its original meaning."
+        ]
+    },
+    {
+        "config": {
+            "main": {
+                "use_llm_proxy": false,
+                "task_name": "gec_bea",
+                "task_description": "Grammatical Error Correction",
+                "few_shot_num_examples": 3,
+                "sample_num_train": 50,
+                "sample_num_valid": 50,
+                "sample_num_test": 50,
+                "save_prompt_builder_zero_shot": true,
+                "save_prompt_builder_few_shot": true,
+                "save_prompt_builder_instruction_induction": true,
+                "save_prompt_builder_mixed": false,
+                "save_prompt_builder_instruction_optimization": true
+            },
+            "backend_llm": {
+                "model_name": "gpt-4.1-mini",
+                "temperature": 0.0,
+                "max_output_tokens": 256,
+                "num_threads": 40,
+                "top_p": 0.1
+            },
+            "prompt_builder_llm": {
+                "model_name": "gpt-4.1-mini",
+                "temperature": 1.0,
+                "max_output_tokens": 4096,
+                "num_threads": 40,
+                "top_p": 1.0
+            },
+            "prompt_builder_zero_shot": {
+                "prompt_header": "",
+                "prompt_footer": "Reply with a corrected version of the sentence with all grammatical and spelling errors fixed. If there are no errors, reply with a copy of the original sentence.\nInput sentence: <input_text>\nCorrected sentence:"
+            },
+            "prompt_builder_few_shot": {
+                "prompt_header": "",
+                "input_example_label": "Sentence:",
+                "output_example_label": "Corrected sentence:",
+                "prompt_footer": "Sentence: <input_text>\nCorrected sentence:",
+                "random_search_num_trials": 10
+            },
+            "prompt_builder_instruction_induction": {
+                "prompt_header": "",
+                "input_example_label": "Sentence:",
+                "output_example_label": "Corrected sentence:",
+                "prompt_footer": "Sentence: <input_text>\nCorrected sentence:",
+                "random_search_num_trials": 10
+            },
+            "prompt_builder_mixed": {
+                "prompt_header": "",
+                "input_example_label": "Sentence:",
+                "output_example_label": "Corrected sentence:",
+                "prompt_footer": "Sentence: <input_text>\nCorrected sentence:"
+            },
+            "prompt_builder_instruction_optimization": {
+                "prompt_header": "",
+                "input_example_label": "Sentence:",
+                "output_example_label": "Corrected sentence:",
+                "prompt_footer": "Sentence: <input_text>\nCorrected sentence:",
+                "generic_descendants": 4,
+                "selection_pressure": 5,
+                "beam_size": 6,
+                "num_optimization_iterations": 1,
+                "rephrase_random_instructions_num_samples": 3,
+                "rephrase_random_instructions_scale_factor": 2,
+                "generate_permuted_instructions_scale_factor": 1,
+                "improve_by_feedback_scale_factor": 1,
+                "train_batch_size": 4,
+                "max_instructions_num": 15,
+                "instructions_feedback_num_trials": 3
+            },
+            "args": {
+                "config": "gec_bea/config_gec_bea.yaml",
+                "output_path": "/home/chuongdz/Desktop/school/apio/gec_bea/generated_prompts"
+            }
+        },
+        "PROMPT_TEMPLATE": "* Identify and correct all grammatical errors in the given sentence, including verb form consistency, while maintaining its original meaning and producing a clear, grammatically correct sentence.\n* Review the given sentence and correct any grammatical errors found, ensuring the original meaning is preserved; if no errors are present, return the sentence unchanged.\n* Revise the given sentence to correct grammatical errors, improve punctuation and capitalization, enhance sentence structure for clarity, and appropriately introduce sentence boundaries by splitting run-on sentences or overly long sentences into separate, coherent sentences.\nSentence: <input_text>\nCorrected sentence:",
+        "few_shot_input_examples": [
+            "My favourite sport is volleyball because I love plays with my friends.",
+            "Maybe I'll change my mind, maybe not.",
+            "There are wonderful cities because there are a lot of things to visit for example in Madrid you can visit \"Puerta del Sol\", \"Las Cibeles\"."
+        ],
+        "few_shot_output_examples": [
+            "My favourite sport is volleyball because I love playing with my friends.",
+            "Maybe I'll change my mind, maybe not.",
+            "There are wonderful cities because there are a lot of things to visit. For example, in Madrid you can visit \"Puerta del Sol\", \"Las Cibeles\"."
+        ],
+        "instructions": [
+            "Identify and correct all grammatical errors in the given sentence, including verb form consistency, while maintaining its original meaning and producing a clear, grammatically correct sentence.",
+            "Review the given sentence and correct any grammatical errors found, ensuring the original meaning is preserved; if no errors are present, return the sentence unchanged.",
+            "Revise the given sentence to correct grammatical errors, improve punctuation and capitalization, enhance sentence structure for clarity, and appropriately introduce sentence boundaries by splitting run-on sentences or overly long sentences into separate, coherent sentences."
+        ]
+    },
+    {
+        "config": {
+            "main": {
+                "use_llm_proxy": false,
+                "task_name": "gec_bea",
+                "task_description": "Grammatical Error Correction",
+                "few_shot_num_examples": 3,
+                "sample_num_train": 50,
+                "sample_num_valid": 50,
+                "sample_num_test": 50,
+                "save_prompt_builder_zero_shot": true,
+                "save_prompt_builder_few_shot": true,
+                "save_prompt_builder_instruction_induction": true,
+                "save_prompt_builder_mixed": false,
+                "save_prompt_builder_instruction_optimization": true
+            },
+            "backend_llm": {
+                "model_name": "gpt-4.1-mini",
+                "temperature": 0.0,
+                "max_output_tokens": 256,
+                "num_threads": 40,
+                "top_p": 0.1
+            },
+            "prompt_builder_llm": {
+                "model_name": "gpt-4.1-mini",
+                "temperature": 1.0,
+                "max_output_tokens": 4096,
+                "num_threads": 40,
+                "top_p": 1.0
+            },
+            "prompt_builder_zero_shot": {
+                "prompt_header": "",
+                "prompt_footer": "Reply with a corrected version of the sentence with all grammatical and spelling errors fixed. If there are no errors, reply with a copy of the original sentence.\nInput sentence: <input_text>\nCorrected sentence:"
+            },
+            "prompt_builder_few_shot": {
+                "prompt_header": "",
+                "input_example_label": "Sentence:",
+                "output_example_label": "Corrected sentence:",
+                "prompt_footer": "Sentence: <input_text>\nCorrected sentence:",
+                "random_search_num_trials": 10
+            },
+            "prompt_builder_instruction_induction": {
+                "prompt_header": "",
+                "input_example_label": "Sentence:",
+                "output_example_label": "Corrected sentence:",
+                "prompt_footer": "Sentence: <input_text>\nCorrected sentence:",
+                "random_search_num_trials": 10
+            },
+            "prompt_builder_mixed": {
+                "prompt_header": "",
+                "input_example_label": "Sentence:",
+                "output_example_label": "Corrected sentence:",
+                "prompt_footer": "Sentence: <input_text>\nCorrected sentence:"
+            },
+            "prompt_builder_instruction_optimization": {
+                "prompt_header": "",
+                "input_example_label": "Sentence:",
+                "output_example_label": "Corrected sentence:",
+                "prompt_footer": "Sentence: <input_text>\nCorrected sentence:",
+                "generic_descendants": 4,
+                "selection_pressure": 5,
+                "beam_size": 6,
+                "num_optimization_iterations": 1,
+                "rephrase_random_instructions_num_samples": 3,
+                "rephrase_random_instructions_scale_factor": 2,
+                "generate_permuted_instructions_scale_factor": 1,
+                "improve_by_feedback_scale_factor": 1,
+                "train_batch_size": 4,
+                "max_instructions_num": 15,
+                "instructions_feedback_num_trials": 3
+            },
+            "args": {
+                "config": "gec_bea/config_gec_bea.yaml",
+                "output_path": "/home/chuongdz/Desktop/school/apio/gec_bea/generated_prompts"
+            }
+        },
+        "PROMPT_TEMPLATE": "* Review the given sentence and make any necessary corrections to grammar and punctuation while preserving its original meaning; if the sentence is already correct, leave it unchanged.\n* Revise the given sentence to correct grammatical errors\u2014including subject-verb agreement, article usage, punctuation, and verb phrase construction\u2014and enhance overall fluency and clarity, while preserving the original meaning.\n* Revise the given sentence to correct grammatical errors, standardize capitalization, appropriately use punctuation (including commas), and choose words for clarity and naturalness, ensuring consistency and proper formatting without altering the original meaning.\nSentence: <input_text>\nCorrected sentence:",
+        "few_shot_input_examples": [
+            "Dear Jo,",
+            "Today public transport still play an important role in transport system and it will keep on in the future.",
+            "In India we have various types of Public transport, like Cycle, Bike, Car, Train & Flight."
+        ],
+        "few_shot_output_examples": [
+            "Dear Jo,",
+            "Today, public transport still plays an important role in the transport system and it will keep on doing so in the future.",
+            "In India, we have various types of public transport, like, bikes, cars, trains & planes."
+        ],
+        "instructions": [
+            "Review the given sentence and make any necessary corrections to grammar and punctuation while preserving its original meaning; if the sentence is already correct, leave it unchanged.",
+            "Revise the given sentence to correct grammatical errors\u2014including subject-verb agreement, article usage, punctuation, and verb phrase construction\u2014and enhance overall fluency and clarity, while preserving the original meaning.",
+            "Revise the given sentence to correct grammatical errors, standardize capitalization, appropriately use punctuation (including commas), and choose words for clarity and naturalness, ensuring consistency and proper formatting without altering the original meaning."
+        ]
+    }
+]

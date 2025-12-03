@@ -1,0 +1,91 @@
+{
+    "config": {
+        "main": {
+            "use_llm_proxy": false,
+            "task_name": "text_simplification",
+            "task_description": "Text Simplification",
+            "few_shot_num_examples": 3,
+            "sample_num_train": 50,
+            "sample_num_valid": 50,
+            "sample_num_test": 50,
+            "save_prompt_builder_zero_shot": true,
+            "save_prompt_builder_few_shot": true,
+            "save_prompt_builder_instruction_induction": true,
+            "save_prompt_builder_mixed": false,
+            "save_prompt_builder_instruction_optimization": true
+        },
+        "prompt_builder_instruction_optimization": {
+            "prompt_header": "",
+            "input_example_label": "Complex sentence:",
+            "output_example_label": "Simple sentence:",
+            "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+            "generic_descendants": 4,
+            "selection_pressure": 5,
+            "beam_size": 2,
+            "num_optimization_iterations": 1,
+            "rephrase_random_instructions_num_samples": 3,
+            "rephrase_random_instructions_scale_factor": 2,
+            "generate_permuted_instructions_scale_factor": 1,
+            "improve_by_feedback_scale_factor": 1,
+            "train_batch_size": 4,
+            "max_instructions_num": 15,
+            "instructions_feedback_num_trials": 3
+        },
+        "backend_llm": {
+            "model_name": "gpt-4.1-mini",
+            "temperature": 0.0,
+            "max_output_tokens": 256,
+            "num_threads": 30,
+            "top_p": 0.1
+        },
+        "prompt_builder_llm": {
+            "model_name": "gpt-4.1-mini",
+            "temperature": 1.0,
+            "max_output_tokens": 4096,
+            "num_threads": 30,
+            "top_p": 1.0
+        },
+        "prompt_builder_zero_shot": {
+            "prompt_header": "Rewrite to make this easier to understand: <input_text>",
+            "prompt_footer": "\nANSWER:"
+        },
+        "prompt_builder_few_shot": {
+            "prompt_header": "",
+            "input_example_label": "Complex sentence:",
+            "output_example_label": "Simple sentence:",
+            "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+            "random_search_num_trials": 10
+        },
+        "prompt_builder_instruction_induction": {
+            "prompt_header": "",
+            "input_example_label": "Complex sentence:",
+            "output_example_label": "Simple sentence:",
+            "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+            "random_search_num_trials": 10
+        },
+        "prompt_builder_mixed": {
+            "prompt_header": "",
+            "input_example_label": "Complex sentence:",
+            "output_example_label": "Simple sentence:",
+            "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:"
+        },
+        "args": {
+            "config": "text_simplification/config_text_simplification.yaml",
+            "output_path": "/home/chuongdz/Desktop/school/apio/text_simplification/generated_prompts"
+        }
+    },
+    "PROMPT_TEMPLATE": "* Rewrite the given complex sentence into one or more clearer and more concise sentences, using more common vocabulary and simpler sentence structures while preserving the original meaning. Maintain important technical terms and specific details, including measurements and numerical information, unless simplification would cause misunderstanding.\n* When simplifying, prioritize closely matching the original sentence's wording and phrasing by minimizing unnecessary additions, removals, or rephrasings. Ensure the output preserves the original style and conciseness while maintaining clarity and accuracy.\n* Rewrite the given complex sentence into a simpler version that maintains all essential information and technical accuracy, using clearer sentence structure and more accessible vocabulary without omitting key details or altering the original meaning.\n* Rewrite the given sentence using simpler vocabulary and sentence structures while preserving the original meaning and any essential technical or domain-specific terms. Ensure that simplification does not alter key concepts or introduce inaccuracies, and maintain clarity by using shorter sentences or less complex grammar where appropriate.\nComplex sentence: <input_text>\nSimple sentence:",
+    "initial_instructions": [
+        "Rewrite the given complex sentence into one or more clearer and more concise sentences, using more common vocabulary and simpler sentence structures while preserving the original meaning. Maintain important technical terms and specific details, including measurements and numerical information, unless simplification would cause misunderstanding.",
+        "Rewrite the given complex sentence into a simpler version that maintains all essential information and technical accuracy, using clearer sentence structure and more accessible vocabulary without omitting key details or altering the original meaning.",
+        "Rewrite the given sentence using simpler vocabulary and sentence structures while preserving the original meaning and any essential technical or domain-specific terms. Ensure that simplification does not alter key concepts or introduce inaccuracies, and maintain clarity by using shorter sentences or less complex grammar where appropriate."
+    ],
+    "initial_valid_score": 50.31297491380891,
+    "instructions": [
+        "Rewrite the given complex sentence into one or more clearer and more concise sentences, using more common vocabulary and simpler sentence structures while preserving the original meaning. Maintain important technical terms and specific details, including measurements and numerical information, unless simplification would cause misunderstanding.",
+        "When simplifying, prioritize closely matching the original sentence's wording and phrasing by minimizing unnecessary additions, removals, or rephrasings. Ensure the output preserves the original style and conciseness while maintaining clarity and accuracy.",
+        "Rewrite the given complex sentence into a simpler version that maintains all essential information and technical accuracy, using clearer sentence structure and more accessible vocabulary without omitting key details or altering the original meaning.",
+        "Rewrite the given sentence using simpler vocabulary and sentence structures while preserving the original meaning and any essential technical or domain-specific terms. Ensure that simplification does not alter key concepts or introduce inaccuracies, and maintain clarity by using shorter sentences or less complex grammar where appropriate."
+    ],
+    "best_valid_score": 50.410066592046796
+}

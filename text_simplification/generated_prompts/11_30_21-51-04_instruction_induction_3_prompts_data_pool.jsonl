@@ -1,0 +1,374 @@
+[
+    {
+        "config": {
+            "main": {
+                "use_llm_proxy": false,
+                "task_name": "text_simplification",
+                "task_description": "Text Simplification",
+                "few_shot_num_examples": 3,
+                "sample_num_train": 50,
+                "sample_num_valid": 50,
+                "sample_num_test": 50,
+                "save_prompt_builder_zero_shot": true,
+                "save_prompt_builder_few_shot": true,
+                "save_prompt_builder_instruction_induction": true,
+                "save_prompt_builder_mixed": false,
+                "save_prompt_builder_instruction_optimization": true
+            },
+            "prompt_builder_instruction_optimization": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+                "generic_descendants": 4,
+                "selection_pressure": 5,
+                "beam_size": 4,
+                "num_optimization_iterations": 1,
+                "rephrase_random_instructions_num_samples": 3,
+                "rephrase_random_instructions_scale_factor": 2,
+                "generate_permuted_instructions_scale_factor": 1,
+                "improve_by_feedback_scale_factor": 1,
+                "train_batch_size": 4,
+                "max_instructions_num": 15,
+                "instructions_feedback_num_trials": 3
+            },
+            "backend_llm": {
+                "model_name": "gpt-4.1-mini",
+                "temperature": 0.0,
+                "max_output_tokens": 256,
+                "num_threads": 30,
+                "top_p": 0.1
+            },
+            "prompt_builder_llm": {
+                "model_name": "gpt-4.1-mini",
+                "temperature": 1.0,
+                "max_output_tokens": 4096,
+                "num_threads": 30,
+                "top_p": 1.0
+            },
+            "prompt_builder_zero_shot": {
+                "prompt_header": "Rewrite to make this easier to understand: <input_text>",
+                "prompt_footer": "\nANSWER:"
+            },
+            "prompt_builder_few_shot": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+                "random_search_num_trials": 10
+            },
+            "prompt_builder_instruction_induction": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+                "random_search_num_trials": 10
+            },
+            "prompt_builder_mixed": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:"
+            },
+            "args": {
+                "config": "text_simplification/config_text_simplification.yaml",
+                "output_path": "/home/chuongdz/Desktop/school/apio/text_simplification/generated_prompts"
+            }
+        },
+        "PROMPT_TEMPLATE": "* Rewrite one or more complex sentences by dividing them into multiple shorter sentences that retain the original meaning. Ensure each resulting sentence expresses a single clear idea, adjust punctuation as needed, and appropriately rephrase or reposition conjunctions and connectors to maintain coherence and readability.\n* Rewrite the sentence using clear and straightforward language while preserving its original meaning. Simplify vocabulary and sentence structure, and remove any non-essential details such as examples, clarifications, or parenthetical information to improve readability.\n* Simplify the given sentence by replacing complex, uncommon, or difficult words and expressions\u2014including idiomatic phrases\u2014with simpler, more familiar alternatives, while preserving the original meaning and keeping the sentence structure intact.\nComplex sentence: <input_text>\nSimple sentence:",
+        "few_shot_input_examples": [
+            "Geography The Caucasus Mountains are generally perceived to be a dividing line between Asia and Europe, and territories in Caucasia are alternately considered to be in one or both continents.",
+            "Diacritical marks and non-English letters are ignored, while numerical entries such as \"1812, War of\" are alphabetised as if the number had been written out (\"Eighteen-twelve, War of\").",
+            "The WWF consisted of Stone Cold Steve Austin, Kurt Angle, Chris Jericho, Kane, and the Undertaker, who all squared off against the team of DDP, Booker T, Rhyno, and the Dudley Boys."
+        ],
+        "few_shot_output_examples": [
+            "The Caucasus Mountains are generally perceived to be a dividing line between Asia and Europe. Territories in Caucasia are alternately considered to be in one or both continents.",
+            "Marks to indicate different pronunciations and non-English letters are ignored. Numerical entries are alphabetized as if the number is written out.",
+            "The WWF consisted of Stone Cold Steve Austin, Kurt Angle, Chris Jericho, Kane, and the Undertaker, who all fought against the team of DDP, Booker T, Rhyno, and the Dudley Boys."
+        ],
+        "instructions": [
+            "Rewrite one or more complex sentences by dividing them into multiple shorter sentences that retain the original meaning. Ensure each resulting sentence expresses a single clear idea, adjust punctuation as needed, and appropriately rephrase or reposition conjunctions and connectors to maintain coherence and readability.",
+            "Rewrite the sentence using clear and straightforward language while preserving its original meaning. Simplify vocabulary and sentence structure, and remove any non-essential details such as examples, clarifications, or parenthetical information to improve readability.",
+            "Simplify the given sentence by replacing complex, uncommon, or difficult words and expressions\u2014including idiomatic phrases\u2014with simpler, more familiar alternatives, while preserving the original meaning and keeping the sentence structure intact."
+        ]
+    },
+    {
+        "config": {
+            "main": {
+                "use_llm_proxy": false,
+                "task_name": "text_simplification",
+                "task_description": "Text Simplification",
+                "few_shot_num_examples": 3,
+                "sample_num_train": 50,
+                "sample_num_valid": 50,
+                "sample_num_test": 50,
+                "save_prompt_builder_zero_shot": true,
+                "save_prompt_builder_few_shot": true,
+                "save_prompt_builder_instruction_induction": true,
+                "save_prompt_builder_mixed": false,
+                "save_prompt_builder_instruction_optimization": true
+            },
+            "prompt_builder_instruction_optimization": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+                "generic_descendants": 4,
+                "selection_pressure": 5,
+                "beam_size": 4,
+                "num_optimization_iterations": 1,
+                "rephrase_random_instructions_num_samples": 3,
+                "rephrase_random_instructions_scale_factor": 2,
+                "generate_permuted_instructions_scale_factor": 1,
+                "improve_by_feedback_scale_factor": 1,
+                "train_batch_size": 4,
+                "max_instructions_num": 15,
+                "instructions_feedback_num_trials": 3
+            },
+            "backend_llm": {
+                "model_name": "gpt-4.1-mini",
+                "temperature": 0.0,
+                "max_output_tokens": 256,
+                "num_threads": 30,
+                "top_p": 0.1
+            },
+            "prompt_builder_llm": {
+                "model_name": "gpt-4.1-mini",
+                "temperature": 1.0,
+                "max_output_tokens": 4096,
+                "num_threads": 30,
+                "top_p": 1.0
+            },
+            "prompt_builder_zero_shot": {
+                "prompt_header": "Rewrite to make this easier to understand: <input_text>",
+                "prompt_footer": "\nANSWER:"
+            },
+            "prompt_builder_few_shot": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+                "random_search_num_trials": 10
+            },
+            "prompt_builder_instruction_induction": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+                "random_search_num_trials": 10
+            },
+            "prompt_builder_mixed": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:"
+            },
+            "args": {
+                "config": "text_simplification/config_text_simplification.yaml",
+                "output_path": "/home/chuongdz/Desktop/school/apio/text_simplification/generated_prompts"
+            }
+        },
+        "PROMPT_TEMPLATE": "* Rewrite the given complex sentence into one or more simpler sentences that preserve the original meaning using clear and straightforward language. When appropriate, separate distinct concepts or ideas to enhance readability. If compound names or combined elements are unclear or overly detailed, you may clarify or simplify them while maintaining the core information. Minor omissions or rephrasings are allowed only if they do not change the original meaning.\n* Rewrite the complex sentence into a simpler version by using common vocabulary, shorter phrases, and a clearer sentence structure while preserving the original meaning. Use numerals consistently to represent numbers. When appropriate, replace less familiar or specialized terms with easier-to-understand alternatives. Additionally, consider revising sentence voice and grammatical constructions to enhance clarity, such as changing passive voice to active voice when it improves readability.\n* Rewrite the given sentence using simpler vocabulary and sentence structure while preserving all essential information and the original meaning. Maintain accuracy by retaining important factual details unless explicitly instructed otherwise.\nComplex sentence: <input_text>\nSimple sentence:",
+        "few_shot_input_examples": [
+            "Tourism is concentrated in the mountains, particularly around the towns of Davos / Arosa, Laax and St. Moritz / Pontresina.",
+            "Greenland first entertained the idea of a flag of its own in 1973 when five Greenlanders proposed a green, white and blue flag.",
+            "Luis Su\u00e1rez Miramontes (born May 2, 1935) is a Spanish former footballer and manager."
+        ],
+        "few_shot_output_examples": [
+            "Tourism is concentrated in the mountains. Towns in the area with high tourism are Davos, Laax and St. Moritz",
+            "Greenland first planned their own flag in 1973 when (5) residents offered a green, white and blue one.",
+            "Luis Suarez Miramontes used to be a footballer and manager."
+        ],
+        "instructions": [
+            "Rewrite the given complex sentence into one or more simpler sentences that preserve the original meaning using clear and straightforward language. When appropriate, separate distinct concepts or ideas to enhance readability. If compound names or combined elements are unclear or overly detailed, you may clarify or simplify them while maintaining the core information. Minor omissions or rephrasings are allowed only if they do not change the original meaning.",
+            "Rewrite the complex sentence into a simpler version by using common vocabulary, shorter phrases, and a clearer sentence structure while preserving the original meaning. Use numerals consistently to represent numbers. When appropriate, replace less familiar or specialized terms with easier-to-understand alternatives. Additionally, consider revising sentence voice and grammatical constructions to enhance clarity, such as changing passive voice to active voice when it improves readability.",
+            "Rewrite the given sentence using simpler vocabulary and sentence structure while preserving all essential information and the original meaning. Maintain accuracy by retaining important factual details unless explicitly instructed otherwise."
+        ]
+    },
+    {
+        "config": {
+            "main": {
+                "use_llm_proxy": false,
+                "task_name": "text_simplification",
+                "task_description": "Text Simplification",
+                "few_shot_num_examples": 3,
+                "sample_num_train": 50,
+                "sample_num_valid": 50,
+                "sample_num_test": 50,
+                "save_prompt_builder_zero_shot": true,
+                "save_prompt_builder_few_shot": true,
+                "save_prompt_builder_instruction_induction": true,
+                "save_prompt_builder_mixed": false,
+                "save_prompt_builder_instruction_optimization": true
+            },
+            "prompt_builder_instruction_optimization": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+                "generic_descendants": 4,
+                "selection_pressure": 5,
+                "beam_size": 4,
+                "num_optimization_iterations": 1,
+                "rephrase_random_instructions_num_samples": 3,
+                "rephrase_random_instructions_scale_factor": 2,
+                "generate_permuted_instructions_scale_factor": 1,
+                "improve_by_feedback_scale_factor": 1,
+                "train_batch_size": 4,
+                "max_instructions_num": 15,
+                "instructions_feedback_num_trials": 3
+            },
+            "backend_llm": {
+                "model_name": "gpt-4.1-mini",
+                "temperature": 0.0,
+                "max_output_tokens": 256,
+                "num_threads": 30,
+                "top_p": 0.1
+            },
+            "prompt_builder_llm": {
+                "model_name": "gpt-4.1-mini",
+                "temperature": 1.0,
+                "max_output_tokens": 4096,
+                "num_threads": 30,
+                "top_p": 1.0
+            },
+            "prompt_builder_zero_shot": {
+                "prompt_header": "Rewrite to make this easier to understand: <input_text>",
+                "prompt_footer": "\nANSWER:"
+            },
+            "prompt_builder_few_shot": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+                "random_search_num_trials": 10
+            },
+            "prompt_builder_instruction_induction": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+                "random_search_num_trials": 10
+            },
+            "prompt_builder_mixed": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:"
+            },
+            "args": {
+                "config": "text_simplification/config_text_simplification.yaml",
+                "output_path": "/home/chuongdz/Desktop/school/apio/text_simplification/generated_prompts"
+            }
+        },
+        "PROMPT_TEMPLATE": "* Rewrite the sentence to improve clarity and ease of understanding while preserving its original meaning. Use simpler vocabulary and sentence structures, and you may adjust the sentence voice (active or passive) if it contributes to making the sentence clearer and more accessible.\n* Rewrite the given complex sentence into one or more clear and concise sentences by breaking down the information while preserving all original details, including numerical and factual accuracy. Maintain the original meaning without adding, omitting, or altering any information.\n* Rewrite the given sentence using simpler vocabulary while preserving all original proper nouns and key terms, ensuring that the meaning remains accurate and contextually appropriate without altering historical, factual, or sensitive information.\nComplex sentence: <input_text>\nSimple sentence:",
+        "few_shot_input_examples": [
+            "In 1919, all of the major pro-independence factions formed the Provisional Government in Shanghai.",
+            "The tornado destroyed 20 homes, left 30 others severely damaged, injured one person, and caused power outages for about 300 people.",
+            "Anne Frank was deported on the last train from Westerbork."
+        ],
+        "few_shot_output_examples": [
+            "The Provisional Government in Shanghai was formed by all of the main pro-independence factions in 1919.",
+            "The tornado injured one person, destroyed 20 homes and left 20 partially destroyed. It caused power outages for about 300 people.",
+            "Anne was ejected on the last train from Westerbork."
+        ],
+        "instructions": [
+            "Rewrite the sentence to improve clarity and ease of understanding while preserving its original meaning. Use simpler vocabulary and sentence structures, and you may adjust the sentence voice (active or passive) if it contributes to making the sentence clearer and more accessible.",
+            "Rewrite the given complex sentence into one or more clear and concise sentences by breaking down the information while preserving all original details, including numerical and factual accuracy. Maintain the original meaning without adding, omitting, or altering any information.",
+            "Rewrite the given sentence using simpler vocabulary while preserving all original proper nouns and key terms, ensuring that the meaning remains accurate and contextually appropriate without altering historical, factual, or sensitive information."
+        ]
+    },
+    {
+        "config": {
+            "main": {
+                "use_llm_proxy": false,
+                "task_name": "text_simplification",
+                "task_description": "Text Simplification",
+                "few_shot_num_examples": 3,
+                "sample_num_train": 50,
+                "sample_num_valid": 50,
+                "sample_num_test": 50,
+                "save_prompt_builder_zero_shot": true,
+                "save_prompt_builder_few_shot": true,
+                "save_prompt_builder_instruction_induction": true,
+                "save_prompt_builder_mixed": false,
+                "save_prompt_builder_instruction_optimization": true
+            },
+            "prompt_builder_instruction_optimization": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+                "generic_descendants": 4,
+                "selection_pressure": 5,
+                "beam_size": 4,
+                "num_optimization_iterations": 1,
+                "rephrase_random_instructions_num_samples": 3,
+                "rephrase_random_instructions_scale_factor": 2,
+                "generate_permuted_instructions_scale_factor": 1,
+                "improve_by_feedback_scale_factor": 1,
+                "train_batch_size": 4,
+                "max_instructions_num": 15,
+                "instructions_feedback_num_trials": 3
+            },
+            "backend_llm": {
+                "model_name": "gpt-4.1-mini",
+                "temperature": 0.0,
+                "max_output_tokens": 256,
+                "num_threads": 30,
+                "top_p": 0.1
+            },
+            "prompt_builder_llm": {
+                "model_name": "gpt-4.1-mini",
+                "temperature": 1.0,
+                "max_output_tokens": 4096,
+                "num_threads": 30,
+                "top_p": 1.0
+            },
+            "prompt_builder_zero_shot": {
+                "prompt_header": "Rewrite to make this easier to understand: <input_text>",
+                "prompt_footer": "\nANSWER:"
+            },
+            "prompt_builder_few_shot": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+                "random_search_num_trials": 10
+            },
+            "prompt_builder_instruction_induction": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+                "random_search_num_trials": 10
+            },
+            "prompt_builder_mixed": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:"
+            },
+            "args": {
+                "config": "text_simplification/config_text_simplification.yaml",
+                "output_path": "/home/chuongdz/Desktop/school/apio/text_simplification/generated_prompts"
+            }
+        },
+        "PROMPT_TEMPLATE": "* Rewrite the given sentence to use simpler and clearer language while preserving its original meaning. When simplifying, clarify or rephrase complex expressions, including parenthetical information, compound adjectives, and descriptive phrases such as colors or materials, ensuring the sentence remains accurate and natural without introducing new ideas or altering the intended message.\n* Rewrite the given complex sentence into two or more simpler sentences that maintain the original meaning and logical relationships. Ensure that verb tenses remain consistent and that pronoun references or other expressions clearly and accurately reflect their antecedents to avoid ambiguity. Use clear and straightforward language to improve readability without altering the intended message.\n* Rewrite the sentence using simpler, more common words to improve clarity while retaining the original meaning. Minor adjustments to wording and structure are allowed when they help make the sentence easier to understand, but do not add, omit, or change the sentence\u2019s core message.\nComplex sentence: <input_text>\nSimple sentence:",
+        "few_shot_input_examples": [
+            "These flies are clothed in black or pale (white or golden) hairs, and are themselves either black or metallic green or blue.",
+            "He began this form of ministry in 1947 and continued until recently.",
+            "Packaged instant soups come in several varieties: A packet of dry soup stock (like the ramen image below)."
+        ],
+        "few_shot_output_examples": [
+            "These flies are covered in black or light colored hairs and are black or shiny green/blue in color.",
+            "He began this type of ministry in 1947. It had continued until recently.",
+            "Instant soups come in many types: A packet of dry soup stock (see ramen picture below)."
+        ],
+        "instructions": [
+            "Rewrite the given sentence to use simpler and clearer language while preserving its original meaning. When simplifying, clarify or rephrase complex expressions, including parenthetical information, compound adjectives, and descriptive phrases such as colors or materials, ensuring the sentence remains accurate and natural without introducing new ideas or altering the intended message.",
+            "Rewrite the given complex sentence into two or more simpler sentences that maintain the original meaning and logical relationships. Ensure that verb tenses remain consistent and that pronoun references or other expressions clearly and accurately reflect their antecedents to avoid ambiguity. Use clear and straightforward language to improve readability without altering the intended message.",
+            "Rewrite the sentence using simpler, more common words to improve clarity while retaining the original meaning. Minor adjustments to wording and structure are allowed when they help make the sentence easier to understand, but do not add, omit, or change the sentence\u2019s core message."
+        ]
+    }
+]

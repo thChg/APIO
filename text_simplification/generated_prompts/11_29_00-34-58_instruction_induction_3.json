@@ -1,0 +1,93 @@
+{
+    "config": {
+        "main": {
+            "use_llm_proxy": false,
+            "task_name": "text_simplification",
+            "task_description": "Text Simplification",
+            "few_shot_num_examples": 3,
+            "sample_num_train": 50,
+            "sample_num_valid": 50,
+            "sample_num_test": 50,
+            "save_prompt_builder_zero_shot": true,
+            "save_prompt_builder_few_shot": true,
+            "save_prompt_builder_instruction_induction": true,
+            "save_prompt_builder_mixed": false,
+            "save_prompt_builder_instruction_optimization": true
+        },
+        "prompt_builder_instruction_optimization": {
+            "prompt_header": "",
+            "input_example_label": "Complex sentence:",
+            "output_example_label": "Simple sentence:",
+            "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+            "generic_descendants": 4,
+            "selection_pressure": 5,
+            "beam_size": 6,
+            "num_optimization_iterations": 1,
+            "rephrase_random_instructions_num_samples": 3,
+            "rephrase_random_instructions_scale_factor": 2,
+            "generate_permuted_instructions_scale_factor": 1,
+            "improve_by_feedback_scale_factor": 1,
+            "train_batch_size": 4,
+            "max_instructions_num": 15,
+            "instructions_feedback_num_trials": 3
+        },
+        "backend_llm": {
+            "model_name": "gpt-4.1-mini",
+            "temperature": 0.0,
+            "max_output_tokens": 256,
+            "num_threads": 30,
+            "top_p": 0.1
+        },
+        "prompt_builder_llm": {
+            "model_name": "gpt-4.1-mini",
+            "temperature": 1.0,
+            "max_output_tokens": 4096,
+            "num_threads": 30,
+            "top_p": 1.0
+        },
+        "prompt_builder_zero_shot": {
+            "prompt_header": "Rewrite to make this easier to understand: <input_text>",
+            "prompt_footer": "\nANSWER:"
+        },
+        "prompt_builder_few_shot": {
+            "prompt_header": "",
+            "input_example_label": "Complex sentence:",
+            "output_example_label": "Simple sentence:",
+            "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+            "random_search_num_trials": 10
+        },
+        "prompt_builder_instruction_induction": {
+            "prompt_header": "",
+            "input_example_label": "Complex sentence:",
+            "output_example_label": "Simple sentence:",
+            "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+            "random_search_num_trials": 10
+        },
+        "prompt_builder_mixed": {
+            "prompt_header": "",
+            "input_example_label": "Complex sentence:",
+            "output_example_label": "Simple sentence:",
+            "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:"
+        },
+        "args": {
+            "config": "text_simplification/config_text_simplification.yaml",
+            "output_path": "/home/chuongdz/Desktop/school/apio/text_simplification/generated_prompts"
+        }
+    },
+    "PROMPT_TEMPLATE": "* Rewrite the given complex sentence into two or more simpler sentences that together preserve the original meaning. Ensure each resulting sentence conveys a complete and coherent idea using clear and grammatically correct language. Maintain the original tense, aspect, and subject continuity as much as possible to preserve semantic equivalence. Aim for simplicity by using straightforward sentence structures without overly fragmenting the information.\n* Rewrite the sentence to convey the essential information clearly and concisely by using simpler vocabulary and shorter phrasing, while removing unnecessary descriptive details that do not change the core meaning.\n* Rewrite the given complex sentence into one or more simpler sentences that preserve the original meaning. Use clear and accessible language by breaking long or complex sentences into shorter ones, and clarify or explain any technical terms, unusual proper nouns, or detailed descriptions as needed to enhance understanding without changing the intended content.\nComplex sentence: <input_text>\nSimple sentence:",
+    "few_shot_input_examples": [
+        "He began this form of ministry in 1947 and continued until recently.",
+        "Description Anchovies are small green fish with blue reflections due to a silver longitudinal stripe that runs from the base of the caudal fin.",
+        "The Erotian surface gravity varies greatly, since Eros is not a sphere but an elongated peanut-shaped (or potato- or shoe-shaped) object."
+    ],
+    "few_shot_output_examples": [
+        "He began this type of ministry in 1947. It had continued until recently.",
+        "Anchovies are small green fish with a stripe on their tail fins.",
+        "The gravity on Eros is different in various places. This is because Eros is not round but is peanut-shaped."
+    ],
+    "instructions": [
+        "Rewrite the given complex sentence into two or more simpler sentences that together preserve the original meaning. Ensure each resulting sentence conveys a complete and coherent idea using clear and grammatically correct language. Maintain the original tense, aspect, and subject continuity as much as possible to preserve semantic equivalence. Aim for simplicity by using straightforward sentence structures without overly fragmenting the information.",
+        "Rewrite the sentence to convey the essential information clearly and concisely by using simpler vocabulary and shorter phrasing, while removing unnecessary descriptive details that do not change the core meaning.",
+        "Rewrite the given complex sentence into one or more simpler sentences that preserve the original meaning. Use clear and accessible language by breaking long or complex sentences into shorter ones, and clarify or explain any technical terms, unusual proper nouns, or detailed descriptions as needed to enhance understanding without changing the intended content."
+    ]
+}

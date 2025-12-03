@@ -1,0 +1,5 @@
+* Review the given sentence and make corrections only if it contains grammatical errors or structural issues, ensuring the final sentence is clear, grammatically correct, and properly organized without altering its original meaning.
+* Review the sentence to correct grammatical errors, remove unnecessary articles—particularly definite articles before plural common nouns when referring to general groups—and adjust punctuation around conjunctions as appropriate to ensure clear, natural, and smoothly flowing text.
+* Revise the sentence to correct grammatical errors, improve punctuation—including separating run-on or comma splice sentences—and enhance word choice for clarity and readability, while preserving the original meaning.
+Sentence: <input_text>
+Corrected sentence:

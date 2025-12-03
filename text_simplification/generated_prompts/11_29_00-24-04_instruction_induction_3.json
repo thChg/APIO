@@ -1,0 +1,93 @@
+{
+    "config": {
+        "main": {
+            "use_llm_proxy": false,
+            "task_name": "text_simplification",
+            "task_description": "Text Simplification",
+            "few_shot_num_examples": 3,
+            "sample_num_train": 50,
+            "sample_num_valid": 50,
+            "sample_num_test": 50,
+            "save_prompt_builder_zero_shot": true,
+            "save_prompt_builder_few_shot": true,
+            "save_prompt_builder_instruction_induction": true,
+            "save_prompt_builder_mixed": false,
+            "save_prompt_builder_instruction_optimization": true
+        },
+        "prompt_builder_instruction_optimization": {
+            "prompt_header": "",
+            "input_example_label": "Complex sentence:",
+            "output_example_label": "Simple sentence:",
+            "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+            "generic_descendants": 4,
+            "selection_pressure": 5,
+            "beam_size": 6,
+            "num_optimization_iterations": 1,
+            "rephrase_random_instructions_num_samples": 3,
+            "rephrase_random_instructions_scale_factor": 2,
+            "generate_permuted_instructions_scale_factor": 1,
+            "improve_by_feedback_scale_factor": 1,
+            "train_batch_size": 4,
+            "max_instructions_num": 15,
+            "instructions_feedback_num_trials": 3
+        },
+        "backend_llm": {
+            "model_name": "gpt-4.1-mini",
+            "temperature": 0.0,
+            "max_output_tokens": 256,
+            "num_threads": 30,
+            "top_p": 0.1
+        },
+        "prompt_builder_llm": {
+            "model_name": "gpt-4.1-mini",
+            "temperature": 1.0,
+            "max_output_tokens": 4096,
+            "num_threads": 30,
+            "top_p": 1.0
+        },
+        "prompt_builder_zero_shot": {
+            "prompt_header": "Rewrite to make this easier to understand: <input_text>",
+            "prompt_footer": "\nANSWER:"
+        },
+        "prompt_builder_few_shot": {
+            "prompt_header": "",
+            "input_example_label": "Complex sentence:",
+            "output_example_label": "Simple sentence:",
+            "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+            "random_search_num_trials": 10
+        },
+        "prompt_builder_instruction_induction": {
+            "prompt_header": "",
+            "input_example_label": "Complex sentence:",
+            "output_example_label": "Simple sentence:",
+            "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+            "random_search_num_trials": 10
+        },
+        "prompt_builder_mixed": {
+            "prompt_header": "",
+            "input_example_label": "Complex sentence:",
+            "output_example_label": "Simple sentence:",
+            "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:"
+        },
+        "args": {
+            "config": "text_simplification/config_text_simplification.yaml",
+            "output_path": "/home/chuongdz/Desktop/school/apio/text_simplification/generated_prompts"
+        }
+    },
+    "PROMPT_TEMPLATE": "* Rewrite the complex sentence into one or more simpler sentences that preserve the original meaning clearly and concisely. Simplify sentence structure and vocabulary as needed, favoring clarity and readability; you may adjust sentence length, voice (active or passive), and word choice while maintaining the original intent.\n* Rewrite the given sentence by replacing complex or less common words with simpler, more widely understood synonyms, while maintaining the original meaning and sentence structure.\n* Rewrite the given sentence to improve clarity by using simpler and more concise language while fully preserving the original meaning, including all key details such as specific names, quantities, and factual information.\nComplex sentence: <input_text>\nSimple sentence:",
+    "few_shot_input_examples": [
+        "In 1919, all of the major pro-independence factions formed the Provisional Government in Shanghai.",
+        "It was discovered on February 27, 1995.",
+        "Six species live in the greater Caribbean region, including the Queen Conch, and the West Indian Fighting Conch, Strombus pugilis."
+    ],
+    "few_shot_output_examples": [
+        "The Provisional Government in Shanghai was formed by all of the main pro-independence factions in 1919.",
+        "It was learned on February 27, 1995.",
+        "Two of the Conch species in the Caribbean are the Queen Conch and Wst Indian Fighting Conch."
+    ],
+    "instructions": [
+        "Rewrite the complex sentence into one or more simpler sentences that preserve the original meaning clearly and concisely. Simplify sentence structure and vocabulary as needed, favoring clarity and readability; you may adjust sentence length, voice (active or passive), and word choice while maintaining the original intent.",
+        "Rewrite the given sentence by replacing complex or less common words with simpler, more widely understood synonyms, while maintaining the original meaning and sentence structure.",
+        "Rewrite the given sentence to improve clarity by using simpler and more concise language while fully preserving the original meaning, including all key details such as specific names, quantities, and factual information."
+    ]
+}

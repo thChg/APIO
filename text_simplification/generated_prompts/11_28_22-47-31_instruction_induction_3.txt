@@ -1,0 +1,5 @@
+* Rewrite the given sentence to improve clarity by using simpler and more accessible language while preserving the original meaning and maintaining all important details and nuances.
+* Rewrite the sentence using vocabulary and sentence structures that are easier to understand while preserving the original meaning, ensuring grammatical correctness and clarity are maintained. Avoid changing the intended message or introducing new information. Rephrasing for conciseness or altering voice is allowed only if it contributes to simplification without distorting the meaning.
+* Rewrite the given complex sentence into one or more simpler sentences that clearly and accurately convey all the original key information, including any numerical or factual details. Use straightforward language and break down compound ideas as needed to improve readability, while preserving the full meaning and accuracy of the input text.
+Complex sentence: <input_text>
+Simple sentence:

@@ -1,0 +1,374 @@
+[
+    {
+        "config": {
+            "main": {
+                "use_llm_proxy": false,
+                "task_name": "text_simplification",
+                "task_description": "Text Simplification",
+                "few_shot_num_examples": 3,
+                "sample_num_train": 50,
+                "sample_num_valid": 50,
+                "sample_num_test": 50,
+                "save_prompt_builder_zero_shot": true,
+                "save_prompt_builder_few_shot": true,
+                "save_prompt_builder_instruction_induction": true,
+                "save_prompt_builder_mixed": false,
+                "save_prompt_builder_instruction_optimization": true
+            },
+            "prompt_builder_instruction_optimization": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+                "generic_descendants": 4,
+                "selection_pressure": 5,
+                "beam_size": 2,
+                "num_optimization_iterations": 1,
+                "rephrase_random_instructions_num_samples": 3,
+                "rephrase_random_instructions_scale_factor": 2,
+                "generate_permuted_instructions_scale_factor": 1,
+                "improve_by_feedback_scale_factor": 1,
+                "train_batch_size": 4,
+                "max_instructions_num": 15,
+                "instructions_feedback_num_trials": 3
+            },
+            "backend_llm": {
+                "model_name": "gpt-4.1-mini",
+                "temperature": 0.0,
+                "max_output_tokens": 256,
+                "num_threads": 30,
+                "top_p": 0.1
+            },
+            "prompt_builder_llm": {
+                "model_name": "gpt-4.1-mini",
+                "temperature": 1.0,
+                "max_output_tokens": 4096,
+                "num_threads": 30,
+                "top_p": 1.0
+            },
+            "prompt_builder_zero_shot": {
+                "prompt_header": "Rewrite to make this easier to understand: <input_text>",
+                "prompt_footer": "\nANSWER:"
+            },
+            "prompt_builder_few_shot": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+                "random_search_num_trials": 10
+            },
+            "prompt_builder_instruction_induction": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+                "random_search_num_trials": 10
+            },
+            "prompt_builder_mixed": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:"
+            },
+            "args": {
+                "config": "text_simplification/config_text_simplification.yaml",
+                "output_path": "/home/chuongdz/Desktop/school/apio/text_simplification/generated_prompts"
+            }
+        },
+        "PROMPT_TEMPLATE": "* Rewrite the given complex sentence into a simpler version that conveys the same information clearly and concisely, using easier vocabulary and sentence structure.\n* Rewrite the complex sentence into two simpler sentences that preserve the original meaning. Separate distinct pieces of information so that each sentence expresses a single idea clearly and straightforwardly.\n* Rewrite the given complex sentence into one or more simpler sentences that convey the same key information clearly and concisely. Focus on breaking down compound information and using straightforward language while preserving all important details.\nComplex sentence: <input_text>\nSimple sentence:",
+        "few_shot_input_examples": [
+            "Six species live in the greater Caribbean region, including the Queen Conch, and the West Indian Fighting Conch, Strombus pugilis.",
+            "The Blake River Megacaldera Complex is considered a supervolcano due to its great size and its multiple dikes and vents.",
+            "The tornado destroyed 20 homes, left 30 others severely damaged, injured one person, and caused power outages for about 300 people."
+        ],
+        "few_shot_output_examples": [
+            "Two of the Conch species in the Caribbean are the Queen Conch and Wst Indian Fighting Conch.",
+            "The Blake River Megacaldera Complex is considered a supervolcano . One of it's features is that it has multiple dikes and vents.",
+            "The tornado injured one person, destroyed 20 homes and left 20 partially destroyed. It caused power outages for about 300 people."
+        ],
+        "instructions": [
+            "Rewrite the given complex sentence into a simpler version that conveys the same information clearly and concisely, using easier vocabulary and sentence structure.",
+            "Rewrite the complex sentence into two simpler sentences that preserve the original meaning. Separate distinct pieces of information so that each sentence expresses a single idea clearly and straightforwardly.",
+            "Rewrite the given complex sentence into one or more simpler sentences that convey the same key information clearly and concisely. Focus on breaking down compound information and using straightforward language while preserving all important details."
+        ]
+    },
+    {
+        "config": {
+            "main": {
+                "use_llm_proxy": false,
+                "task_name": "text_simplification",
+                "task_description": "Text Simplification",
+                "few_shot_num_examples": 3,
+                "sample_num_train": 50,
+                "sample_num_valid": 50,
+                "sample_num_test": 50,
+                "save_prompt_builder_zero_shot": true,
+                "save_prompt_builder_few_shot": true,
+                "save_prompt_builder_instruction_induction": true,
+                "save_prompt_builder_mixed": false,
+                "save_prompt_builder_instruction_optimization": true
+            },
+            "prompt_builder_instruction_optimization": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+                "generic_descendants": 4,
+                "selection_pressure": 5,
+                "beam_size": 2,
+                "num_optimization_iterations": 1,
+                "rephrase_random_instructions_num_samples": 3,
+                "rephrase_random_instructions_scale_factor": 2,
+                "generate_permuted_instructions_scale_factor": 1,
+                "improve_by_feedback_scale_factor": 1,
+                "train_batch_size": 4,
+                "max_instructions_num": 15,
+                "instructions_feedback_num_trials": 3
+            },
+            "backend_llm": {
+                "model_name": "gpt-4.1-mini",
+                "temperature": 0.0,
+                "max_output_tokens": 256,
+                "num_threads": 30,
+                "top_p": 0.1
+            },
+            "prompt_builder_llm": {
+                "model_name": "gpt-4.1-mini",
+                "temperature": 1.0,
+                "max_output_tokens": 4096,
+                "num_threads": 30,
+                "top_p": 1.0
+            },
+            "prompt_builder_zero_shot": {
+                "prompt_header": "Rewrite to make this easier to understand: <input_text>",
+                "prompt_footer": "\nANSWER:"
+            },
+            "prompt_builder_few_shot": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+                "random_search_num_trials": 10
+            },
+            "prompt_builder_instruction_induction": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+                "random_search_num_trials": 10
+            },
+            "prompt_builder_mixed": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:"
+            },
+            "args": {
+                "config": "text_simplification/config_text_simplification.yaml",
+                "output_path": "/home/chuongdz/Desktop/school/apio/text_simplification/generated_prompts"
+            }
+        },
+        "PROMPT_TEMPLATE": "* Rewrite the given sentence using simpler vocabulary and structure while preserving the original meaning.\n* Rewrite the given complex sentence by breaking it into two simpler sentences that clearly separate the ideas, making the information easier to understand.\n* Rewrite the given complex sentence into a simpler form while preserving the original meaning and important details. Use clearer and more straightforward language, maintaining grammatical correctness.\nComplex sentence: <input_text>\nSimple sentence:",
+        "few_shot_input_examples": [
+            "Disputes between European and Chinese miners flared into brawls at Daylesford and Castlemaine.",
+            "Geography The Caucasus Mountains are generally perceived to be a dividing line between Asia and Europe, and territories in Caucasia are alternately considered to be in one or both continents.",
+            "In 1919, all of the major pro-independence factions formed the Provisional Government in Shanghai."
+        ],
+        "few_shot_output_examples": [
+            "Disputes between European and Chinese miners flared into brawls at Daylesford and Castlemaine.",
+            "The Caucasus Mountains are generally perceived to be a dividing line between Asia and Europe. Territories in Caucasia are alternately considered to be in one or both continents.",
+            "The Provisional Government in Shanghai was formed by all of the main pro-independence factions in 1919."
+        ],
+        "instructions": [
+            "Rewrite the given sentence using simpler vocabulary and structure while preserving the original meaning.",
+            "Rewrite the given complex sentence by breaking it into two simpler sentences that clearly separate the ideas, making the information easier to understand.",
+            "Rewrite the given complex sentence into a simpler form while preserving the original meaning and important details. Use clearer and more straightforward language, maintaining grammatical correctness."
+        ]
+    },
+    {
+        "config": {
+            "main": {
+                "use_llm_proxy": false,
+                "task_name": "text_simplification",
+                "task_description": "Text Simplification",
+                "few_shot_num_examples": 3,
+                "sample_num_train": 50,
+                "sample_num_valid": 50,
+                "sample_num_test": 50,
+                "save_prompt_builder_zero_shot": true,
+                "save_prompt_builder_few_shot": true,
+                "save_prompt_builder_instruction_induction": true,
+                "save_prompt_builder_mixed": false,
+                "save_prompt_builder_instruction_optimization": true
+            },
+            "prompt_builder_instruction_optimization": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+                "generic_descendants": 4,
+                "selection_pressure": 5,
+                "beam_size": 2,
+                "num_optimization_iterations": 1,
+                "rephrase_random_instructions_num_samples": 3,
+                "rephrase_random_instructions_scale_factor": 2,
+                "generate_permuted_instructions_scale_factor": 1,
+                "improve_by_feedback_scale_factor": 1,
+                "train_batch_size": 4,
+                "max_instructions_num": 15,
+                "instructions_feedback_num_trials": 3
+            },
+            "backend_llm": {
+                "model_name": "gpt-4.1-mini",
+                "temperature": 0.0,
+                "max_output_tokens": 256,
+                "num_threads": 30,
+                "top_p": 0.1
+            },
+            "prompt_builder_llm": {
+                "model_name": "gpt-4.1-mini",
+                "temperature": 1.0,
+                "max_output_tokens": 4096,
+                "num_threads": 30,
+                "top_p": 1.0
+            },
+            "prompt_builder_zero_shot": {
+                "prompt_header": "Rewrite to make this easier to understand: <input_text>",
+                "prompt_footer": "\nANSWER:"
+            },
+            "prompt_builder_few_shot": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+                "random_search_num_trials": 10
+            },
+            "prompt_builder_instruction_induction": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+                "random_search_num_trials": 10
+            },
+            "prompt_builder_mixed": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:"
+            },
+            "args": {
+                "config": "text_simplification/config_text_simplification.yaml",
+                "output_path": "/home/chuongdz/Desktop/school/apio/text_simplification/generated_prompts"
+            }
+        },
+        "PROMPT_TEMPLATE": "* Rewrite the given sentence to make it easier to understand by using simpler vocabulary and clearer structure, while preserving the original meaning.\n* Rewrite the given complex sentence by splitting it into two or more shorter, simpler sentences while preserving the original meaning.\n* Rephrase the given complex sentence into a simpler and clearer sentence while preserving the original meaning and any numerical information.\nComplex sentence: <input_text>\nSimple sentence:",
+        "few_shot_input_examples": [
+            "Grosse Ile Township is a civil township of Wayne County in the U. S. state of Michigan.",
+            "Geography The Caucasus Mountains are generally perceived to be a dividing line between Asia and Europe, and territories in Caucasia are alternately considered to be in one or both continents.",
+            "The moon is very elongated, with its short axis 0.5 \u00b1 0.1 times the long axis."
+        ],
+        "few_shot_output_examples": [
+            "Grosse Ile Township is a civil township in Wayne County, Michigan, United State.",
+            "The Caucasus Mountains are generally perceived to be a dividing line between Asia and Europe. Territories in Caucasia are alternately considered to be in one or both continents.",
+            "The moon is very elongated as its short axis is 0.5 \u00b1 0.1 times longer than the long axis."
+        ],
+        "instructions": [
+            "Rewrite the given sentence to make it easier to understand by using simpler vocabulary and clearer structure, while preserving the original meaning.",
+            "Rewrite the given complex sentence by splitting it into two or more shorter, simpler sentences while preserving the original meaning.",
+            "Rephrase the given complex sentence into a simpler and clearer sentence while preserving the original meaning and any numerical information."
+        ]
+    },
+    {
+        "config": {
+            "main": {
+                "use_llm_proxy": false,
+                "task_name": "text_simplification",
+                "task_description": "Text Simplification",
+                "few_shot_num_examples": 3,
+                "sample_num_train": 50,
+                "sample_num_valid": 50,
+                "sample_num_test": 50,
+                "save_prompt_builder_zero_shot": true,
+                "save_prompt_builder_few_shot": true,
+                "save_prompt_builder_instruction_induction": true,
+                "save_prompt_builder_mixed": false,
+                "save_prompt_builder_instruction_optimization": true
+            },
+            "prompt_builder_instruction_optimization": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+                "generic_descendants": 4,
+                "selection_pressure": 5,
+                "beam_size": 2,
+                "num_optimization_iterations": 1,
+                "rephrase_random_instructions_num_samples": 3,
+                "rephrase_random_instructions_scale_factor": 2,
+                "generate_permuted_instructions_scale_factor": 1,
+                "improve_by_feedback_scale_factor": 1,
+                "train_batch_size": 4,
+                "max_instructions_num": 15,
+                "instructions_feedback_num_trials": 3
+            },
+            "backend_llm": {
+                "model_name": "gpt-4.1-mini",
+                "temperature": 0.0,
+                "max_output_tokens": 256,
+                "num_threads": 30,
+                "top_p": 0.1
+            },
+            "prompt_builder_llm": {
+                "model_name": "gpt-4.1-mini",
+                "temperature": 1.0,
+                "max_output_tokens": 4096,
+                "num_threads": 30,
+                "top_p": 1.0
+            },
+            "prompt_builder_zero_shot": {
+                "prompt_header": "Rewrite to make this easier to understand: <input_text>",
+                "prompt_footer": "\nANSWER:"
+            },
+            "prompt_builder_few_shot": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+                "random_search_num_trials": 10
+            },
+            "prompt_builder_instruction_induction": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:",
+                "random_search_num_trials": 10
+            },
+            "prompt_builder_mixed": {
+                "prompt_header": "",
+                "input_example_label": "Complex sentence:",
+                "output_example_label": "Simple sentence:",
+                "prompt_footer": "Complex sentence: <input_text>\nSimple sentence:"
+            },
+            "args": {
+                "config": "text_simplification/config_text_simplification.yaml",
+                "output_path": "/home/chuongdz/Desktop/school/apio/text_simplification/generated_prompts"
+            }
+        },
+        "PROMPT_TEMPLATE": "* Rewrite the given complex sentence into a simpler form by removing unnecessary words or phrases while preserving the original meaning.\n* Rewrite the complex sentence into one or more simpler sentences that convey the original meaning clearly and use straightforward language. Ensure the simplified version breaks down complex structures while preserving all key information.\n* Rewrite the given text to create a clear and concise sentence that explains the meaning in simple terms.\nComplex sentence: <input_text>\nSimple sentence:",
+        "few_shot_input_examples": [
+            "Partnerships Since 1990 the district has a partnership with the district Main-Kinzig in Hessen, Germany.",
+            "The subsequent campaigns were more or less successful, and the Imperial Exarchate was established in Ravenna to oversee Italy, though actually imperial influence was often limited.",
+            "Upper body Sleeveless shirt Tank top, wife beater, singlet A sleeveless garment similar to a T-shirt."
+        ],
+        "few_shot_output_examples": [
+            "Since 1990, the district has a partnership with Main-Kinzig in Hessen, Germany.",
+            "The subsequent campaigns were more or less successful. The Imperial Exarchate was established in Ravenna to oversee Italy although it's influence was often limited.",
+            "Tank top is an upper body sleeveless shirt that is similar to a T-shirt."
+        ],
+        "instructions": [
+            "Rewrite the given complex sentence into a simpler form by removing unnecessary words or phrases while preserving the original meaning.",
+            "Rewrite the complex sentence into one or more simpler sentences that convey the original meaning clearly and use straightforward language. Ensure the simplified version breaks down complex structures while preserving all key information.",
+            "Rewrite the given text to create a clear and concise sentence that explains the meaning in simple terms."
+        ]
+    }
+]

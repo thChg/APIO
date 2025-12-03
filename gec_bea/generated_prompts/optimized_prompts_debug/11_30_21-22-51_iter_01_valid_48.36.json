@@ -1,0 +1,91 @@
+{
+    "config": {
+        "main": {
+            "use_llm_proxy": false,
+            "task_name": "gec_bea",
+            "task_description": "Grammatical Error Correction",
+            "few_shot_num_examples": 3,
+            "sample_num_train": 50,
+            "sample_num_valid": 50,
+            "sample_num_test": 50,
+            "save_prompt_builder_zero_shot": true,
+            "save_prompt_builder_few_shot": true,
+            "save_prompt_builder_instruction_induction": true,
+            "save_prompt_builder_mixed": false,
+            "save_prompt_builder_instruction_optimization": true
+        },
+        "backend_llm": {
+            "model_name": "gpt-4.1-mini",
+            "temperature": 0.0,
+            "max_output_tokens": 256,
+            "num_threads": 40,
+            "top_p": 0.1
+        },
+        "prompt_builder_llm": {
+            "model_name": "gpt-4.1-mini",
+            "temperature": 1.0,
+            "max_output_tokens": 4096,
+            "num_threads": 40,
+            "top_p": 1.0
+        },
+        "prompt_builder_zero_shot": {
+            "prompt_header": "",
+            "prompt_footer": "Reply with a corrected version of the sentence with all grammatical and spelling errors fixed. If there are no errors, reply with a copy of the original sentence.\nInput sentence: <input_text>\nCorrected sentence:"
+        },
+        "prompt_builder_few_shot": {
+            "prompt_header": "",
+            "input_example_label": "Sentence:",
+            "output_example_label": "Corrected sentence:",
+            "prompt_footer": "Sentence: <input_text>\nCorrected sentence:",
+            "random_search_num_trials": 10
+        },
+        "prompt_builder_instruction_induction": {
+            "prompt_header": "",
+            "input_example_label": "Sentence:",
+            "output_example_label": "Corrected sentence:",
+            "prompt_footer": "Sentence: <input_text>\nCorrected sentence:",
+            "random_search_num_trials": 10
+        },
+        "prompt_builder_mixed": {
+            "prompt_header": "",
+            "input_example_label": "Sentence:",
+            "output_example_label": "Corrected sentence:",
+            "prompt_footer": "Sentence: <input_text>\nCorrected sentence:"
+        },
+        "prompt_builder_instruction_optimization": {
+            "prompt_header": "",
+            "input_example_label": "Sentence:",
+            "output_example_label": "Corrected sentence:",
+            "prompt_footer": "Sentence: <input_text>\nCorrected sentence:",
+            "generic_descendants": 4,
+            "selection_pressure": 5,
+            "beam_size": 6,
+            "num_optimization_iterations": 1,
+            "rephrase_random_instructions_num_samples": 3,
+            "rephrase_random_instructions_scale_factor": 2,
+            "generate_permuted_instructions_scale_factor": 1,
+            "improve_by_feedback_scale_factor": 1,
+            "train_batch_size": 4,
+            "max_instructions_num": 15,
+            "instructions_feedback_num_trials": 3
+        },
+        "args": {
+            "config": "gec_bea/config_gec_bea.yaml",
+            "output_path": "/home/chuongdz/Desktop/school/apio/gec_bea/generated_prompts"
+        }
+    },
+    "PROMPT_TEMPLATE": "* Ensure precise word choice by matching the most natural and contextually appropriate expressions, avoiding unnecessary additions or omissions. Maintain original sentence structures and punctuation closely unless correction is necessary for grammar or clarity, and avoid inserting or deleting words that alter style or subtle meaning.\n* Identify and correct all grammatical errors in the given sentence, including verb form consistency, while maintaining its original meaning and producing a clear, grammatically correct sentence.\n* Review the given sentence and correct any grammatical errors found, ensuring the original meaning is preserved; if no errors are present, return the sentence unchanged.\n* Revise the given sentence to correct grammatical errors, improve punctuation and capitalization, enhance sentence structure for clarity, and appropriately introduce sentence boundaries by splitting run-on sentences or overly long sentences into separate, coherent sentences.\nSentence: <input_text>\nCorrected sentence:",
+    "initial_instructions": [
+        "Identify and correct grammatical errors, ensure appropriate use of modal verbs, and revise pronouns as needed to make the sentence clear, natural, and unambiguous without changing its original meaning.",
+        "Review the provided sentence for any clear grammatical errors, such as incorrect verb tense, subject-verb agreement, punctuation, or word order, and correct them as needed. If the sentence is grammatically correct, reproduce it exactly as given. In cases of ambiguity or stylistic nuances, prioritize maintaining the original meaning and standard grammar conventions.",
+        "Review the text to identify and correct grammatical errors\u2014including punctuation, capitalization (such as at the beginning of sentences), word choice, and preposition usage\u2014to produce a coherent, well-formed, and natural-sounding passage."
+    ],
+    "initial_valid_score": 44.57,
+    "instructions": [
+        "Ensure precise word choice by matching the most natural and contextually appropriate expressions, avoiding unnecessary additions or omissions. Maintain original sentence structures and punctuation closely unless correction is necessary for grammar or clarity, and avoid inserting or deleting words that alter style or subtle meaning.",
+        "Identify and correct all grammatical errors in the given sentence, including verb form consistency, while maintaining its original meaning and producing a clear, grammatically correct sentence.",
+        "Review the given sentence and correct any grammatical errors found, ensuring the original meaning is preserved; if no errors are present, return the sentence unchanged.",
+        "Revise the given sentence to correct grammatical errors, improve punctuation and capitalization, enhance sentence structure for clarity, and appropriately introduce sentence boundaries by splitting run-on sentences or overly long sentences into separate, coherent sentences."
+    ],
+    "best_valid_score": 48.36
+}

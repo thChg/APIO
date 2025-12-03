@@ -1,0 +1,5 @@
+* Rewrite the given complex sentence into two or more simpler sentences that together preserve the original meaning. Ensure each resulting sentence conveys a complete and coherent idea using clear and grammatically correct language. Maintain the original tense, aspect, and subject continuity as much as possible to preserve semantic equivalence. Aim for simplicity by using straightforward sentence structures without overly fragmenting the information.
+* Rewrite the sentence to convey the essential information clearly and concisely by using simpler vocabulary and shorter phrasing, while removing unnecessary descriptive details that do not change the core meaning.
+* Rewrite the given complex sentence into one or more simpler sentences that preserve the original meaning. Use clear and accessible language by breaking long or complex sentences into shorter ones, and clarify or explain any technical terms, unusual proper nouns, or detailed descriptions as needed to enhance understanding without changing the intended content.
+Complex sentence: <input_text>
+Simple sentence:

@@ -1,0 +1,5 @@
+* Rewrite the given complex sentence into one or more clearer and more concise sentences, using more common vocabulary and simpler sentence structures while preserving the original meaning. Maintain important technical terms and specific details, including measurements and numerical information, unless simplification would cause misunderstanding.
+* Rewrite the given complex sentence into a simpler version that maintains all essential information and technical accuracy, using clearer sentence structure and more accessible vocabulary without omitting key details or altering the original meaning.
+* Rewrite the given sentence using simpler vocabulary and sentence structures while preserving the original meaning and any essential technical or domain-specific terms. Ensure that simplification does not alter key concepts or introduce inaccuracies, and maintain clarity by using shorter sentences or less complex grammar where appropriate.
+Complex sentence: <input_text>
+Simple sentence:

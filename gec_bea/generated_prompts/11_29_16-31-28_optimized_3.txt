@@ -1,0 +1,6 @@
+* Examine the provided sentence and edit it to fix grammatical mistakes and enhance clarity and flow, ensuring the original meaning remains unchanged.
+* Examine the provided sentence and fix any grammatical mistakes without altering its original meaning. If there are no errors, return the sentence as is.
+* During revision, keep the original sentence structure and key phrases intact, making only essential grammatical corrections and minimal stylistic adjustments to preserve the exact wording and meaning. Use punctuation and conjunctions exactly as in the original, adding or removing words only when necessary for correctness.
+* Identify and correct grammatical, lexical, and punctuation issues in the given sentence to enhance accuracy, naturalness, and readability, including appropriate word choice and stylistic improvements, while preserving the original meaning.
+Sentence: <input_text>
+Corrected sentence:

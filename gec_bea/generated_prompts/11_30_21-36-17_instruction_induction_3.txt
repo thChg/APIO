@@ -1,0 +1,5 @@
+* Correct the given sentence for grammatical errors and improve its clarity while maintaining its original meaning and sentence type.
+* Identify and correct any grammatical errors, including capitalization, punctuation, spelling, and syntax, in the given sentence while preserving its original meaning and sentence structure.
+* Identify and correct all grammatical and capitalization errors in the given sentence without changing its original meaning or style.
+Sentence: <input_text>
+Corrected sentence:

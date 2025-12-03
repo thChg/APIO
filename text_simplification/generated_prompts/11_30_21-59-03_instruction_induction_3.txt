@@ -1,0 +1,5 @@
+* Rewrite the given sentence into a simpler form by using clear and commonly understood vocabulary and straightforward sentence structures, while accurately preserving the original meaning, tense, modality, and grammatical correctness. Ensure the resulting sentence is fluent and natural without omitting any essential information.
+* Rewrite the given complex sentence into one or more simple sentences that clearly and accurately convey the same information using clear and straightforward language. Ensure all original details, including quantitative and qualitative information, are fully preserved without distortion or omission.
+* Rewrite the given sentence to improve its clarity and readability while preserving the original meaning, using techniques such as restructuring or simplifying phrasing as needed.
+Complex sentence: <input_text>
+Simple sentence:

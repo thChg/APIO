@@ -1,0 +1,5 @@
+* Rewrite the given complex sentence into a simpler version that conveys the same meaning using clearer and more straightforward language.
+* Rewrite the given complex sentence into a simpler form that conveys the same meaning using clearer and more straightforward language.
+* Rewrite the given complex sentence into one or more simpler sentences that convey the same information clearly and concisely, breaking down compound ideas and using straightforward language.
+Complex sentence: <input_text>
+Simple sentence:

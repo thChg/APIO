@@ -1,0 +1,5 @@
+* Identify and correct any grammatical errors in the given sentence, including the proper use of punctuation, capitalization, and sentence structure according to standard written English conventions.
+* Improve the given sentence by correcting grammatical errors and enhancing clarity, which may include rephrasing or restructuring, while preserving the original meaning. Return the revised sentence.
+* Revise the sentence to enhance clarity and grammatical accuracy by removing unnecessary definite articles before plural generic nouns and adding appropriate punctuation, such as commas before coordinating conjunctions, as needed.
+Sentence: <input_text>
+Corrected sentence:

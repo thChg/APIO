@@ -18,7 +18,7 @@ def llm_single(use_llm_proxy: bool, prompt: str, model_name: str, temperature: s
                         top_p=top_p, max_tokens=max_output_tokens, **kwargs)
         return response
     else:
-        if model_name in ['gpt-4o', 'gpt-4o-mini', 'o1-mini']:
+        if model_name in ['gpt-4o', 'gpt-4o-mini', 'o1-mini', 'gpt-4.1-mini']:
             return llm_openai(prompt, model_name, temperature, max_output_tokens, top_p)
         elif model_name == 'gemini-1.5-flash-002':
             return llm_gemini_15(prompt, model_name, temperature, max_output_tokens, **kwargs)
@@ -41,7 +41,7 @@ def llm_batch(use_llm_proxy: bool, prompts: list[str], model_name: str, temperat
         return response
 
     else:
-        if model_name in ['gpt-4o', 'gpt-4o-mini', 'o1-mini']:
+        if model_name in ['gpt-4o', 'gpt-4o-mini', 'o1-mini', 'gpt-4.1-mini']:
             return llm_openai_batched(prompts=prompts, model_name=model_name, temperature=temperature,
                                       max_output_tokens=max_output_tokens, batch_size=batch_size, top_p=top_p,
                                       verbose=verbose, **kwargs)

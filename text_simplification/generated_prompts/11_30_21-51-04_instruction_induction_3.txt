@@ -1,0 +1,5 @@
+* Rewrite one or more complex sentences by dividing them into multiple shorter sentences that retain the original meaning. Ensure each resulting sentence expresses a single clear idea, adjust punctuation as needed, and appropriately rephrase or reposition conjunctions and connectors to maintain coherence and readability.
+* Rewrite the sentence using clear and straightforward language while preserving its original meaning. Simplify vocabulary and sentence structure, and remove any non-essential details such as examples, clarifications, or parenthetical information to improve readability.
+* Simplify the given sentence by replacing complex, uncommon, or difficult words and expressions—including idiomatic phrases—with simpler, more familiar alternatives, while preserving the original meaning and keeping the sentence structure intact.
+Complex sentence: <input_text>
+Simple sentence:

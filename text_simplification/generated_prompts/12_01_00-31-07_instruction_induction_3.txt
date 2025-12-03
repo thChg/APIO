@@ -1,0 +1,5 @@
+* Rewrite the given complex sentence into one or more simpler sentences that preserve the original meaning but use clearer and more straightforward language. Ensure that information is broken down into shorter statements to enhance readability.
+* Rewrite the given complex sentence into a simpler sentence that conveys the same meaning using clearer and more straightforward language.
+* Rewrite the given sentence using simpler vocabulary and sentence structure while preserving the original meaning. Ensure the sentence is clear and easy to understand.
+Complex sentence: <input_text>
+Simple sentence:
